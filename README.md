@@ -19,6 +19,12 @@ Liste des plateformes identifiées :
 
 ## Anomalies
 
+### Centre National d'Etudes Spatiales (CNES) (marches.cnes.fr)
+
+Aucune données accessible pour 2019 (erreur : "Cette liste des marchés n'a pas encore été publiée.")
+
+[Lien vers le formulaire de recherche](https://marches.cnes.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+
 ### Mégalis Bretagne (marches.megalisbretagne.org)
 
 Pour les acheteurs publics suivants, l'erreur suivante est renvoyée
@@ -35,6 +41,12 @@ The controller must return a response (null given). Did you forget to add a retu
 - CIAS_GUINGAMP_PAIMPOL AGGLOMERATION (`i8l`)
 - CCAS DE GUEMENE PENFAO (`i8m`)
 - CCAS de Maël-Carhaix (`i8n`)
+
+## Région Pays de la Loire (marchespublics.paysdelaloire.fr)
+
+Aucune données accessible pour 2019 (erreur : "Cette liste des marchés n'a pas encore été publiée.")
+
+[Lien vers le formulaire de recherche](https://marchespublics.paysdelaloire.fr/?page=entreprise.EntrepriseRechercherListeMarches)
 
 ## Licence
 
