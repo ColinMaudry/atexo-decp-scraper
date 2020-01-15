@@ -1,10 +1,5 @@
 [
   {
-    "id": "0",
-    "name": "--- Entité publique ---",
-    "disabled":true
-  },
-  {
     "id": "d7k",
     "name": "AccorHotels Arena"
   },
@@ -1329,26 +1324,11 @@
     "name": "Ville de Vincennes"
   },
   {
-    "id": "cg-75",
-    "name": "vparis_test",
-    "disabled": true
-  },
-  {
     "id": "z9a",
     "name": "WIPSE"
   },
   {
     "id": "n5m",
     "name": "YVELINES NUMERIQUES "
-  },
-  {
-    "id": "a0a",
-    "name": "zTest Commune Worldline",
-    "disabled": true
-  },
-  {
-    "id": "a1d",
-    "name": "zTEST Worldline",
-    "disabled": true
   }
 ]
