@@ -36,7 +36,8 @@ mkdir $xmldir/html
 
 for id in `jq -r '.[] | .id' acheteurs/${plateforme}.json`
 do
-    nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json | sed -r 's/[ ,\x27/]/-/g'`
+    nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
+    nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
     echo "$nom ($id)"
 
     for annee in 2018 2019
@@ -54,16 +55,16 @@ do
         # - le XML n'est pas vide
         if [[ `cat $tempxml | grep "<marche>" | wc -l` -eq 0 ]]
         then
-            mv $tempxml "$xmldir/vides/${id}_${nom}_${annee}.xml"
+            mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
         # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
         elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
         then
-            mv $tempxml "$xmldir/html/${id}_${nom}_${annee}.xml"
+            mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
         else
             num=`cat $tempxml | grep "<marche>" | wc -l`
-            mv $tempxml "$xmldir/${id}_${nom}_${annee}.xml"
+            mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
         fi
     done
