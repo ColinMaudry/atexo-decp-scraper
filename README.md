@@ -4,16 +4,18 @@ Ce projet vise à développer un script permettant de télécharger facilement l
 
 Liste des plateformes identifiées :
 
-- marches.e-bourgogne.fr
-- marches.cnes.fr
-- marchespublics.paysdelaloire.fr
-- marchespublics.hautsdefrance.fr
-- marchespublics.grandest.fr
-- marches.departement13.fr
-- marchespublics.lenord.fr
-- alsacemarchespublics.eu
-- mpe-marseille.local-trust.com
-- marches.megalisbretagne.org
+- [marches.e-bourgogne.fr](http://marches.e-bourgogne.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.cnes.fr](http:///?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.paysdelaloire.fr](http://marchespublics.paysdelaloire.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.hautsdefrance.fr](http://marchespublics.hautsdefrance.fr/?page=entreprise.EntrepriseRechercherListeMarches) (pas de données, remplacé par marchespublics596280.fr)
+- [marchespublics596280.fr](http://marchespublics596280.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.grandest.fr](http://marchespublics.grandest.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.departement13.fr](http://marches.departement13.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.lenord.fr](http://marchespublics.lenord.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [alsacemarchespublics.eu](http://alsacemarchespublics.eu/?page=entreprise.EntrepriseRechercherListeMarches)
+- [mpe-marseille.local-trust.com](http://mpe-marseille.local-trust.com/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.megalisbretagne.org](http://marches.megalisbretagne.org/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.maximilien.fr](http://marches.maximilien.fr/?page=entreprise.EntrepriseRechercherListeMarches)
 
 ## Anomalies
 
