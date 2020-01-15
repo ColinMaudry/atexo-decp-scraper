@@ -1,7 +1,6 @@
 #!/bin/bash
 
 plateforme="$1"
-annee="$2"
 baseurl=""
 
 while IFS=, read -r id url
@@ -40,31 +39,35 @@ do
     nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json | sed -r 's/[ ,\x27/]/-/g'`
     echo "$nom ($id)"
 
-    url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
+    for annee in 2018 2019
+    do
 
-    tempxml=xml/temp.xml
+        url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
 
-    date=`date +%Y-%m-%dT%H:%M:%S`
+        tempxml=xml/temp.xml
 
-    curl "$url" > $tempxml 2> /dev/null
+        date=`date +%Y-%m-%dT%H:%M:%S`
 
-    # Vérification que
-    # - le XML n'est pas vide
-    if [[ `cat $tempxml | grep "<marche>" | wc -l` -eq 0 ]]
-    then
-        mv $tempxml "$xmldir/vides/${id}_${nom}_${annee}.xml"
-        echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
-    # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
-    elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
-    then
-        mv $tempxml "$xmldir/html/${id}_${nom}_${annee}.xml"
-        echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
-    else
-        num=`cat $tempxml | grep "<marche>" | wc -l`
-        mv $tempxml "$xmldir/${id}_${nom}_${annee}.xml"
-        echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
-    fi
-    
+        curl "$url" > $tempxml 2> /dev/null
+
+        # Vérification que
+        # - le XML n'est pas vide
+        if [[ `cat $tempxml | grep "<marche>" | wc -l` -eq 0 ]]
+        then
+            mv $tempxml "$xmldir/vides/${id}_${nom}_${annee}.xml"
+            echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
+        # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
+        elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
+        then
+            mv $tempxml "$xmldir/html/${id}_${nom}_${annee}.xml"
+            echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+        else
+            num=`cat $tempxml | grep "<marche>" | wc -l`
+            mv $tempxml "$xmldir/${id}_${nom}_${annee}.xml"
+            echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+        fi
+    done
+
 done
 
 # Fusion des XML en un fichier
