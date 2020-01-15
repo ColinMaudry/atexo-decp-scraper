@@ -53,4 +53,18 @@ do
         echo ""
     fi
 
+
 done
+
+# Fusion des XML en un fichier
+
+output="xml/$plateforme.xml"
+
+echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<marches>" > $output
+
+for xml in `ls $xmldir/*.xml`
+do
+    head -n -1 $xml | tail -n +3 >> $output
+done
+
+echo "</marches>" >> $output
