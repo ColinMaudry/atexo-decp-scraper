@@ -22,10 +22,10 @@ fi
 
 xmldir="xml/$plateforme"
 
-if [[ ! -d "$xmldir" ]]
+# Nettoyage avant téléchargement
+if [[ -d "$xmldir" ]]
 then
-    mkdir -p $xmldir/vides
-    mkdir $xmldir/html
+ rm -r $xmldir
 fi
 
 for id in `jq -r '.[] | select(.disabled != true) | .id' acheteurs/${plateforme}.json`
