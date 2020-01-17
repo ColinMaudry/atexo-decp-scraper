@@ -51,3 +51,30 @@ Aucune données accessible pour 2019 (erreur : "Cette liste des marchés n'a pas
 ## Licence
 
 MIT
+
+## Utiliser le script download.sh
+Pour téléchager Maximilien
+```
+./download.sh marches.maximilien.fr
+```
+## Utiliser les script download.py et extractionAcheteurs.py
+### Mettre en place l'environnement de développement
+```
+apt-get install python3.6 python3-dev python3-venv
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
+###Utiliser les script
+Pour initialiser tous les sites connus
+```
+python extractionAcheteurs.py --site all
+```
+Pour téléchager un site, ex:Maximilien
+```
+python download.py --site marches.maximilien.fr
+```
+Pour télécharger tous les sites connus
+```
+python download.py --site all
+```

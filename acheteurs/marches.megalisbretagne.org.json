@@ -229,7 +229,7 @@
   },
   {
     "id": "g3n",
-    "name": " Communauté de Communes"
+    "name": "Callac Argoat, Communauté de Communes"
   },
   {
     "id": "f0z",
@@ -1885,7 +1885,7 @@
   },
   {
     "id": "a3u",
-    "name": " Mer"
+    "name": "centre intercommunal d'action sociale de Lamballe Terre & Mer"
   },
   {
     "id": "b1i",
@@ -5469,7 +5469,7 @@
   },
   {
     "id": "g7i",
-    "name": "EHPAD La Résidence des Loriettes"
+    "name": "EHPAD \"La Résidence des Loriettes\""
   },
   {
     "id": "g6z",
@@ -8345,7 +8345,7 @@
   },
   {
     "id": "h0g",
-    "name": "SYNDICAT MIXTE ECO POLE INDUSTRIEL ET LOGISTIQUE DE LANVIAN - PAYS DE BREST"
+    "name": "SYNDICAT MIXTE \"ECO POLE INDUSTRIEL ET LOGISTIQUE DE LANVIAN - PAYS DE BREST\""
   },
   {
     "id": "e4k",
@@ -8805,8 +8805,7 @@
   },
   {
     "id": "e3l",
-    "name": "vv",
-    "disabled": true
+    "name": "vv"
   },
   {
     "id": "i1u",
@@ -8814,17 +8813,14 @@
   },
   {
     "id": "a0z",
-    "name": "zTest_Commune_de_Worldline3",
-    "disabled": true
+    "name": "zTest_Commune_de_Worldline3"
   },
   {
     "id": "e8e",
-    "name": "ZTEST_MPS",
-    "disabled": true
+    "name": "ZTEST_MPS"
   },
   {
     "id": "e6h",
-    "name": "zTest_SBO_Worldline",
-    "disabled": true
+    "name": "zTest_SBO_Worldline"
   }
 ]
