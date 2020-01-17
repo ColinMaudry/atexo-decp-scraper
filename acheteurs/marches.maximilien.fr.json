@@ -109,7 +109,7 @@
   },
   {
     "id": "f8p",
-    "name": "CCAS de la ville de Montigny-Le-Bretonneux "
+    "name": "CCAS de la ville de Montigny-Le-Bretonneux"
   },
   {
     "id": "b4b",
@@ -185,11 +185,11 @@
   },
   {
     "id": "d8q",
-    "name": "Centre Communal d'Action Social de Vincennes "
+    "name": "Centre Communal d'Action Social de Vincennes"
   },
   {
     "id": "i1t",
-    "name": "Centre communal d'action sociale "
+    "name": "Centre communal d'action sociale"
   },
   {
     "id": "l5b",
@@ -213,7 +213,7 @@
   },
   {
     "id": "d5b",
-    "name": "Centre d’Action Sociale de la Ville de Paris "
+    "name": "Centre d’Action Sociale de la Ville de Paris"
   },
   {
     "id": "a1v",
@@ -233,7 +233,7 @@
   },
   {
     "id": "d4v",
-    "name": "Centres d'accueil Régionaux du Tourisme d'Ile-de-France "
+    "name": "Centres d'accueil Régionaux du Tourisme d'Ile-de-France"
   },
   {
     "id": "e6v",
@@ -309,7 +309,7 @@
   },
   {
     "id": "z7x",
-    "name": "Commune de Châtillon "
+    "name": "Commune de Châtillon"
   },
   {
     "id": "t5s",
@@ -528,6 +528,10 @@
     "name": "EHPAD File Etoupe"
   },
   {
+    "id": "a1w",
+    "name": "EHPAD la Seigneurie"
+  },
+  {
     "id": "a1s",
     "name": "EHPAD Le Manoir"
   },
@@ -553,7 +557,7 @@
   },
   {
     "id": "o3z",
-    "name": "Etablissement public d'aménagement de Sénart "
+    "name": "Etablissement public d'aménagement de Sénart"
   },
   {
     "id": "q8k",
@@ -602,6 +606,10 @@
   {
     "id": "d8x",
     "name": "Fondation Partage et Vie"
+  },
+  {
+    "id": "c0m",
+    "name": "GENERIA"
   },
   {
     "id": "y7v",
@@ -937,7 +945,7 @@
   },
   {
     "id": "b3x",
-    "name": "OPH DE MALAKOFF "
+    "name": "OPH DE MALAKOFF"
   },
   {
     "id": "z9k",
@@ -1021,7 +1029,7 @@
   },
   {
     "id": "x7o",
-    "name": "SIVOM de Stains / Pierrefitte "
+    "name": "SIVOM de Stains / Pierrefitte"
   },
   {
     "id": "a0j",
@@ -1065,7 +1073,7 @@
   },
   {
     "id": "a1c",
-    "name": "SPL GRAND PARIS SEINE &amp; OISE IMMOBILIER D'ENTREPRISES"
+    "name": "SPL GRAND PARIS SEINE & OISE IMMOBILIER D'ENTREPRISES"
   },
   {
     "id": "i2b",
@@ -1116,10 +1124,6 @@
     "name": "Syndicat mixte de chauffage de Châtenay-Malabry"
   },
   {
-    "id": "c0m",
-    "name": "Syndicat Mixte de chauffage urbain de la région de La Défense"
-  },
-  {
     "id": "d7l",
     "name": "Syndicat Mixte Essonne Numérique"
   },
@@ -1137,7 +1141,7 @@
   },
   {
     "id": "g6l",
-    "name": "Syndicat Tri Action "
+    "name": "Syndicat Tri Action"
   },
   {
     "id": "q9t",
@@ -1324,11 +1328,23 @@
     "name": "Ville de Vincennes"
   },
   {
+    "id": "cg-75",
+    "name": "vparis_test"
+  },
+  {
     "id": "z9a",
     "name": "WIPSE"
   },
   {
     "id": "n5m",
-    "name": "YVELINES NUMERIQUES "
+    "name": "YVELINES NUMERIQUES"
+  },
+  {
+    "id": "a0a",
+    "name": "zTest Commune Worldline"
+  },
+  {
+    "id": "a1d",
+    "name": "zTEST Worldline"
   }
 ]
