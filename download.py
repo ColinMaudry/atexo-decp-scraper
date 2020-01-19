@@ -3,6 +3,7 @@ import argparse
 import csv
 import json
 import os
+import pathlib
 import re
 import sys
 import xml
@@ -34,22 +35,27 @@ def create_directory_structure(platform):
         mkdir(xml_dir + '/html')
 
 
-def download_files(platform):
+def download_files(platform, years=None, force=False):
     xml_dir = get_xml_dir(platform)
     base_url = get_base_url_from_site(platform)
     buyers_file = 'acheteurs/' + platform + '.json'
+    if years is None:
+        current_year = datetime.now().year
+        years = [index + 2018 for index in range(current_year - 2018 + 1)]
     buyers = json.loads(open(buyers_file, 'r').read())
     for buyer in buyers:
         print('Downloading files')
-        buyer_name = re.sub("[ -./\\\\]+", ' ', unidecode.unidecode(buyer.get('name', None)).lower()).strip().replace(' ', '_')
+        buyer_name = re.sub("[ -./\\\\]+", ' ', unidecode.unidecode(buyer.get('name', None)).lower()).strip().replace(
+            ' ', '_')
         buyer_id = buyer.get('id', None)
         if buyer_id is not None:
             print('Downloading buyer: ' + buyer_name)
-            for year in [2018, 2019]:
+            for year in years:
                 url = base_url + '/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/' + buyer_id + '/0/1/' + str(
                     year) + '/false/false/false/false/false/false/false/false/false'
                 file_path = xml_dir + '/html/' + '_'.join([buyer_id, buyer_name, str(year)]) + '.xml'
-                if not os.path.exists(file_path):
+                if not os.path.exists(file_path) or force:
+                    pathlib.Path(file_path).touch()
                     with requests.get(url) as response, open(file_path, 'wb') as out_file:
                         out_file.write(response.content)
 
@@ -78,7 +84,7 @@ def merge_files(platform, output_file=None):
                         nb_of_markets_in_current_group = len(market_group.getElementsByTagName('marche'))
                         if nb_of_markets_in_current_group > 0:
                             nb_of_markets += nb_of_markets_in_current_group
-                            output_file.writelines(market_group.toxml()+'\n')
+                            output_file.writelines(market_group.toxml() + '\n')
                     row[3] = nb_of_markets
                 except xml.parsers.expat.ExpatError:
                     row[3] = 'error'
@@ -110,19 +116,34 @@ def merge_all_files(platforms=None):
 
 
 def main(argv):
+    possible_sites = list(get_all_platforms().keys())
     parser = argparse.ArgumentParser(
         description='Download DECP files from chosen ATEXO powered tender websites',
-        epilog="Now, let's have fun !")
+        epilog="Download with politeness (late schedule and low speed), those sites are public services. You download at your own risks and responsibility.")
     parser.add_argument('program', help='Default program argument in case files is called from Python executable')
-    parser.add_argument('--site', required=True)
+    parser.add_argument('-s', '--site', required=True, help='Specify the site you wish to download DECP from', choices=possible_sites)
+    parser.add_argument('-y', '--year', required=False,
+                        help='Specify the year you wish to download the DECP for. Should be an int >=2018')
+    parser.add_argument('-f', '--force_download', action='store_true',
+                        help='Specify that you want to download the files even if you have them already to get fresh content')
     arguments = vars(parser.parse_args(argv))
     platform = arguments.get('site', None)
+    year_str = arguments.get('year', None)
+    force = arguments.get('force_download')
+    years = None
+    if year_str is not None:
+        try:
+            year = int(year_str)
+            assert year >= 2018
+            years = [year]
+        except (ValueError, AssertionError) as e:
+            exit('Stopping: Argument --year must be an integer year after or equal to 2018')
     base_url = None
     if platform is not None:
         stat_file = open('disponibilite-donnees.csv', 'w')
         stat_file.close()
         if platform == 'all':
-            platforms = list(get_all_platforms().keys())
+            platforms = possible_sites
         else:
             platforms = [platform]
         for platform in platforms:
@@ -132,7 +153,7 @@ def main(argv):
                 print('Base URL found in config: ' + base_url)
                 xml_dir = get_xml_dir(platform)
                 create_directory_structure(platform)
-                download_files(platform)
+                download_files(platform, years, force)
             merge_files(platform)
         merge_all_files(platforms)
     else:
