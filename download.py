@@ -172,7 +172,7 @@ def parse_and_build_arguments(argv):
         description='Download DECP files from chosen ATEXO powered tender websites',
         epilog="Download with politeness (late schedule and low speed), those sites are public services. You download at your own risks and responsibility.")
     parser.add_argument('program', help='Default program argument in case files is called from Python executable')
-    parser.add_argument('-s', '--site', required=True, help='Specify the site you wish to download DECP from',
+    parser.add_argument('-s', '--site', nargs='+', required=True, help='Specify the site you wish to download DECP from',
                         choices=possible_sites + ['all'])
     parser.add_argument('-y', '--year', required=False, type=int,
                         help='Specify the year you wish to download the DECP for. Should be an int >=2018')
@@ -183,7 +183,7 @@ def parse_and_build_arguments(argv):
     parser.add_argument('-t', '--thread_number', type=int, default=1,
                         help='Specify that you want to use a specific number of threads to speed up the process for multi-site capture, default is one thread')
     arguments = vars(parser.parse_args(argv))
-    platform = arguments.get('site', None)
+    platforms = arguments.get('site', [])
     year_str = arguments.get('year', None)
     force = arguments.get('force_download')
     thread_number = arguments.get('thread_number', 1)
@@ -197,14 +197,11 @@ def parse_and_build_arguments(argv):
         except AssertionError as e:
             exit('Stopping: Argument --year must be an integer year after or equal to 2018')
     base_url = None
-    platforms = []
-    if platform is not None:
+    if platforms is not None:
         stat_file = open('disponibilite-donnees.csv', 'w')
         stat_file.close()
-        if platform == 'all':
+        if 'all' in platforms:
             platforms = possible_sites
-        else:
-            platforms = [platform]
     return force, platforms, years, thread_number, delay
 
 
