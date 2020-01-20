@@ -67,6 +67,9 @@ do
             mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
         fi
+
+	# Petite pause pour laisser respirer le serveur
+	sleep 0.2
     done
 
 done
