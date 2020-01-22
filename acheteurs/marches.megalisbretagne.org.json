@@ -5616,10 +5616,6 @@
     "name": "Groupement d'intéret public Bretagne environnement"
   },
   {
-    "id": "ga1",
-    "name": "Groupement de commande Test"
-  },
-  {
     "id": "i6y",
     "name": "GROUPEMENT DE COMMANDES DES ETABLISSEMENTS PUBLICS SCOLAIRES DU SECONDAIRE DU FINISTERE"
   },
@@ -8804,27 +8800,7 @@
     "name": "VITRE COMMUNAUTE"
   },
   {
-    "id": "e3l",
-    "name": "vv",
-    "disabled": true
-  },
-  {
     "id": "i1u",
     "name": "WE KER"
-  },
-  {
-    "id": "a0z",
-    "name": "zTest_Commune_de_Worldline3",
-    "disabled": true
-  },
-  {
-    "id": "e8e",
-    "name": "ZTEST_MPS",
-    "disabled": true
-  },
-  {
-    "id": "e6h",
-    "name": "zTest_SBO_Worldline",
-    "disabled": true
   }
 ]
