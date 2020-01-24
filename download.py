@@ -18,6 +18,8 @@ from xml.dom import minidom
 import requests as requests
 import unidecode as unidecode
 
+if __name__ == "__main__" and __package__ is None:
+    __path__ = [str(pathlib.Path(os.path.dirname(__file__)).parent)]
 from . import extractionAcheteurs
 from .site_utils import get_all_platforms, get_base_url_from_site
 
@@ -132,8 +134,8 @@ def merge_files(platform, output_file=None):
 def merge_all_files(platforms=None):
     if platforms is None:
         platforms = list(get_all_platforms().keys())
-    output_file = open(os.path.join(ROOT_XML_DIR, 'multiple_platforms.xml'), 'w')
-    output_file.close()
+    open(os.path.join(ROOT_XML_DIR, 'multiple_platforms.xml'), 'w').close()
+    open(STAT_FILE_PATH, 'w').close()
     output_file = open(os.path.join(ROOT_XML_DIR, 'multiple_platforms.xml'), 'a')
     output_file.write(XML_HEADER)
     output_file.write(XML_MARKETS_HEADER)
@@ -205,8 +207,6 @@ def parse_and_build_arguments(argv):
     should_initialize = arguments.get('init')
     base_url = None
     if platforms is not None:
-        stat_file = open(STAT_FILE_PATH, 'w')
-        stat_file.close()
         if 'all' in platforms:
             platforms = possible_sites
     return force, platforms, years, thread_number, delay, should_initialize
