@@ -7,7 +7,7 @@ import requests
 import unidecode
 from bs4 import BeautifulSoup
 
-import site_utils
+from . import site_utils
 
 HTML_PAGE_PER_PLATFORM = {}
 JSON_BUYER_LIST_PER_PLATFORM = {}

@@ -18,8 +18,8 @@ from xml.dom import minidom
 import requests as requests
 import unidecode as unidecode
 
-import extractionAcheteurs
-from site_utils import get_all_platforms, get_base_url_from_site
+from . import extractionAcheteurs
+from .site_utils import get_all_platforms, get_base_url_from_site
 
 XML_HEADER = '<?xml version="1.0" encoding="UTF-8"?>\n'
 XML_MARKETS_HEADER = '<marches>\n'
@@ -144,13 +144,13 @@ def merge_all_files(platforms=None):
 
 def main(argv):
     force, platforms, years, thread_number, delay, should_initialize = parse_and_build_arguments(argv)
+    collects_multiple_platforms_data(platforms, years, force, thread_number, delay, should_initialize)
+
+
+def collects_multiple_platforms_data(platforms, years, force=False, thread_number=1, delay=0.2, should_initialize=False):
     if should_initialize:
         print('Initializing data')
         extractionAcheteurs.extract_buyer_information_for_multiple_platform({'site': 'all'})
-    collects_multiple_platforms_data(platforms, years, force, thread_number, delay)
-
-
-def collects_multiple_platforms_data(platforms, years, force=False, thread_number=1, delay=0.2):
     signal.signal(signal.SIGINT, signal_handler)
     thread_active_count = threading.active_count() - 1
     available_threads = max(0, thread_number - thread_active_count)
