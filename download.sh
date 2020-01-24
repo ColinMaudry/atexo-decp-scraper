@@ -3,7 +3,7 @@
 plateforme="$1"
 baseurl=""
 
-while IFS=, read -r id url
+while IFS=, read -r id url statut
 do
     if [[ "$id" == "$plateforme" ]]
     then
