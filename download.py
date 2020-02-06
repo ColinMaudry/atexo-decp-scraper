@@ -152,7 +152,7 @@ def main(argv):
 def collects_multiple_platforms_data(platforms, years, force=False, thread_number=1, delay=0.2, should_initialize=False):
     if should_initialize:
         print('Initializing data')
-        extractionAcheteurs.extract_buyer_information_for_multiple_platform({'site': 'all'})
+        extractionAcheteurs.extract_buyer_information_for_multiple_platform(['all'])
     signal.signal(signal.SIGINT, signal_handler)
     thread_active_count = threading.active_count() - 1
     available_threads = max(0, thread_number - thread_active_count)

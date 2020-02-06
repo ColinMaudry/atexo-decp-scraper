@@ -21,7 +21,7 @@ def get_json_path(platform):
     return 'acheteurs/' + platform + '.json'
 
 
-def extract_buyers(platform, should_rely_on_file):
+def extract_buyers(platform):
     global HTML_PAGE_PER_PLATFORM
     if os.path.exists(get_html_path(platform)):
         html_file = open(get_html_path(platform), 'rb')
@@ -42,30 +42,24 @@ def extract_buyers(platform, should_rely_on_file):
 
 def main(argv):
     arguments = parse_args(argv)
-    extract_buyer_information_for_multiple_platform(arguments)
+    site = arguments.get('site')
+    platforms = None
+    if site is not None:
+        platforms = [site]
+    extract_buyer_information_for_multiple_platform(platforms)
 
 
-def extract_buyer_information_for_multiple_platform(arguments):
-    platform = arguments.get('site', None)
-    should_rely_on_file = arguments.get('with_files', True)
-    base_url = None
-    if platform is not None:
-        if should_rely_on_file:
-            if not os.path.exists('html'):
-                os.mkdir('html')
-            if not os.path.exists('acheteurs'):
-                os.mkdir('acheteurs')
-        if platform == 'all':
+def extract_buyer_information_for_multiple_platform(platforms):
+    if platforms is not None:
+        if 'all' in platforms:
             platforms = list(site_utils.get_all_platforms().keys())
-        else:
-            platforms = [platform]
         for platform in platforms:
-            extract_buyer_information(platform, should_rely_on_file)
+            extract_buyer_information(platform)
     else:
         print("ID de plateforme $plateforme introuvable.")
 
 
-def extract_buyer_information(platform, should_rely_on_file):
+def extract_buyer_information(platform):
     global HTML_PAGE_PER_PLATFORM, JSON_BUYER_LIST_PER_PLATFORM
     if not os.path.exists(get_json_path(platform)):
         print('Starting buyer extraction :' + platform)
@@ -78,13 +72,11 @@ def extract_buyer_information(platform, should_rely_on_file):
                 print('Downloading HTML file')
                 with requests.get(html_file_url) as response, open(file_path, 'wb') as out_file:
                     HTML_PAGE_PER_PLATFORM[platform] = response.content
-                    if should_rely_on_file:
-                        out_file.write(response.content)
-            buyers = extract_buyers(platform, should_rely_on_file)
+                    out_file.write(response.content)
+            buyers = extract_buyers(platform)
             JSON_BUYER_LIST_PER_PLATFORM[platform] = buyers
-            if should_rely_on_file:
-                with open(get_json_path(platform), 'w', encoding='utf-8') as json_file:
-                    json.dump(buyers, json_file, ensure_ascii=False, indent=2)
+            with open(get_json_path(platform), 'w', encoding='utf-8') as json_file:
+                json.dump(buyers, json_file, ensure_ascii=False, indent=2)
 
 
 def parse_args(argv):
