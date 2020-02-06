@@ -4,18 +4,19 @@ Ce projet vise à développer un script permettant de télécharger facilement l
 
 Liste des plateformes identifiées :
 
-- [marches.e-bourgogne.fr](http://marches.e-bourgogne.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marches.cnes.fr](http:///?page=entreprise.EntrepriseRechercherListeMarches)
-- [marchespublics.paysdelaloire.fr](http://marchespublics.paysdelaloire.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marchespublics.hautsdefrance.fr](http://marchespublics.hautsdefrance.fr/?page=entreprise.EntrepriseRechercherListeMarches) (pas de données, remplacé par marchespublics596280.fr)
-- [marchespublics596280.fr](http://marchespublics596280.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marchespublics.grandest.fr](http://marchespublics.grandest.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marches.departement13.fr](http://marches.departement13.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marchespublics.lenord.fr](http://marchespublics.lenord.fr/?page=entreprise.EntrepriseRechercherListeMarches)
-- [alsacemarchespublics.eu](http://alsacemarchespublics.eu/?page=entreprise.EntrepriseRechercherListeMarches)
-- [mpe-marseille.local-trust.com](http://mpe-marseille.local-trust.com/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marches.megalisbretagne.org](http://marches.megalisbretagne.org/?page=entreprise.EntrepriseRechercherListeMarches)
-- [marches.maximilien.fr](http://marches.maximilien.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.e-bourgogne.fr](https://marches.e-bourgogne.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.cnes.fr](https://marches.cnes.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.paysdelaloire.fr](https://marchespublics.paysdelaloire.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.hautsdefrance.fr](https://marchespublics.hautsdefrance.fr/?page=entreprise.EntrepriseRechercherListeMarches) (pas de données, remplacé par marchespublics596280.fr)
+- [marchespublics596280.fr](https://marchespublics596280.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.grandest.fr](https://marchespublics.grandest.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.departement13.fr](https://marches.departement13.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.lenord.fr](https://marchespublics.lenord.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [alsacemarchespublics.eu](https://alsacemarchespublics.eu/?page=entreprise.EntrepriseRechercherListeMarches)
+- [mpe-marseille.local-trust.com](https://mpe-marseille.local-trust.com/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.megalisbretagne.org](https://marches.megalisbretagne.org/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.maximilien.fr](https://marches.maximilien.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [demat-ampa.fr](https://demat-ampa.fr/?page=entreprise.EntrepriseRechercherListeMarches)
 
 ## Anomalies
 
