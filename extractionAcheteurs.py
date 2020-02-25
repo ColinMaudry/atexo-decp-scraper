@@ -1,20 +1,22 @@
 import argparse
 import json
 import os
+import pathlib
 import sys
 
 import requests
-import unidecode
 from bs4 import BeautifulSoup
 
-from . import site_utils
+if __name__ == "__main__" and __package__ is None:
+    __path__ = [str(pathlib.Path(os.path.dirname(__file__)).parent)]
+from .site_utils import get_all_platforms, get_base_url_from_site
 
 HTML_PAGE_PER_PLATFORM = {}
 JSON_BUYER_LIST_PER_PLATFORM = {}
 
 
-def get_html_file(platform):
-    return site_utils.get_base_url_from_site(platform) + '/?page=entreprise.EntrepriseRechercherListeMarches'
+def get_html_file_url(platform):
+    return get_base_url_from_site(platform) + '/?page=entreprise.EntrepriseRechercherListeMarches'
 
 
 def get_json_path(platform):
@@ -23,8 +25,8 @@ def get_json_path(platform):
 
 def extract_buyers(platform):
     global HTML_PAGE_PER_PLATFORM
-    if os.path.exists(get_html_path(platform)):
-        html_file = open(get_html_path(platform), 'rb')
+    if os.path.exists(get_html_file_path(platform)):
+        html_file = open(get_html_file_path(platform), 'rb')
         html_text = html_file.read()
         HTML_PAGE_PER_PLATFORM[platform] = html_text
     else:
@@ -52,7 +54,7 @@ def main(argv):
 def extract_buyer_information_for_multiple_platform(platforms):
     if platforms is not None:
         if 'all' in platforms:
-            platforms = list(site_utils.get_all_platforms().keys())
+            platforms = list(get_all_platforms().keys())
         for platform in platforms:
             extract_buyer_information(platform)
     else:
@@ -63,14 +65,14 @@ def extract_buyer_information(platform):
     global HTML_PAGE_PER_PLATFORM, JSON_BUYER_LIST_PER_PLATFORM
     if not os.path.exists(get_json_path(platform)):
         print('Starting buyer extraction :' + platform)
-        base_url = site_utils.get_base_url_from_site(platform)
+        base_url = get_base_url_from_site(platform)
         if base_url is not None:
             print('Base URL found in config: ' + base_url)
-            html_file_url = get_html_file(platform)
-            file_path = get_html_path(platform)
-            if not os.path.exists(file_path):
+            html_file_url = get_html_file_url(platform)
+            html_file_path = get_html_file_path(platform)
+            if not os.path.exists(html_file_path):
                 print('Downloading HTML file')
-                with requests.get(html_file_url) as response, open(file_path, 'wb') as out_file:
+                with requests.get(html_file_url, verify=False) as response, open(html_file_path, 'wb') as out_file:
                     HTML_PAGE_PER_PLATFORM[platform] = response.content
                     out_file.write(response.content)
             buyers = extract_buyers(platform)
@@ -89,7 +91,7 @@ def parse_args(argv):
     return arguments
 
 
-def get_html_path(platform):
+def get_html_file_path(platform):
     file_path = 'html/' + platform + '.html'
     return file_path
 

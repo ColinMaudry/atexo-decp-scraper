@@ -16,7 +16,12 @@ def get_all_platforms():
 
 def get_base_url_from_site(site):
     platforms = get_all_platforms()
-    return platforms.get(site, None)
+    base_url_from_config = platforms.get(site, None)
+    if base_url_from_config is None:
+        base_url = 'https://'+site
+    else:
+        base_url = base_url_from_config
+    return base_url
 
 
 PLATEFORMES_CSV_PATH = os.path.join(os.path.dirname(__file__), 'plateformes.csv')

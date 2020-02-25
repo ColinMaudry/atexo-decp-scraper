@@ -84,7 +84,7 @@ def download_files(platform, years, force=False, delay=0.2):
                 print(file_path)
                 if not os.path.exists(file_path) or force:
                     pathlib.Path(file_path).touch()
-                    with requests.get(url) as response, open(file_path, 'wb') as out_file:
+                    with requests.get(url, verify=False) as response, open(file_path, 'wb') as out_file:
                         out_file.write(response.content)
 
 
@@ -152,7 +152,7 @@ def main(argv):
 def collects_multiple_platforms_data(platforms, years, force=False, thread_number=1, delay=0.2, should_initialize=False):
     if should_initialize:
         print('Initializing data')
-        extractionAcheteurs.extract_buyer_information_for_multiple_platform(['all'])
+        extractionAcheteurs.extract_buyer_information_for_multiple_platform(platforms)
     signal.signal(signal.SIGINT, signal_handler)
     thread_active_count = threading.active_count() - 1
     available_threads = max(0, thread_number - thread_active_count)
@@ -181,12 +181,11 @@ def collect_platform_data(platform, years, force=False, delay=0.2):
 def parse_and_build_arguments(argv):
     possible_sites = list(get_all_platforms().keys())
     parser = argparse.ArgumentParser(
-        description='Download DECP files from chosen ATEXO powered tender websites',
+        description='Download DECP files from chosen ATEXO powered tender websites: '+str(possible_sites+['all']),
         epilog="Download with politeness (late schedule and low speed), those sites are public services. You download at your own risks and responsibility.")
     parser.add_argument('program', help='Default program argument in case files is called from Python executable')
     parser.add_argument('-s', '--site', nargs='+', required=True,
-                        help='Specify the site you wish to download DECP from',
-                        choices=possible_sites + ['all'])
+                        help='Specify the site you wish to download DECP from')
     parser.add_argument('-y', '--year', required=False, type=int,
                         help='Specify the year you wish to download the DECP for. Should be an int >=2018')
     parser.add_argument('-f', '--force_download', action='store_true',
