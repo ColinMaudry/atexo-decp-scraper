@@ -17,6 +17,12 @@ Liste des plateformes identifiées :
 - [marches.megalisbretagne.org](https://marches.megalisbretagne.org/?page=entreprise.EntrepriseRechercherListeMarches)
 - [marches.maximilien.fr](https://marches.maximilien.fr/?page=entreprise.EntrepriseRechercherListeMarches)
 - [demat-ampa.fr](https://demat-ampa.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.nantesmetropole.fr](https://marchespublics.nantesmetropole.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marches.grandreims.fr](https://marches.grandreims.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.cnfpt.fr](https://marchespublics.cnfpt.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.grand-nancy.org](https://marchespublics.grand-nancy.org/?page=entreprise.EntrepriseRechercherListeMarches)
+- [marchespublics.eure.fr](https://marchespublics.eure.fr/?page=entreprise.EntrepriseRechercherListeMarches)
+- [profilacheteur.meuse.fr](https://profilacheteur.meuse.fr/?page=entreprise.EntrepriseRechercherListeMarches)
 
 ## Anomalies
 
