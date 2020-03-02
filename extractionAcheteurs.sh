@@ -16,4 +16,5 @@ temp=`cat $html | sed 's/<option value=//g' | sed 's/<\/option>//g' | sed 's/>/,
 json1=`echo "$temp" | head -n -1 | sed -r 's/$/"},/g'`
 json2=`echo "$temp" | tail -n 1 | sed -r 's/$/"}/g'`
 
+echo "[ ${json1} ${json2} ]" > temp
 echo "[ ${json1} ${json2} ]" | jq . > acheteurs/$plateforme.json
