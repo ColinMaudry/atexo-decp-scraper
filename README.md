@@ -1,5 +1,7 @@
 # Récupération des DECP des plateformes Trust MPE (Atexo)
 
+![Téléchargement](https://github.com/ColinMaudry/atexo-decp-scraper/workflows/CI/badge.svg)
+
 Ce projet vise à développer un script permettant de télécharger facilement les données essentielles de la commande publique publiées sur les plateformes de marché développées par  Atexo.
 
 Liste des plateformes identifiées :
