@@ -22,7 +22,7 @@ jobs:
 
       - name: Download and publish DECP
         run: |
-          cd $GITHUB_WORKSPACE/atexo-decp-scraper
+          git status
           ./download-many.sh
 
       - name: Push updated disponibilites-donnees.csv
