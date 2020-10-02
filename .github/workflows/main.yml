@@ -22,14 +22,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Install deps
-        # You may pin to the exact commit or the version.
-        # uses: ryankurte/action-apt@854f019356a19d5b1537e1e4496fe29a643189c2
-        uses: ryankurte/action-apt@v0.1.0
-        with:
-          # apt packages to install
-          packages: "git,jq,curl"
+        - run: sudo apt install git,curl,jq
 
       - name: Download and publish DECP
         run: |
