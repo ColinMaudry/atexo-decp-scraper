@@ -5,9 +5,6 @@ name: CI
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: 0 3 * * 0
 
@@ -27,7 +24,6 @@ jobs:
 
       - name: Download and publish DECP
         run: |
-          git status
           ./download-many.sh
 
       - name: Push updated disponibilites-donnees.csv
