@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Install deps
-        run: sudo apt install git,curl,jq
+        run: sudo apt install git curl jq
 
       - name: Download and publish DECP
         run: |
