@@ -26,9 +26,7 @@ jobs:
         uses: ryankurte/action-apt@v0.1.0
         with:
           # apt packages to install
-          packages:
-            - git
-            - jq
+          packages: "git,jq,curl"
 
       - name: Download and publish DECP
         run: |
