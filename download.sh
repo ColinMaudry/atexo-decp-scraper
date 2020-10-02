@@ -40,7 +40,7 @@ do
     nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
     echo "$nom ($id)"
 
-    for annee in 2018 2019
+    for annee in 2018 2019 2020
     do
 
         url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
@@ -53,7 +53,7 @@ do
 
         # Vérification que
         # - le XML n'est pas vide
-        if [[ `cat $tempxml | grep "<marche>" | wc -l` -eq 0 ]]
+        if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
         then
             mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
@@ -63,20 +63,26 @@ do
             mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
         else
-            num=`cat $tempxml | grep "<marche>" | wc -l`
+            num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
             mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
             echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
         fi
 
 	# Petite pause pour laisser respirer le serveur
-	sleep 0.2
+	sleep 0.5
     done
 
 done
 
+# Compte du nombre de marchés :
+
+numMarches=`grep -E "<marche>|<contrat-concession>" $xmldir/*.xml | wc -l`
+
+echo "$date : $plateforme publie $numMarches marchés"
+
 # Fusion des XML en un fichier
 
-output="xml/$plateforme.xml"
+output="xml/${plateforme}_${date}.xml"
 
 echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<marches>" > $output
 
@@ -86,3 +92,8 @@ do
 done
 
 echo "</marches>" >> $output
+
+if [[ $2 == "publish" ]]
+then
+  ./publish.sh $plateforme $date
+fi
