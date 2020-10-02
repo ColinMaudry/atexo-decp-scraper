@@ -20,9 +20,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - uses: actions/checkout@v2
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Install deps
-        run: sudo apt install git curl jq
+      #- name: Install deps
+      #git commit -am "Replaced apt module with simple command"  run: sudo apt install git curl jq
 
       - name: Download and publish DECP
         run: |
