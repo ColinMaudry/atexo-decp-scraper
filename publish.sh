@@ -15,7 +15,24 @@ api_key=$API_KEY
 echo "Mise à jour de $plateforme.xml..."
 
 # Récupération de l'id de ressource
-resource_id=`curl -L "https://www.data.gouv.fr/api/1/datasets/$dataset_id" | jq -r --arg title "$plateforme.xml" '.resources[] | select (.title == $title) | .id'`
+while IFS=, read -r name url status resourceId
+do
+  if [[ $plateforme == $name ]]
+    then
+      resource_id=$resourceId
+  fi
+done < plateformes.csv
+
+echo ""
+echo "resource_id: $resource_id"
 
 # Téléversement
-curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key"
+success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
+
+if [[ ! $success == "true" ]]
+then
+    echo "Upload failed"
+    exit 1
+else
+    echo "Upload OK"
+fi

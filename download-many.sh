@@ -3,7 +3,7 @@
 #sleep 5h
 date=`date +%Y-%m-%dT%H:%M:%S`
 
-while IFS=, read -r name url status
+while IFS=, read -r name url status resource_id
 do
   if [[ $status == "ok" ]]
     then
@@ -13,10 +13,9 @@ do
       echo "-----------------------"
       echo ""
 
+
       ./download.sh "$name"
       ./merge.sh "$name"
       ./publish.sh "$name" "$date"
   fi
 done < plateformes.csv
-
-
