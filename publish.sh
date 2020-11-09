@@ -27,7 +27,7 @@ echo ""
 echo "resource_id: $resource_id"
 
 # Téléversement
-success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
+success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
 
 if [[ ! $success == "true" ]]
 then

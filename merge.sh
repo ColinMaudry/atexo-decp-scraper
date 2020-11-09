@@ -1,7 +1,7 @@
 #!/bin/bash
 
 plateforme="$1"
-date=`date +%Y-%m-%dT%H:%M:%S`
+date="$2"
 xmldir="xml/$plateforme"
 
 # Compte du nombre de marchés :
@@ -22,3 +22,5 @@ do
 done
 
 echo "</marches>" >> $output
+
+cp "$output" "xml/${plateforme}.xml"

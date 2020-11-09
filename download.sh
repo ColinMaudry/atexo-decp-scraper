@@ -47,7 +47,7 @@ do
 
         tempxml=xml/temp.xml
 
-        date=`date +%Y-%m-%dT%H:%M:%S`
+        datedownload=`date +%Y-%m-%dT%H:%M:%S`
 
         curl "$url" > $tempxml 2> /dev/null
 
@@ -56,16 +56,16 @@ do
         if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
         then
             mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
+            echo "$plateforme,\"$nom\",$annee,0,$datedownload" >> disponibilite-donnees.csv
         # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
         elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
         then
             mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+            echo "$plateforme,\"$nom\",$annee,erreur,$datedownload" >> disponibilite-donnees.csv
         else
             num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
             mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+            echo "$plateforme,\"$nom\",$annee,$num,$datedownload" >> disponibilite-donnees.csv
         fi
 
 	# Petite pause pour laisser respirer le serveur
@@ -76,5 +76,5 @@ done
 
 if [[ $2 == "publish" ]]
 then
-  ./publish.sh $plateforme $date
+  ./publish.sh $plateforme $datedownload
 fi

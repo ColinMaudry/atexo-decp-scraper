@@ -15,7 +15,7 @@ do
 
 
       ./download.sh "$name"
-      ./merge.sh "$name"
+      ./merge.sh "$name" "$date"
       ./publish.sh "$name" "$date"
   fi
 done < plateformes.csv
