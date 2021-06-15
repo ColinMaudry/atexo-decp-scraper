@@ -21,23 +21,20 @@ do
       echo "-----------------------"
       echo ""
 
-      python3 ./download.py --site "$name" -f -i
+      python3 ./download.py --site "$name" -f -i &
   fi
 done < plateformes.csv
 
-wait
 
-while IFS=, read -r name url status resource_id
-do
-  if [[ $status == "accessible" ]]
-    then
-      echo ""
-      echo "-----------------------"
-      echo "+ Fusion des XML de $name"
-      echo "-----------------------"
-      echo ""
-
-      ./merge.sh "$name" "$date"
-      #./publish.sh "$name" "$date"
-  fi
-done < plateformes.csv
+# while IFS=, read -r name url status resource_id
+# do
+#   if [[ $status == "accessible" ]]
+#     then
+#       echo ""
+#       echo "-----------------------"
+#       echo "+ Publication de $name"
+#       echo "-----------------------"
+#       echo ""
+#       ./publish.sh "$name" "$date"
+#   fi
+# done < plateformes.csv
