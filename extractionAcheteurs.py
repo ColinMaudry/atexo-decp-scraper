@@ -72,7 +72,7 @@ def extract_buyer_information(platform):
             html_file_path = get_html_file_path(platform)
             if not os.path.exists(html_file_path):
                 print('Downloading HTML file')
-                with requests.get(html_file_url, verify=False) as response, open(html_file_path, 'wb') as out_file:
+                with requests.get(html_file_url, verify=False, headers={'user-agent': 'atexo-decp-scraper'}) as response, open(html_file_path, 'wb') as out_file:
                     HTML_PAGE_PER_PLATFORM[platform] = response.content
                     out_file.write(response.content)
             buyers = extract_buyers(platform)
