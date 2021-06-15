@@ -40,7 +40,7 @@ do
     nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
     echo "$nom ($id)"
 
-    for annee in 2018 2019 2020
+    for annee in 2018 2019 2020 2021
     do
 
         url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
