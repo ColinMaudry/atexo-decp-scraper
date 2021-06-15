@@ -4,6 +4,7 @@
 date=`date +%Y-%m-%dT%H:%M:%S`
 
 for dir in xml acheteurs html
+do
   if [[ ! -d $dir ]]
   then
     mkdir $dir
