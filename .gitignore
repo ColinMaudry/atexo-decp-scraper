@@ -4,3 +4,6 @@ xml
 temp
 *.xml
 myenv
+acheteurs
+html
+__pycache__

@@ -3,6 +3,13 @@
 #sleep 5h
 date=`date +%Y-%m-%dT%H:%M:%S`
 
+for dir in xml acheteurs html
+  if [[ ! -d $dir ]]
+  then
+    mkdir $dir
+  fi
+done
+
 while IFS=, read -r name url status resource_id
 do
   if [[ $status == "accessible" ]]
