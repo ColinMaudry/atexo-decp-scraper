@@ -1,7 +1,8 @@
 #!/bin/bash
 
-#sleep 5h
 date=`date +%Y-%m-%dT%H:%M:%S`
+
+export adsRoot=`pwd`
 
 while IFS=, read -r name url status resource_id
 do
@@ -15,7 +16,7 @@ do
 
 
       ./download.sh "$name"
-      ./merge.sh "$name"
+      ./merge.sh "$name" "$date"
       ./publish.sh "$name" "$date"
   fi
 done < plateformes.csv

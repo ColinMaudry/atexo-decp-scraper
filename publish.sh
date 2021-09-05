@@ -1,7 +1,7 @@
 #!/bin/bash
 
-plateforme=$1
-date=$2
+plateforme="$1"
+date="$2"
 
 # fail on error
 set -e
@@ -17,7 +17,7 @@ echo "Mise à jour de $plateforme.xml..."
 # Récupération de l'id de ressource
 while IFS=, read -r name url status resourceId
 do
-  if [[ $plateforme == $name ]]
+  if [[ $plateforme == "$name" ]]
     then
       resource_id=$resourceId
   fi
@@ -27,12 +27,19 @@ echo ""
 echo "resource_id: $resource_id"
 
 # Téléversement
-success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
 
-if [[ ! $success == "true" ]]
-then
-    echo "Upload failed"
-    exit 1
+if [[ -f "$adsRoot/xml/${plateforme}_${date}.xml" ]]
+    then
+    success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
+    echo ".success : $success"
+    if [[ ! $success == "true" ]]
+    then
+        echo "Upload failed"
+        exit 1
+    else
+        echo "Upload OK"
+    fi
 else
-    echo "Upload OK"
+    echo "No file to upload"
+    exit 1
 fi
