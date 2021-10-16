@@ -3,3 +3,8 @@ xml
 *.log
 temp
 *.xml
+myenv
+
+acheteurs/
+
+__pycache__/
