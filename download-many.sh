@@ -6,7 +6,7 @@ export adsRoot=`pwd`
 
 while IFS=, read -r name url status resource_id
 do
-  if [[ $status == "ok" ]]
+  if [[ $status == "accessible" ]]
     then
       echo ""
       echo "-----------------------"
@@ -15,8 +15,6 @@ do
       echo ""
 
 
-      ./download.sh "$name"
-      ./merge.sh "$name" "$date"
-      ./publish.sh "$name" "$date"
+      ./processPlatform.sh "$name" "$date" &
   fi
 done < plateformes.csv
