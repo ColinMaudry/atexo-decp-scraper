@@ -1,0 +1,442 @@
+[
+  {
+    "id": "b1q",
+    "name": "Agence Régionale de la Biodiversité Centre Val de Loire"
+  },
+  {
+    "id": "c2d",
+    "name": "CCAS de Fondettes"
+  },
+  {
+    "id": "b0b",
+    "name": "Communauté de Communes Canaux et Forêts Gâtinais"
+  },
+  {
+    "id": "b1k",
+    "name": "Communauté de Communes Coeur de Beauce"
+  },
+  {
+    "id": "b2n",
+    "name": "COMMUNAUTE DE COMMUNES DES QUATRE VALLEES - CC4V"
+  },
+  {
+    "id": "b0j",
+    "name": "Communauté de Communes du Pays d'Issoudun"
+  },
+  {
+    "id": "s3d",
+    "name": "Communauté de Communes du Pithiverais Gâtinais"
+  },
+  {
+    "id": "b4i",
+    "name": "Communauté de Communes Sologne des Etangs"
+  },
+  {
+    "id": "b0s",
+    "name": "Communauté de Communes Terres du Haut Berry"
+  },
+  {
+    "id": "i9o",
+    "name": "Communauté de communes Terres du Val de Loire"
+  },
+  {
+    "id": "b0p",
+    "name": "Communauté de Communes Touraine Est Vallées"
+  },
+  {
+    "id": "b0h",
+    "name": "Communauté de Communes Touraine Ouest Val de Loire"
+  },
+  {
+    "id": "o8p",
+    "name": "Communauté de communes Touraine Vallée de l'Indre"
+  },
+  {
+    "id": "h5j",
+    "name": "Commune"
+  },
+  {
+    "id": "v5b",
+    "name": "Commune d'Amboise"
+  },
+  {
+    "id": "b2o",
+    "name": "Commune d'Argent sur Sauldre"
+  },
+  {
+    "id": "b0q",
+    "name": "Commune d'Azay-sur-Cher"
+  },
+  {
+    "id": "m5w",
+    "name": "Commune d'Esvres"
+  },
+  {
+    "id": "f4g",
+    "name": "Commune d'Issoudun"
+  },
+  {
+    "id": "b0l",
+    "name": "Commune d'Orgères en Beauce"
+  },
+  {
+    "id": "b0u",
+    "name": "Commune d'"
+  },
+  {
+    "id": "b2c",
+    "name": "commune d'Ambillou"
+  },
+  {
+    "id": "b4f",
+    "name": "Commune d'Auxy"
+  },
+  {
+    "id": "c1a",
+    "name": "Commune d'Avrille-les-Ponceaux"
+  },
+  {
+    "id": "c0u",
+    "name": "Commune d'Azay le Rideau"
+  },
+  {
+    "id": "b2m",
+    "name": "Commune d'Yvoy-le-Marron"
+  },
+  {
+    "id": "b0w",
+    "name": "Commune de"
+  },
+  {
+    "id": "b2a",
+    "name": "Commune de Bazoches en Dunois"
+  },
+  {
+    "id": "b1p",
+    "name": "Commune de Bourgueil"
+  },
+  {
+    "id": "b2b",
+    "name": "commune de BOUZY-LA-FORÊT"
+  },
+  {
+    "id": "c0n",
+    "name": "Commune de Brinon-sur-Sauldre"
+  },
+  {
+    "id": "b1r",
+    "name": "Commune de Chapelon"
+  },
+  {
+    "id": "b0f",
+    "name": "Commune de Châtenoy"
+  },
+  {
+    "id": "b2d",
+    "name": "Commune de Continvoir"
+  },
+  {
+    "id": "b1x",
+    "name": "Commune de Corbeilles"
+  },
+  {
+    "id": "b1j",
+    "name": "Commune de Cormainville"
+  },
+  {
+    "id": "b1n",
+    "name": "Commune de Coteaux-sur-Loire"
+  },
+  {
+    "id": "b2f",
+    "name": "Commune de Couesmes"
+  },
+  {
+    "id": "b2r",
+    "name": "Commune de Courcelles-de-Touraine"
+  },
+  {
+    "id": "c1f",
+    "name": "Commune de Férolles"
+  },
+  {
+    "id": "b1m",
+    "name": "Commune de Ferrières-en-Gâtinais"
+  },
+  {
+    "id": "b2u",
+    "name": "Commune de Fleury-les-Aubrais"
+  },
+  {
+    "id": "b0y",
+    "name": "Commune de Fondettes"
+  },
+  {
+    "id": "a2z",
+    "name": "Commune de Garancières en Beauce"
+  },
+  {
+    "id": "b1f",
+    "name": "Commune de Gizeux"
+  },
+  {
+    "id": "b0v",
+    "name": "Commune de Huisseau sur Mauves"
+  },
+  {
+    "id": "b1y",
+    "name": "Commune de La Berthenoux"
+  },
+  {
+    "id": "c1s",
+    "name": "Commune de la Chapelle-sur-Loire"
+  },
+  {
+    "id": "t5y",
+    "name": "Commune de La Ferté Saint Aubin"
+  },
+  {
+    "id": "b1i",
+    "name": "Commune de La Ville aux Dames"
+  },
+  {
+    "id": "b1b",
+    "name": "Commune de Larçay"
+  },
+  {
+    "id": "b2p",
+    "name": "Commune de Lumeau"
+  },
+  {
+    "id": "b1e",
+    "name": "Commune de Luynes"
+  },
+  {
+    "id": "b2g",
+    "name": "Commune de Mazières-de-Touraine"
+  },
+  {
+    "id": "b1z",
+    "name": "Commune de Mehun-sur-Yèvre"
+  },
+  {
+    "id": "b0o",
+    "name": "Commune de Méry-ès-Bois"
+  },
+  {
+    "id": "r8t",
+    "name": "Commune de Meung-sur-Loire"
+  },
+  {
+    "id": "j4k",
+    "name": "Commune de Montargis"
+  },
+  {
+    "id": "b1u",
+    "name": "Commune de Montbouy"
+  },
+  {
+    "id": "b1c",
+    "name": "Commune de Montlouis-sur-loire"
+  },
+  {
+    "id": "b1t",
+    "name": "Commune de Neuville aux Bois"
+  },
+  {
+    "id": "b0i",
+    "name": "Commune de Notre Dame d'Oé"
+  },
+  {
+    "id": "b4z",
+    "name": "Commune de Ondreville-sur-Essonne"
+  },
+  {
+    "id": "b0k",
+    "name": "Commune de Pithiviers le Viel"
+  },
+  {
+    "id": "b0e",
+    "name": "Commune de Rozoy Le Vieil"
+  },
+  {
+    "id": "b2i",
+    "name": "Commune de Saint Denis de l'Hôtel"
+  },
+  {
+    "id": "x6c",
+    "name": "Commune de Saint Doulchard"
+  },
+  {
+    "id": "b2j",
+    "name": "Commune de Saint Martin d'Abbat"
+  },
+  {
+    "id": "b0g",
+    "name": "Commune de Saint Ouen Les Vignes"
+  },
+  {
+    "id": "b0n",
+    "name": "Commune de Saint Ouen Les Vignes"
+  },
+  {
+    "id": "b0m",
+    "name": "Commune de Saint Ouen Les Vignes"
+  },
+  {
+    "id": "b1w",
+    "name": "Commune de Sainte Geneviève des Bois"
+  },
+  {
+    "id": "c2s",
+    "name": "Commune de Sainte-Maure-de-Touraine"
+  },
+  {
+    "id": "b2z",
+    "name": "Commune de Sully La Chapelle"
+  },
+  {
+    "id": "b0r",
+    "name": "Commune de Valençay"
+  },
+  {
+    "id": "b0z",
+    "name": "Commune de Vallières les Grandes"
+  },
+  {
+    "id": "b1d",
+    "name": "Commune de Veretz"
+  },
+  {
+    "id": "b1o",
+    "name": "Commune de Véretz"
+  },
+  {
+    "id": "b0a",
+    "name": "Commune de Vicq-Exemplet"
+  },
+  {
+    "id": "b2w",
+    "name": "Commune de Vienne-en-Val"
+  },
+  {
+    "id": "c0l",
+    "name": "Commune de Vignoux-sur-Barangeon"
+  },
+  {
+    "id": "b2v",
+    "name": "Commune de Villiers-au-Bouin"
+  },
+  {
+    "id": "b2y",
+    "name": "Commune de Villorceau"
+  },
+  {
+    "id": "b2e",
+    "name": "Commune de Vitry aux Loges"
+  },
+  {
+    "id": "b1g",
+    "name": "Commune de Vouvray"
+  },
+  {
+    "id": "y6u",
+    "name": "Communuaté de Communes des Portes de Sologne"
+  },
+  {
+    "id": "b2k",
+    "name": "EPAGE du Loing"
+  },
+  {
+    "id": "b2s",
+    "name": "EPCCI"
+  },
+  {
+    "id": "b0x",
+    "name": "GIP Alfa Centre"
+  },
+  {
+    "id": "a1t",
+    "name": "Groupement d'Interêt Public Recia (Région Centre InterActive)"
+  },
+  {
+    "id": "q1s",
+    "name": "Mairie"
+  },
+  {
+    "id": "p2q",
+    "name": "Mairie"
+  },
+  {
+    "id": "b0d",
+    "name": "Mairie de Montcresson"
+  },
+  {
+    "id": "b0c",
+    "name": "Mairie de Saint-Firmin-sur-Loire"
+  },
+  {
+    "id": "g3h",
+    "name": "Mairie de Saunay"
+  },
+  {
+    "id": "d2f",
+    "name": "Mairie de Sorigny"
+  },
+  {
+    "id": "b0t",
+    "name": "Mairie de Tavers"
+  },
+  {
+    "id": "z5e",
+    "name": "Mairie de Varennes"
+  },
+  {
+    "id": "b1h",
+    "name": "Office de Tourisme de Montlouis-Vouvray"
+  },
+  {
+    "id": "a1a",
+    "name": "Organisme de paramétrage de référence"
+  },
+  {
+    "id": "b2q",
+    "name": "SDE18"
+  },
+  {
+    "id": "b2t",
+    "name": "SIAEP Brinon, Clémont"
+  },
+  {
+    "id": "b1a",
+    "name": "SIVOM de Sermaises"
+  },
+  {
+    "id": "c0m",
+    "name": "SIVOS du Beuvron"
+  },
+  {
+    "id": "b1l",
+    "name": "SMO Berry Numérique"
+  },
+  {
+    "id": "b2l",
+    "name": "Syndicat Intercommunal Scolaire du Regroupement Pédagogique Gizeux-Avrillé-les-Ponceaux-Continvoir-Hommes"
+  },
+  {
+    "id": "b2h",
+    "name": "Syndicat Mixte de l'Oeuf de la Rimarde et de l'Essone"
+  },
+  {
+    "id": "b1s",
+    "name": "Syndicat Mixte du pays Sancerre Sologne"
+  },
+  {
+    "id": "b1v",
+    "name": "Ville d'Auneau Bleury Saint Symphorien"
+  },
+  {
+    "id": "u6i",
+    "name": "Ville de Montbazon"
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "b0a",
+    "name": "Agence Technique Départementale du Gard"
+  },
+  {
+    "id": "f9y",
+    "name": "Branoux les Taillades"
+  },
+  {
+    "id": "w5a",
+    "name": "Communauté de Communes Causses Aigoual Cevennes \"Terres Solidaires\""
+  },
+  {
+    "id": "h9y",
+    "name": "Commune"
+  },
+  {
+    "id": "i1y",
+    "name": "commune"
+  },
+  {
+    "id": "i2y",
+    "name": "commune"
+  },
+  {
+    "id": "i3y",
+    "name": "Commune"
+  },
+  {
+    "id": "i4y",
+    "name": "Commune"
+  },
+  {
+    "id": "i5y",
+    "name": "Commune"
+  },
+  {
+    "id": "i6y",
+    "name": "Commune"
+  },
+  {
+    "id": "i0y",
+    "name": "Commune"
+  },
+  {
+    "id": "j1y",
+    "name": "Commune"
+  },
+  {
+    "id": "j2y",
+    "name": "Commune"
+  },
+  {
+    "id": "j3y",
+    "name": "Commune"
+  },
+  {
+    "id": "j4y",
+    "name": "Commune"
+  },
+  {
+    "id": "j5y",
+    "name": "Commune"
+  },
+  {
+    "id": "b1c",
+    "name": "Commune d'Aigaliers"
+  },
+  {
+    "id": "b0l",
+    "name": "Commune d'Arphy"
+  },
+  {
+    "id": "e5y",
+    "name": "Commune de Aigremont"
+  },
+  {
+    "id": "b0s",
+    "name": "Commune de Aigueze"
+  },
+  {
+    "id": "g0y",
+    "name": "Commune de Alzon"
+  },
+  {
+    "id": "b1n",
+    "name": "Commune de Anduze"
+  },
+  {
+    "id": "w2b",
+    "name": "Commune de Arrigas"
+  },
+  {
+    "id": "b2s",
+    "name": "Commune de Aubais"
+  },
+  {
+    "id": "e9y",
+    "name": "Commune de Aubussargues"
+  },
+  {
+    "id": "b2t",
+    "name": "Commune de Aujargues"
+  },
+  {
+    "id": "b2h",
+    "name": "Commune de Aumessas"
+  },
+  {
+    "id": "b2u",
+    "name": "Commune de Avèze"
+  },
+  {
+    "id": "b2m",
+    "name": "Commune de Bagard"
+  },
+  {
+    "id": "b1a",
+    "name": "Commune de Barjac"
+  },
+  {
+    "id": "b2v",
+    "name": "Commune de Beaucaire"
+  },
+  {
+    "id": "d8y",
+    "name": "Commune de Belvezet"
+  },
+  {
+    "id": "b2a",
+    "name": "Commune de Bernis"
+  },
+  {
+    "id": "g6y",
+    "name": "Commune de Bezouce"
+  },
+  {
+    "id": "g3y",
+    "name": "Commune de Blandas"
+  },
+  {
+    "id": "b0d",
+    "name": "Commune de Blauzac"
+  },
+  {
+    "id": "w1b",
+    "name": "Commune de Boissières"
+  },
+  {
+    "id": "b0e",
+    "name": "Commune de Bordezac"
+  },
+  {
+    "id": "e6y",
+    "name": "Commune de Brignon"
+  },
+  {
+    "id": "b0x",
+    "name": "Commune de Brouzet-Les-Alès"
+  },
+  {
+    "id": "e1y",
+    "name": "Commune de Canaules et Argentières"
+  },
+  {
+    "id": "b1e",
+    "name": "Commune de Cannes et Clairan"
+  },
+  {
+    "id": "b1j",
+    "name": "Commune de Carsan"
+  },
+  {
+    "id": "b1x",
+    "name": "Commune de Cassagnoles"
+  },
+  {
+    "id": "b1k",
+    "name": "Commune de Castillon-du-Gard"
+  },
+  {
+    "id": "b1v",
+    "name": "Commune de Cavillargues"
+  },
+  {
+    "id": "b1l",
+    "name": "Commune de Chamborigaud"
+  },
+  {
+    "id": "b0w",
+    "name": "Commune de Collias"
+  },
+  {
+    "id": "b0t",
+    "name": "Commune de Collorgues"
+  },
+  {
+    "id": "e3y",
+    "name": "Commune de Colognac"
+  },
+  {
+    "id": "b0n",
+    "name": "Commune de Combas"
+  },
+  {
+    "id": "c6y",
+    "name": "Commune de Congenies"
+  },
+  {
+    "id": "w5b",
+    "name": "Commune de Conqueyrac"
+  },
+  {
+    "id": "b2k",
+    "name": "Commune de Corconne"
+  },
+  {
+    "id": "b1y",
+    "name": "Commune de Crespian"
+  },
+  {
+    "id": "b7y",
+    "name": "Commune de Cros"
+  },
+  {
+    "id": "c2y",
+    "name": "Commune de Domessargues"
+  },
+  {
+    "id": "d1y",
+    "name": "Commune de Dourbies"
+  },
+  {
+    "id": "d3y",
+    "name": "Commune de Durfort et Saint Martin de Sossenac"
+  },
+  {
+    "id": "b2r",
+    "name": "Commune de Estréchure"
+  },
+  {
+    "id": "e0y",
+    "name": "Commune de Euzet"
+  },
+  {
+    "id": "f1y",
+    "name": "Commune de Flaux"
+  },
+  {
+    "id": "h7y",
+    "name": "Commune de Fons-Outre-Gardon"
+  },
+  {
+    "id": "c3y",
+    "name": "Commune de Fons-sur-Lussan"
+  },
+  {
+    "id": "b0o",
+    "name": "Commune de Fontanes"
+  },
+  {
+    "id": "d4y",
+    "name": "Commune de Fourques"
+  },
+  {
+    "id": "r6m",
+    "name": "Commune de Fressac"
+  },
+  {
+    "id": "b6y",
+    "name": "Commune de Gagnieres"
+  },
+  {
+    "id": "w4b",
+    "name": "Commune de Garrigues-Sainte-Eulalie"
+  },
+  {
+    "id": "b2j",
+    "name": "Commune de Gaujac"
+  },
+  {
+    "id": "g4y",
+    "name": "Commune de Generargues"
+  },
+  {
+    "id": "e8y",
+    "name": "Commune de Goudargues"
+  },
+  {
+    "id": "r8m",
+    "name": "Commune de Issirac"
+  },
+  {
+    "id": "r9m",
+    "name": "Commune de Junas"
+  },
+  {
+    "id": "a4y",
+    "name": "Commune de la Cadiere et Cambo"
+  },
+  {
+    "id": "b0m",
+    "name": "Commune de La Capelle et Masmolene"
+  },
+  {
+    "id": "d2y",
+    "name": "Commune de la Roque-sur-Cèze"
+  },
+  {
+    "id": "b2w",
+    "name": "Commune de La Rouviere"
+  },
+  {
+    "id": "b2x",
+    "name": "Commune de La Vernarède"
+  },
+  {
+    "id": "w3a",
+    "name": "Commune de Lanuéjols"
+  },
+  {
+    "id": "b2c",
+    "name": "Commune de Laudun-L'Ardoise"
+  },
+  {
+    "id": "b1g",
+    "name": "Commune de Le Pin"
+  },
+  {
+    "id": "b1t",
+    "name": "Commune de Lecques"
+  },
+  {
+    "id": "b1w",
+    "name": "Commune de Lédignan"
+  },
+  {
+    "id": "d9y",
+    "name": "Commune de Les Mages"
+  },
+  {
+    "id": "b2y",
+    "name": "Commune de Les Plantiers"
+  },
+  {
+    "id": "b1p",
+    "name": "Commune de Lézan"
+  },
+  {
+    "id": "b5y",
+    "name": "Commune de Logrian-Florian"
+  },
+  {
+    "id": "u2y",
+    "name": "Commune de Lussan"
+  },
+  {
+    "id": "a6y",
+    "name": "Commune de Mandagout"
+  },
+  {
+    "id": "b2d",
+    "name": "Commune de Martignargues"
+  },
+  {
+    "id": "b2n",
+    "name": "Commune de Massillargues-Atuech"
+  },
+  {
+    "id": "b1h",
+    "name": "Commune de Mauressargues"
+  },
+  {
+    "id": "b2p",
+    "name": "Commune de Meyrannes"
+  },
+  {
+    "id": "d7y",
+    "name": "Commune de Mialet"
+  },
+  {
+    "id": "b0p",
+    "name": "Commune de Molières-Cavaillac"
+  },
+  {
+    "id": "a7y",
+    "name": "Commune de Molières-sur-Cèze"
+  },
+  {
+    "id": "w7a",
+    "name": "Commune de Monoblet"
+  },
+  {
+    "id": "b2z",
+    "name": "Commune de Mons"
+  },
+  {
+    "id": "w1a",
+    "name": "Commune de Montagnac"
+  },
+  {
+    "id": "b0g",
+    "name": "Commune de Montaren et Saint Médiers"
+  },
+  {
+    "id": "r5m",
+    "name": "Commune de Montclus"
+  },
+  {
+    "id": "g7y",
+    "name": "Commune de Monteils"
+  },
+  {
+    "id": "b0q",
+    "name": "Commune de Montfaucon"
+  },
+  {
+    "id": "r4m",
+    "name": "Commune de Montignargues"
+  },
+  {
+    "id": "b1q",
+    "name": "Commune de Montmirat"
+  },
+  {
+    "id": "c9y",
+    "name": "Commune de Montpezat"
+  },
+  {
+    "id": "b1f",
+    "name": "Commune de Moussac"
+  },
+  {
+    "id": "f7y",
+    "name": "Commune de Navacelles"
+  },
+  {
+    "id": "r2m",
+    "name": "Commune de Ners"
+  },
+  {
+    "id": "b2e",
+    "name": "Commune de Orthoux-Serignac-Quilhan"
+  },
+  {
+    "id": "a3y",
+    "name": "Commune de Parignargues"
+  },
+  {
+    "id": "b1u",
+    "name": "Commune de Peyrolles"
+  },
+  {
+    "id": "b2f",
+    "name": "Commune de Pompignan"
+  },
+  {
+    "id": "a8y",
+    "name": "Commune de Portes"
+  },
+  {
+    "id": "g2y",
+    "name": "Commune de Pougnadoresse"
+  },
+  {
+    "id": "d6y",
+    "name": "Commune de Redessan"
+  },
+  {
+    "id": "u0y",
+    "name": "Commune de Revens"
+  },
+  {
+    "id": "b1d",
+    "name": "Commune de Ribaute-Les-Tavernes"
+  },
+  {
+    "id": "b0h",
+    "name": "Commune de Rivières"
+  },
+  {
+    "id": "b0z",
+    "name": "Commune de Robiac-Rochessadoule"
+  },
+  {
+    "id": "b2g",
+    "name": "Commune de Rochefort-du-Gard"
+  },
+  {
+    "id": "b0i",
+    "name": "Commune de Rochegude"
+  },
+  {
+    "id": "c4y",
+    "name": "Commune de Rogues"
+  },
+  {
+    "id": "c0y",
+    "name": "Commune de Roquedur"
+  },
+  {
+    "id": "c5y",
+    "name": "Commune de Rousson"
+  },
+  {
+    "id": "b2l",
+    "name": "Commune de Sabran"
+  },
+  {
+    "id": "b0c",
+    "name": "Commune de Saint Alexandre"
+  },
+  {
+    "id": "d0y",
+    "name": "Commune de Saint Césaire de Gauzignan"
+  },
+  {
+    "id": "h4y",
+    "name": "Commune de Saint Félix de Pallières"
+  },
+  {
+    "id": "b0f",
+    "name": "Commune de Saint Jean de Valeriscle"
+  },
+  {
+    "id": "h5y",
+    "name": "Commune de Saint Jean du Pin"
+  },
+  {
+    "id": "w2a",
+    "name": "Commune de Saint Julien de Peyrolas"
+  },
+  {
+    "id": "r7m",
+    "name": "Commune de Saint Juste et Vacquieres"
+  },
+  {
+    "id": "w4a",
+    "name": "Commune de Saint Laurent de Carnols"
+  },
+  {
+    "id": "h3y",
+    "name": "Commune de Saint Mamert du Gard"
+  },
+  {
+    "id": "h1y",
+    "name": "Commune de Saint Privat de Champclos"
+  },
+  {
+    "id": "b0u",
+    "name": "Commune de Saint Victor La Coste"
+  },
+  {
+    "id": "b0r",
+    "name": "Commune de Saint-André-de-Majencoules"
+  },
+  {
+    "id": "u1y",
+    "name": "Commune de Saint-Andre-de-Roquepertuis"
+  },
+  {
+    "id": "b9y",
+    "name": "Commune de Saint-André-de-Valborgne"
+  },
+  {
+    "id": "c7y",
+    "name": "Commune de Saint-Bauzély"
+  },
+  {
+    "id": "w9a",
+    "name": "Commune de Saint-Bonnet-du-Gard"
+  },
+  {
+    "id": "b1o",
+    "name": "Commune de Saint-Brès"
+  },
+  {
+    "id": "b2q",
+    "name": "Commune de Saint-Clément"
+  },
+  {
+    "id": "b1r",
+    "name": "Commune de Saint-Denis"
+  },
+  {
+    "id": "w8a",
+    "name": "Commune de Saint-Dionisy"
+  },
+  {
+    "id": "b3y",
+    "name": "Commune de Saint-Genies-de-Comolas"
+  },
+  {
+    "id": "g8y",
+    "name": "Commune de Saint-Gervais"
+  },
+  {
+    "id": "a1y",
+    "name": "Commune de Saint-Jean-de-Crieulon"
+  },
+  {
+    "id": "c1y",
+    "name": "Commune de Saint-Laurent-des-Arbres"
+  },
+  {
+    "id": "b0y",
+    "name": "Commune de Saint-Laurent-La-Vernède"
+  },
+  {
+    "id": "a9y",
+    "name": "Commune de Saint-Laurent-le-Minier"
+  },
+  {
+    "id": "a0y",
+    "name": "Commune de Saint-Marcel-de-Careiret"
+  },
+  {
+    "id": "b4y",
+    "name": "Commune de Saint-Maximin"
+  },
+  {
+    "id": "e4y",
+    "name": "Commune de Saint-Nazaire-des-Gardies"
+  },
+  {
+    "id": "b1z",
+    "name": "Commune de Saint-Paul-les-Fonts"
+  },
+  {
+    "id": "b1m",
+    "name": "Commune de Saint-Sébastien-d'Aigrefeuille"
+  },
+  {
+    "id": "e2y",
+    "name": "Commune de Saint-Siffret"
+  },
+  {
+    "id": "b2o",
+    "name": "Commune de Saint-Victor-des-Oules"
+  },
+  {
+    "id": "b1i",
+    "name": "Commune de Salinelles"
+  },
+  {
+    "id": "r3m",
+    "name": "Commune de Saumane"
+  },
+  {
+    "id": "b0k",
+    "name": "Commune de Savignargues"
+  },
+  {
+    "id": "e7y",
+    "name": "Commune de Saze"
+  },
+  {
+    "id": "b1s",
+    "name": "Commune de Sénéchas"
+  },
+  {
+    "id": "b8y",
+    "name": "Commune de Souvignargues"
+  },
+  {
+    "id": "d5y",
+    "name": "Commune de Sumène"
+  },
+  {
+    "id": "h8y",
+    "name": "commune de Tavel"
+  },
+  {
+    "id": "b0j",
+    "name": "Commune de Tharaux"
+  },
+  {
+    "id": "a5y",
+    "name": "Commune de Tornac"
+  },
+  {
+    "id": "w3b",
+    "name": "Commune de Valliguières"
+  },
+  {
+    "id": "b2i",
+    "name": "Commune de Vénéjan"
+  },
+  {
+    "id": "b2b",
+    "name": "Commune de Villevieille"
+  },
+  {
+    "id": "b0v",
+    "name": "Commune de Vissec"
+  },
+  {
+    "id": "a2y",
+    "name": "Commune du Vigan"
+  },
+  {
+    "id": "t5y",
+    "name": "Conseil départemental du Gard"
+  },
+  {
+    "id": "w6a",
+    "name": "Coomune de Allègre-les-Fumades"
+  },
+  {
+    "id": "h0y",
+    "name": "Le CAUE du Gard"
+  },
+  {
+    "id": "i8y",
+    "name": "Le SIAEPA de St Laurent la Vernède"
+  },
+  {
+    "id": "b1b",
+    "name": "Mairie du Chambon"
+  },
+  {
+    "id": "g5y",
+    "name": "Méjannes Le Clap"
+  },
+  {
+    "id": "f5y",
+    "name": "Ponteils et Bresis"
+  },
+  {
+    "id": "f3y",
+    "name": "Pouzilhac"
+  },
+  {
+    "id": "f8y",
+    "name": "Saint André d'Olérargues"
+  },
+  {
+    "id": "f2y",
+    "name": "Saint Jean de Maruéjols et Avéjan"
+  },
+  {
+    "id": "f4y",
+    "name": "Saint Victor de Malcap"
+  },
+  {
+    "id": "b0b",
+    "name": "sanilhac sagriès"
+  },
+  {
+    "id": "f0y",
+    "name": "Sardan"
+  },
+  {
+    "id": "g9y",
+    "name": "SIAEP de Lasalle"
+  },
+  {
+    "id": "i9y",
+    "name": "SIAEP du Causse de Blandas"
+  },
+  {
+    "id": "h2y",
+    "name": "SIAEP Saumane l'Estréchure"
+  },
+  {
+    "id": "g1y",
+    "name": "SIAP des Gardies"
+  },
+  {
+    "id": "c8y",
+    "name": "SIRP du Coutach"
+  },
+  {
+    "id": "f6y",
+    "name": "Sivu du Château de Tornac"
+  },
+  {
+    "id": "i7y",
+    "name": "Syndicat intercommunal de regroupement scolaire de Fons, Saint Bauzély,Gajan( SIRS)"
+  }
+]

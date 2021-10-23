@@ -1,0 +1,170 @@
+[
+  {
+    "id": "t5y",
+    "name": "Ancienne plateforme"
+  },
+  {
+    "id": "u6i",
+    "name": "CD14"
+  },
+  {
+    "id": "s3d",
+    "name": "Centre hospitalier de Bourg-en-Bresse"
+  },
+  {
+    "id": "m5w",
+    "name": "Communauté d'agglomération Chateauroux Métropole"
+  },
+  {
+    "id": "CCT2C",
+    "name": "Communauté de Communes de La Terre des  2 Caps"
+  },
+  {
+    "id": "CCDS",
+    "name": "Communauté de Communes Desvres Samer"
+  },
+  {
+    "id": "x6c",
+    "name": "Communauté de communes du Pays de L'Arbresle"
+  },
+  {
+    "id": "i9o",
+    "name": "commune de Bessenay"
+  },
+  {
+    "id": "z5e",
+    "name": "COMMUNE DE BULLY"
+  },
+  {
+    "id": "CHATO",
+    "name": "Commune de Châteaurenard (13160)"
+  },
+  {
+    "id": "VDG",
+    "name": "Commune de Gien"
+  },
+  {
+    "id": "r8t",
+    "name": "COMMUNE DE LANDRETHUN-LE-NORD"
+  },
+  {
+    "id": "p2q",
+    "name": "Commune de SAIN BEL"
+  },
+  {
+    "id": "v5b",
+    "name": "Conseil Départemental du Calvados"
+  },
+  {
+    "id": "INP_ENV_TLS",
+    "name": "Ecole Nationale Vétérinaire de Toulouse"
+  },
+  {
+    "id": "TEST",
+    "name": "Entité de test"
+  },
+  {
+    "id": "TEST_ENTREPRISE",
+    "name": "Entité de test à destination des entreprises"
+  },
+  {
+    "id": "Mahran_Test",
+    "name": "Entite_Test"
+  },
+  {
+    "id": "EPIDROPT",
+    "name": "EPIDROPT MIRAMONT DE GUYENNE"
+  },
+  {
+    "id": "ERVID",
+    "name": "ERVID"
+  },
+  {
+    "id": "G3F",
+    "name": "Immobilière 3F"
+  },
+  {
+    "id": "MahranTest2015",
+    "name": "MahranTestAKOUDA"
+  },
+  {
+    "id": "Mahran_Test_2015",
+    "name": "Mahran_Test_AKOUDA"
+  },
+  {
+    "id": "ECULLY",
+    "name": "MAIRIE D ECULLY"
+  },
+  {
+    "id": "fpero",
+    "name": "Mairie de BRAS"
+  },
+  {
+    "id": "formation02",
+    "name": "Mairie de Cahuzac"
+  },
+  {
+    "id": "formation03",
+    "name": "Mairie de Lavergne"
+  },
+  {
+    "id": "formation04",
+    "name": "Mairie de Lavergne"
+  },
+  {
+    "id": "CTEST",
+    "name": "Muille-Villette"
+  },
+  {
+    "id": "org",
+    "name": "Nom de l organisme"
+  },
+  {
+    "id": "formation01",
+    "name": "ORDIGES-TEST"
+  },
+  {
+    "id": "e3r",
+    "name": "Organisme de Formation"
+  },
+  {
+    "id": "a1a",
+    "name": "Organisme de test"
+  },
+  {
+    "id": "a2z",
+    "name": "Organisme de test ATEXO"
+  },
+  {
+    "id": "hf1",
+    "name": "Organisme Test IFrame 1"
+  },
+  {
+    "id": "hf2",
+    "name": "Organisme Test IFrame 2"
+  },
+  {
+    "id": "SDIS_84",
+    "name": "Service Départemental d Incendie et de Secours de Vaucluse"
+  },
+  {
+    "id": "SIAV",
+    "name": "Syndicat Intercommunal d assainissement de Valenciennes"
+  },
+  {
+    "id": "y6u",
+    "name": "Syndicat Intercommunal d'Assainissement du Bassin de l'Arbresle"
+  },
+  {
+    "id": "ELNE",
+    "name": "Ville d Elne"
+  },
+  {
+    "id": "n2a",
+    "name": "Ville de Châteauroux"
+  },
+  {
+    "id": "GUYANCOURT",
+    "name": "Ville de Guyancourt"
+  }
+]

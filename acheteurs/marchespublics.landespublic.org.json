@@ -1,0 +1,2114 @@
+[
+  {
+    "id": "adacl40",
+    "name": "Agence Départementale d'Aide aux Collectivités Locales des Landes"
+  },
+  {
+    "id": "alpi40",
+    "name": "Agence Landaise Pour L'informatique (ALPI)"
+  },
+  {
+    "id": "c3i",
+    "name": "ASA BATS URGONS"
+  },
+  {
+    "id": "c3h",
+    "name": "ASA BRETAGNE BASCONS"
+  },
+  {
+    "id": "c3x",
+    "name": "ASA de Duhort-Bachen"
+  },
+  {
+    "id": "c6j",
+    "name": "ASA de Meilhan"
+  },
+  {
+    "id": "c3w",
+    "name": "ASA de Saint-Cricq-Villeneuve"
+  },
+  {
+    "id": "c3u",
+    "name": "ASA Doazit Maylis"
+  },
+  {
+    "id": "d4f",
+    "name": "Association des Maires des Landes"
+  },
+  {
+    "id": "b1s",
+    "name": "CAMPING MUNICIPAL Les SABLERES"
+  },
+  {
+    "id": "c6p",
+    "name": "CAUE"
+  },
+  {
+    "id": "c4b",
+    "name": "CCAS de Capbreton"
+  },
+  {
+    "id": "ccas-castets",
+    "name": "CCAS de CASTETS"
+  },
+  {
+    "id": "c1t",
+    "name": "CCAS de DAX"
+  },
+  {
+    "id": "ccas-hagetmau",
+    "name": "CCAS de Hagetmau"
+  },
+  {
+    "id": "ccas-mees",
+    "name": "CCAS de mees"
+  },
+  {
+    "id": "ccas-mimizan",
+    "name": "CCAS de Mimizan"
+  },
+  {
+    "id": "ccas-mont-de-marsan",
+    "name": "CCAS de Mont de Marsan"
+  },
+  {
+    "id": "ccas-narrosse",
+    "name": "CCAS de Narrosse"
+  },
+  {
+    "id": "ccas-rion-des-landes",
+    "name": "CCAS de Rion des Landes"
+  },
+  {
+    "id": "b1l",
+    "name": "CCAS de Saint-Pierre-du-Mont"
+  },
+  {
+    "id": "ccas-hossegor",
+    "name": "CCAS de Soorts-Hossegor"
+  },
+  {
+    "id": "c4v",
+    "name": "CCAS de Soustons"
+  },
+  {
+    "id": "c4k",
+    "name": "CCAS de TARNOS"
+  },
+  {
+    "id": "ccas-saint-vincent-de-tyrosse",
+    "name": "CCAS de Tyrosse"
+  },
+  {
+    "id": "m6w",
+    "name": "CCAS de Vielle-Saint-Girons"
+  },
+  {
+    "id": "cdg40",
+    "name": "Centre de Gestion de la Fonction Publique Territoriale des Landes"
+  },
+  {
+    "id": "ch-dax",
+    "name": "Centre Hospitalier de Dax"
+  },
+  {
+    "id": "c2g",
+    "name": "Centre Hospitalier de Saint-Sever"
+  },
+  {
+    "id": "cma-landes",
+    "name": "Chambre de métiers et de l'artisanat (CMA40)"
+  },
+  {
+    "id": "cias-saint-sever",
+    "name": "CIAS CHALOSSE TURSAN"
+  },
+  {
+    "id": "c5d",
+    "name": "CIAS Coeur Haute Lande"
+  },
+  {
+    "id": "b7b",
+    "name": "CIAS d'Aire sur l'Adour"
+  },
+  {
+    "id": "cias-haute-landes",
+    "name": "CIAS de la Haute Lande"
+  },
+  {
+    "id": "cias-haute-lande",
+    "name": "CIAS DE LA HAUTE LANDE"
+  },
+  {
+    "id": "z1e",
+    "name": "CIAS des cantons de Labrit et de Sore"
+  },
+  {
+    "id": "c2v",
+    "name": "CIAS DES LANDES ARMAGNAC"
+  },
+  {
+    "id": "m7w",
+    "name": "CIAS du Grand-Dax"
+  },
+  {
+    "id": "cias-mont-de-marsan",
+    "name": "CIAS du marsan"
+  },
+  {
+    "id": "b1f",
+    "name": "CIAS du Pays de Roquefort"
+  },
+  {
+    "id": "c5y",
+    "name": "CIAS du Pays Morcenais"
+  },
+  {
+    "id": "b1i",
+    "name": "CIAS du Pays Tarusate"
+  },
+  {
+    "id": "c1m",
+    "name": "CIAS Maremne Adour Côte Sud"
+  },
+  {
+    "id": "c6w",
+    "name": "CIAS Terres de Chalosse"
+  },
+  {
+    "id": "n0a",
+    "name": "CIAS xxxx"
+  },
+  {
+    "id": "c1a",
+    "name": "Collége de Montfort-en-chalosse"
+  },
+  {
+    "id": "o9p",
+    "name": "College Jean Rostand"
+  },
+  {
+    "id": "c2q",
+    "name": "Comité Départemental du Tourisme"
+  },
+  {
+    "id": "cc-gdax",
+    "name": "Communauté d'agglomération du Grand Dax"
+  },
+  {
+    "id": "ca-marsan",
+    "name": "Communauté d'agglomération du Marsan"
+  },
+  {
+    "id": "c4r",
+    "name": "Communauté de communes Chalosse Tursan"
+  },
+  {
+    "id": "c4l",
+    "name": "Communauté de Communes Coeur Haute Lande"
+  },
+  {
+    "id": "cc-castets",
+    "name": "Communauté de communes Côte Landes Nature"
+  },
+  {
+    "id": "sivom-amou",
+    "name": "Communauté de communes côteaux et vallées des Luys"
+  },
+  {
+    "id": "cc-aire-sur-ladour",
+    "name": "Communauté de communes d'Aire sur l'Adour"
+  },
+  {
+    "id": "cc-hagetmau",
+    "name": "Communaute de communes de Hagetmau Communes Unies"
+  },
+  {
+    "id": "cc-haute-lande",
+    "name": "Communauté de communes de la Haute Lande"
+  },
+  {
+    "id": "cc-macs",
+    "name": "Communauté de communes de Maremne Adour Côte-Sud"
+  },
+  {
+    "id": "cc-mimizan",
+    "name": "Communauté de communes de Mimizan"
+  },
+  {
+    "id": "cc-pouillon",
+    "name": "Communauté de communes de Pouillon"
+  },
+  {
+    "id": "s8d",
+    "name": "Communauté de communes des Grands Lacs"
+  },
+  {
+    "id": "cc-montfort",
+    "name": "Communauté de communes du canton de Montfort en Chalosse"
+  },
+  {
+    "id": "cc-mugron",
+    "name": "Communauté de Communes du Canton de Mugron"
+  },
+  {
+    "id": "cc-pissos",
+    "name": "Communauté de communes du canton de Pissos"
+  },
+  {
+    "id": "cc-cap-de-gascogne",
+    "name": "Communauté de Communes du Cap de Gascogne"
+  },
+  {
+    "id": "cc-gabarret",
+    "name": "Communauté de communes du Gabardan"
+  },
+  {
+    "id": "cc-pays-albret",
+    "name": "Communauté de communes du Pays d'Albret"
+  },
+  {
+    "id": "cc-pays-orthe",
+    "name": "Communauté de communes du Pays d'Orthe"
+  },
+  {
+    "id": "c4z",
+    "name": "Communauté de communes du Pays d'Orthe et Arrigans"
+  },
+  {
+    "id": "cc-pays-roquefort",
+    "name": "Communauté de communes du Pays de Roquefort"
+  },
+  {
+    "id": "cc-villeneuve",
+    "name": "Communauté de communes du Pays de Villeneuve Armagnac Landais"
+  },
+  {
+    "id": "cc-pays-grenadois",
+    "name": "Communauté de Communes du Pays Grenadois"
+  },
+  {
+    "id": "cc-pays-tarusate",
+    "name": "Communauté de communes du Pays Tarusate"
+  },
+  {
+    "id": "cc-seignanx",
+    "name": "Communauté de Communes du Seignanx"
+  },
+  {
+    "id": "cc-tursan",
+    "name": "Communauté de communes du Tursan"
+  },
+  {
+    "id": "c5a",
+    "name": "Communauté de communes Terres de Chalosse"
+  },
+  {
+    "id": "c2k",
+    "name": "Communauté de comunes Landes Armagnac"
+  },
+  {
+    "id": "cc-morcenx",
+    "name": "Communauté des communes du Pays Morcenais"
+  },
+  {
+    "id": "z6e",
+    "name": "Commune  d'Eugénie-les-Bains"
+  },
+  {
+    "id": "ma-aire-sur-ladour",
+    "name": "Commune d'Aire sur l'Adour"
+  },
+  {
+    "id": "ma-amou",
+    "name": "Commune d'Amou"
+  },
+  {
+    "id": "ma-angoume",
+    "name": "Commune d'Angoumé"
+  },
+  {
+    "id": "ma-angresse",
+    "name": "Commune d'Angresse"
+  },
+  {
+    "id": "c2x",
+    "name": "Commune d'Arboucave"
+  },
+  {
+    "id": "ma-arengosse",
+    "name": "Commune d'Arengosse"
+  },
+  {
+    "id": "y7u",
+    "name": "commune d'ARGELOS"
+  },
+  {
+    "id": "b7f",
+    "name": "commune d'Argelouse"
+  },
+  {
+    "id": "c1p",
+    "name": "Commune d'Arjuzanx"
+  },
+  {
+    "id": "c1g",
+    "name": "Commune d'Arsague"
+  },
+  {
+    "id": "c6f",
+    "name": "Commune d'Artassenx"
+  },
+  {
+    "id": "ma-arthez-armagnac",
+    "name": "Commune d'Arthez d'Armagnac"
+  },
+  {
+    "id": "a9z",
+    "name": "Commune d'Arue"
+  },
+  {
+    "id": "c4m",
+    "name": "Commune d'Arx"
+  },
+  {
+    "id": "ma-aubagnan",
+    "name": "Commune d'Aubagnan"
+  },
+  {
+    "id": "ma-audignon",
+    "name": "Commune d'Audignon"
+  },
+  {
+    "id": "t3y",
+    "name": "Commune d'Audon"
+  },
+  {
+    "id": "ma-aureilhan",
+    "name": "Commune d'Aureilhan"
+  },
+  {
+    "id": "ma-aurice",
+    "name": "Commune d'Aurice"
+  },
+  {
+    "id": "x7c",
+    "name": "commune d'Azur"
+  },
+  {
+    "id": "b6a",
+    "name": "Commune d'ESCALANS"
+  },
+  {
+    "id": "c2y",
+    "name": "Commune d'Habas"
+  },
+  {
+    "id": "ma-habas",
+    "name": "Commune d'Habas"
+  },
+  {
+    "id": "c2m",
+    "name": "commune d'Hauriet"
+  },
+  {
+    "id": "b7z",
+    "name": "Commune d'Herre"
+  },
+  {
+    "id": "b7p",
+    "name": "commune d'Oeyregave"
+  },
+  {
+    "id": "j5k",
+    "name": "commune d'Onard"
+  },
+  {
+    "id": "c2s",
+    "name": "Commune d'Onesse Laharie"
+  },
+  {
+    "id": "b6f",
+    "name": "Commune d'OSSAGES"
+  },
+  {
+    "id": "c1e",
+    "name": "Commune d'Ozourt"
+  },
+  {
+    "id": "b7i",
+    "name": "Commune d'UCHACQ ET PARENTIS"
+  },
+  {
+    "id": "ma-urgons",
+    "name": "Commune d'URGONS"
+  },
+  {
+    "id": "c3f",
+    "name": "Commune d'Uza"
+  },
+  {
+    "id": "ma-ychoux",
+    "name": "Commune d'Ychoux"
+  },
+  {
+    "id": "c5m",
+    "name": "Commune d'Ygos Saint-Saturnin"
+  },
+  {
+    "id": "ma-bahus-soubiran",
+    "name": "Commune de BAHUS SOUBIRAN"
+  },
+  {
+    "id": "ma-baigts-chalosse",
+    "name": "Commune de Baigts"
+  },
+  {
+    "id": "b7w",
+    "name": "commune de Barcelonne du Gers"
+  },
+  {
+    "id": "ma-bas-mauco",
+    "name": "Commune de Bas-Mauco"
+  },
+  {
+    "id": "x8c",
+    "name": "commune de BASCONS"
+  },
+  {
+    "id": "c6o",
+    "name": "Commune de Bassercles"
+  },
+  {
+    "id": "g4h",
+    "name": "Commune de Bastennes"
+  },
+  {
+    "id": "c1f",
+    "name": "Commune de BATS"
+  },
+  {
+    "id": "c5f",
+    "name": "Commune de Baudignan"
+  },
+  {
+    "id": "ma-begaar",
+    "name": "Commune de Begaar"
+  },
+  {
+    "id": "c6m",
+    "name": "Commune de Belhade"
+  },
+  {
+    "id": "c5k",
+    "name": "Commune de Bélis"
+  },
+  {
+    "id": "c2j",
+    "name": "Commune de Belus"
+  },
+  {
+    "id": "ma-benesse-maremne",
+    "name": "Commune de Benesse Maremne"
+  },
+  {
+    "id": "a3z",
+    "name": "Commune de Benesse-les-Dax"
+  },
+  {
+    "id": "q2s",
+    "name": "Commune de Benquet"
+  },
+  {
+    "id": "ma-bergouey",
+    "name": "Commune de Bergouey"
+  },
+  {
+    "id": "c3v",
+    "name": "Commune de Bernède"
+  },
+  {
+    "id": "b5k",
+    "name": "Commune de Betbezer d'Armagnac"
+  },
+  {
+    "id": "b5n",
+    "name": "commune de BEYRIES"
+  },
+  {
+    "id": "b1w",
+    "name": "Commune de Biarrotte"
+  },
+  {
+    "id": "b5y",
+    "name": "Commune de BIAS"
+  },
+  {
+    "id": "ma-biaudos",
+    "name": "Commune de Biaudos"
+  },
+  {
+    "id": "b7e",
+    "name": "Commune de BONNEGARDE"
+  },
+  {
+    "id": "ma-borderes-et-lamensans",
+    "name": "Commune de Bordères et Lamensans"
+  },
+  {
+    "id": "c1u",
+    "name": "Commune de Bostens"
+  },
+  {
+    "id": "ma-bougue",
+    "name": "Commune de Bougue"
+  },
+  {
+    "id": "b1z",
+    "name": "Commune de Bourdalat"
+  },
+  {
+    "id": "ma-bourriot-bergonce",
+    "name": "Commune de Bourriot-Bergonce"
+  },
+  {
+    "id": "b6d",
+    "name": "Commune de Brassempouy"
+  },
+  {
+    "id": "ma-bretagne-de-marsan",
+    "name": "Commune de Bretagne de Marsan"
+  },
+  {
+    "id": "b5u",
+    "name": "Commune de Bretagne-de-Marsan"
+  },
+  {
+    "id": "b5o",
+    "name": "Commune de BROCAS"
+  },
+  {
+    "id": "ma-buanes",
+    "name": "Commune de Buanes"
+  },
+  {
+    "id": "b7q",
+    "name": "Commune de Cachen"
+  },
+  {
+    "id": "f5g",
+    "name": "Commune de Cagnotte"
+  },
+  {
+    "id": "ma-callen",
+    "name": "Commune de Callen"
+  },
+  {
+    "id": "ma-campagne",
+    "name": "Commune de Campagne"
+  },
+  {
+    "id": "c1r",
+    "name": "commune de Campet-et-Lamolère"
+  },
+  {
+    "id": "ma-candresse",
+    "name": "Commune de Candresse"
+  },
+  {
+    "id": "b5g",
+    "name": "Commune de Canenx-et-Reaut"
+  },
+  {
+    "id": "ma-capbreton",
+    "name": "Commune de Capbreton"
+  },
+  {
+    "id": "ma-carcares-sainte-croix",
+    "name": "Commune de Carcares Sainte Croix"
+  },
+  {
+    "id": "ma-carcen-ponson",
+    "name": "Commune de Carcen-Ponson"
+  },
+  {
+    "id": "ma-cassen",
+    "name": "Commune de Cassen"
+  },
+  {
+    "id": "c3r",
+    "name": "Commune de Castaignos-Souslens"
+  },
+  {
+    "id": "c4o",
+    "name": "Commune de Castandet"
+  },
+  {
+    "id": "e2r",
+    "name": "commune de Castel-sarrazin"
+  },
+  {
+    "id": "ma-castelnau-chalosse",
+    "name": "Commune de Castelnau-Chalosse"
+  },
+  {
+    "id": "c3q",
+    "name": "Commune de Castelner"
+  },
+  {
+    "id": "ma-castets",
+    "name": "Commune de Castets"
+  },
+  {
+    "id": "ma-cauna",
+    "name": "Commune de Cauna"
+  },
+  {
+    "id": "c4g",
+    "name": "Commune de Cauneille"
+  },
+  {
+    "id": "o1p",
+    "name": "Commune de Caupenne"
+  },
+  {
+    "id": "c4d",
+    "name": "Commune de Cazalis"
+  },
+  {
+    "id": "u7i",
+    "name": "Commune de Cazeres sur l'Adour"
+  },
+  {
+    "id": "b5d",
+    "name": "Commune de Cère"
+  },
+  {
+    "id": "ma-classun",
+    "name": "Commune de Classun"
+  },
+  {
+    "id": "c3o",
+    "name": "Commune de Clermont"
+  },
+  {
+    "id": "ma-commensacq",
+    "name": "Commune de Commensacq"
+  },
+  {
+    "id": "ma-coudures",
+    "name": "Commune de Coudures"
+  },
+  {
+    "id": "ma-creon-armagnac",
+    "name": "Commune de Créon d'armagnac"
+  },
+  {
+    "id": "b6i",
+    "name": "Commune de DAX"
+  },
+  {
+    "id": "c1s",
+    "name": "Commune de DOAZIT"
+  },
+  {
+    "id": "c1h",
+    "name": "Commune de Donzacq"
+  },
+  {
+    "id": "ma-duhort-bachen",
+    "name": "Commune de Duhort-Bachen"
+  },
+  {
+    "id": "j6k",
+    "name": "Commune de Escource"
+  },
+  {
+    "id": "ma-estibeaux",
+    "name": "Commune de Estibeaux"
+  },
+  {
+    "id": "ma-eyres-moncube",
+    "name": "Commune de Eyres Moncube"
+  },
+  {
+    "id": "c2i",
+    "name": "Commune de Fargues"
+  },
+  {
+    "id": "y3u",
+    "name": "Commune de Gaas"
+  },
+  {
+    "id": "ma-gabarret",
+    "name": "Commune de Gabarret"
+  },
+  {
+    "id": "ma-gailleres",
+    "name": "Commune de Gaillères"
+  },
+  {
+    "id": "b5b",
+    "name": "Commune de Gamarde-Les-Bains"
+  },
+  {
+    "id": "t6y",
+    "name": "Commune de Garein"
+  },
+  {
+    "id": "c1n",
+    "name": "Commune de Garrey"
+  },
+  {
+    "id": "b6g",
+    "name": "Commune de Garrosse"
+  },
+  {
+    "id": "b1p",
+    "name": "Commune de Gastes"
+  },
+  {
+    "id": "ma-gaujacq",
+    "name": "Commune de Gaujacq"
+  },
+  {
+    "id": "h5j",
+    "name": "Commune de Geaune"
+  },
+  {
+    "id": "ma-geloux",
+    "name": "Commune de Geloux"
+  },
+  {
+    "id": "b7u",
+    "name": "Commune de GIBRET"
+  },
+  {
+    "id": "ma-goos",
+    "name": "Commune de GOOS"
+  },
+  {
+    "id": "b7x",
+    "name": "Commune de Gourbera"
+  },
+  {
+    "id": "d3f",
+    "name": "Commune de Gousse"
+  },
+  {
+    "id": "ma-gouts",
+    "name": "Commune de GOUTS"
+  },
+  {
+    "id": "b5c",
+    "name": "Commune de Grenade-sur-l'Adour"
+  },
+  {
+    "id": "ma-hagetmau",
+    "name": "Commune de Hagetmau"
+  },
+  {
+    "id": "b7d",
+    "name": "Commune de HASTINGUES"
+  },
+  {
+    "id": "b1q",
+    "name": "Commune de Haut-Mauco"
+  },
+  {
+    "id": "b1u",
+    "name": "Commune de HERM"
+  },
+  {
+    "id": "ma-herre",
+    "name": "Commune de Herre"
+  },
+  {
+    "id": "ma-heugas",
+    "name": "Commune de Heugas"
+  },
+  {
+    "id": "b6j",
+    "name": "Commune de HINX"
+  },
+  {
+    "id": "c1o",
+    "name": "Commune de Hontanx"
+  },
+  {
+    "id": "ma-horsarrieu",
+    "name": "Commune de Horsarrieu"
+  },
+  {
+    "id": "ma-josse",
+    "name": "Commune de Josse"
+  },
+  {
+    "id": "ma-labastide-armagnac",
+    "name": "Commune de La Bastide d'Armagnac"
+  },
+  {
+    "id": "b5t",
+    "name": "Commune de Labastide-Chalosse"
+  },
+  {
+    "id": "c4x",
+    "name": "Commune de LABATUT"
+  },
+  {
+    "id": "ma-labenne",
+    "name": "Commune de Labenne"
+  },
+  {
+    "id": "ma-labouheyre",
+    "name": "Commune de Labouheyre"
+  },
+  {
+    "id": "b7o",
+    "name": "Commune de Labrit"
+  },
+  {
+    "id": "b5l",
+    "name": "Commune de Lacajunte"
+  },
+  {
+    "id": "r9t",
+    "name": "Commune de LACQUY"
+  },
+  {
+    "id": "b7h",
+    "name": "Commune de Laglorieuse"
+  },
+  {
+    "id": "ma-lahosse",
+    "name": "Commune de Lahosse"
+  },
+  {
+    "id": "ma-laluque",
+    "name": "Commune de Laluque"
+  },
+  {
+    "id": "ma-lamothe",
+    "name": "Commune de Lamothe"
+  },
+  {
+    "id": "c2a",
+    "name": "Commune de Larbey"
+  },
+  {
+    "id": "b5r",
+    "name": "Commune de Larrivière Saint-Savin"
+  },
+  {
+    "id": "c2u",
+    "name": "Commune de Latrille"
+  },
+  {
+    "id": "ma-laurede",
+    "name": "Commune de Laurède"
+  },
+  {
+    "id": "c5o",
+    "name": "Commune de Lauret"
+  },
+  {
+    "id": "c2z",
+    "name": "Commune de Le Frêche"
+  },
+  {
+    "id": "b5e",
+    "name": "Commune de Le LEUY"
+  },
+  {
+    "id": "ma-le-sen",
+    "name": "Commune de Le Sen"
+  },
+  {
+    "id": "ma-le-vignau",
+    "name": "Commune de Le Vignau"
+  },
+  {
+    "id": "c2l",
+    "name": "Commune de Lencouacq"
+  },
+  {
+    "id": "ma-leon",
+    "name": "Commune de Léon"
+  },
+  {
+    "id": "c1b",
+    "name": "Commune de Lesgor"
+  },
+  {
+    "id": "c4i",
+    "name": "Commune de Lesperon"
+  },
+  {
+    "id": "c3s",
+    "name": "Commune de Lévignacq"
+  },
+  {
+    "id": "ma-linxe",
+    "name": "Commune de Linxe"
+  },
+  {
+    "id": "ma-lisposthey",
+    "name": "Commune de Liposthey"
+  },
+  {
+    "id": "c5b",
+    "name": "Commune de Lit-et-Mixe"
+  },
+  {
+    "id": "ma-losse",
+    "name": "Commune de LOSSE"
+  },
+  {
+    "id": "b5s",
+    "name": "Commune de LOUER"
+  },
+  {
+    "id": "c4c",
+    "name": "Commune de Lourquen"
+  },
+  {
+    "id": "a2a",
+    "name": "Commune de Lucbardez et Bargues"
+  },
+  {
+    "id": "ma-lue",
+    "name": "Commune de Lue"
+  },
+  {
+    "id": "n3a",
+    "name": "Commune de Luglon"
+  },
+  {
+    "id": "c3p",
+    "name": "Commune de Lussagnet"
+  },
+  {
+    "id": "ma-luxey",
+    "name": "Commune de Luxey"
+  },
+  {
+    "id": "ma-magescq",
+    "name": "Commune de Magescq"
+  },
+  {
+    "id": "c6s",
+    "name": "Commune de Maillas"
+  },
+  {
+    "id": "b5a",
+    "name": "Commune de Maillères"
+  },
+  {
+    "id": "f2g",
+    "name": "Commune de Mano"
+  },
+  {
+    "id": "b5h",
+    "name": "Commune de Mant"
+  },
+  {
+    "id": "c1c",
+    "name": "Commune de Marpaps"
+  },
+  {
+    "id": "c1i",
+    "name": "Commune de Mauries"
+  },
+  {
+    "id": "b1v",
+    "name": "Commune de Maurrin"
+  },
+  {
+    "id": "p3q",
+    "name": "Commune de Mauvezin d'Armagnac"
+  },
+  {
+    "id": "ma-maylis",
+    "name": "Commune de Maylis"
+  },
+  {
+    "id": "ma-mazerolles",
+    "name": "Commune de Mazerolles"
+  },
+  {
+    "id": "ma-mees",
+    "name": "Commune de Mees"
+  },
+  {
+    "id": "ma-meilhan",
+    "name": "Commune de Meilhan"
+  },
+  {
+    "id": "h6j",
+    "name": "Commune de Messanges"
+  },
+  {
+    "id": "ma-mezos",
+    "name": "Commune de Mézos"
+  },
+  {
+    "id": "s4d",
+    "name": "Commune de Mimbaste"
+  },
+  {
+    "id": "ma-mimizan",
+    "name": "Commune de Mimizan"
+  },
+  {
+    "id": "c5g",
+    "name": "Commune de Miramont-Sensacq"
+  },
+  {
+    "id": "i6o",
+    "name": "Commune de Misson"
+  },
+  {
+    "id": "ma-moliets-et-maa",
+    "name": "Commune de Moliets-et-Maa"
+  },
+  {
+    "id": "b1k",
+    "name": "Commune de MOMUY"
+  },
+  {
+    "id": "c2c",
+    "name": "Commune de Monget"
+  },
+  {
+    "id": "ma-monsegur",
+    "name": "Commune de Monsegur"
+  },
+  {
+    "id": "ma-mont-de-marsan",
+    "name": "Commune de Mont de Marsan"
+  },
+  {
+    "id": "b6e",
+    "name": "Commune de MONTAUT"
+  },
+  {
+    "id": "b1y",
+    "name": "Commune de Montégut"
+  },
+  {
+    "id": "ma-montfort-en-chalosse",
+    "name": "Commune de Montfort en Chalosse"
+  },
+  {
+    "id": "ma-montgaillard",
+    "name": "Commune de Montgaillard"
+  },
+  {
+    "id": "c6h",
+    "name": "Commune de Montsoué"
+  },
+  {
+    "id": "ma-morcenx",
+    "name": "Commune de Morcenx"
+  },
+  {
+    "id": "c6e",
+    "name": "Commune de Morcenx-la-Nouvelle"
+  },
+  {
+    "id": "b6h",
+    "name": "Commune de Morganx"
+  },
+  {
+    "id": "c2d",
+    "name": "Commune de Mouscardès"
+  },
+  {
+    "id": "ma-mugron",
+    "name": "Commune de Mugron"
+  },
+  {
+    "id": "ma-narrosse",
+    "name": "Commune de Narrosse"
+  },
+  {
+    "id": "ma-nassiet",
+    "name": "Commune de Nassiet"
+  },
+  {
+    "id": "r2t",
+    "name": "Commune de Nerbis"
+  },
+  {
+    "id": "c6n",
+    "name": "Commune de Nousse"
+  },
+  {
+    "id": "ma-oeyreluy",
+    "name": "Commune de Oeyreluy"
+  },
+  {
+    "id": "ma-ondres",
+    "name": "Commune de Ondres"
+  },
+  {
+    "id": "ma-orist",
+    "name": "Commune de Orist"
+  },
+  {
+    "id": "ma-orthevielle",
+    "name": "Commune de Orthevielle"
+  },
+  {
+    "id": "ma-orx",
+    "name": "Commune de Orx"
+  },
+  {
+    "id": "ma-ousse-suzan",
+    "name": "Commune de Ousse Suzan"
+  },
+  {
+    "id": "ma-parentis-en-born",
+    "name": "Commune de Parentis en Born"
+  },
+  {
+    "id": "ma-parleboscq",
+    "name": "Commune de Parleboscq"
+  },
+  {
+    "id": "b7l",
+    "name": "Commune de PECORADE"
+  },
+  {
+    "id": "b1r",
+    "name": "Commune de Perquie"
+  },
+  {
+    "id": "ma-pey",
+    "name": "Commune de Pey"
+  },
+  {
+    "id": "b7v",
+    "name": "Commune de Peyre"
+  },
+  {
+    "id": "ma-peyrehorade",
+    "name": "Commune de Peyrehorade"
+  },
+  {
+    "id": "c5p",
+    "name": "Commune de PHILONDENX"
+  },
+  {
+    "id": "b5z",
+    "name": "Commune de PIMBO"
+  },
+  {
+    "id": "ma-pissos",
+    "name": "Commune de Pissos"
+  },
+  {
+    "id": "ma-pomarez",
+    "name": "Commune de Pomarez"
+  },
+  {
+    "id": "ma-pontenx-les-forges",
+    "name": "Commune de Pontenx les Forges"
+  },
+  {
+    "id": "ma-pontonx-sur-ladour",
+    "name": "Commune de Pontonx sur l'Adour"
+  },
+  {
+    "id": "ma-port-de-lanne",
+    "name": "Commune de Port de Lanne"
+  },
+  {
+    "id": "c1k",
+    "name": "Commune de Port-de-Lanne"
+  },
+  {
+    "id": "b5p",
+    "name": "Commune de POUDENX"
+  },
+  {
+    "id": "ma-pouillon",
+    "name": "Commune de Pouillon"
+  },
+  {
+    "id": "ma-pouydesseaux",
+    "name": "Commune de Pouydesseaux"
+  },
+  {
+    "id": "c5v",
+    "name": "Commune de Poyanne"
+  },
+  {
+    "id": "b5i",
+    "name": "Commune de Poyartin"
+  },
+  {
+    "id": "b1a",
+    "name": "Commune de PRECHACQ LES BAINS"
+  },
+  {
+    "id": "c4n",
+    "name": "Commune de Pujo-le-Plan"
+  },
+  {
+    "id": "b1n",
+    "name": "Commune de Puyol-Cazalet"
+  },
+  {
+    "id": "ma-renung",
+    "name": "Commune de Renung"
+  },
+  {
+    "id": "v7b",
+    "name": "Commune de Retjons"
+  },
+  {
+    "id": "b5m",
+    "name": "Commune de Rimbez et Baudiets"
+  },
+  {
+    "id": "ma-rion-des-landes",
+    "name": "Commune de Rion des Landes"
+  },
+  {
+    "id": "ma-riviere-saas-et-gourby",
+    "name": "Commune de Rivière Saas et Gourby"
+  },
+  {
+    "id": "ma-roquefort",
+    "name": "Commune de Roquefort"
+  },
+  {
+    "id": "ma-sabres",
+    "name": "Commune de Sabres"
+  },
+  {
+    "id": "ma-saint-andre-de-seignanx",
+    "name": "Commune de Saint André de Seignanx"
+  },
+  {
+    "id": "ma-saint-aubin",
+    "name": "Commune de Saint Aubin"
+  },
+  {
+    "id": "ma-saint-avit",
+    "name": "Commune de Saint Avit"
+  },
+  {
+    "id": "ma-saint-cricq-chalosse",
+    "name": "Commune de Saint Cricq Chalosse"
+  },
+  {
+    "id": "c3b",
+    "name": "Commune de Saint Cricq du Gave"
+  },
+  {
+    "id": "b7y",
+    "name": "Commune de Saint Etienne d'orthe"
+  },
+  {
+    "id": "ma-geours-de-maremne",
+    "name": "Commune de Saint Geours de Maremne"
+  },
+  {
+    "id": "c4p",
+    "name": "Commune de Saint Jean de Lier"
+  },
+  {
+    "id": "ma-saint-jean-de-marsacq",
+    "name": "Commune de Saint Jean de Marsacq"
+  },
+  {
+    "id": "ma-saint-julien-en-born",
+    "name": "Commune de Saint Julien en Born"
+  },
+  {
+    "id": "ma-saint-justin",
+    "name": "Commune de Saint Justin"
+  },
+  {
+    "id": "ma-saint-lon-les-mines",
+    "name": "Commune de Saint Lon les Mines"
+  },
+  {
+    "id": "ma-saint-loubouer",
+    "name": "Commune de Saint Loubouer"
+  },
+  {
+    "id": "ma-saint-martin-oney",
+    "name": "Commune de Saint Martin d'Oney"
+  },
+  {
+    "id": "ma-saint-martin-de-hinx",
+    "name": "Commune de Saint Martin de Hinx"
+  },
+  {
+    "id": "ma-saint-michel-escalus",
+    "name": "Commune de Saint Michel Escalus"
+  },
+  {
+    "id": "ma-saint-paul-en-born",
+    "name": "Commune de Saint Paul en Born"
+  },
+  {
+    "id": "ma-saint-paul-les-dax",
+    "name": "Commune de Saint Paul lès Dax"
+  },
+  {
+    "id": "ma-saint-pierre-du-mont",
+    "name": "Commune de Saint Pierre du Mont"
+  },
+  {
+    "id": "ma-saint-sever",
+    "name": "Commune de Saint Sever"
+  },
+  {
+    "id": "ma-saint-vincent-de-paul",
+    "name": "Commune de Saint Vincent de Paul"
+  },
+  {
+    "id": "ma-saint-vincent-de-tyrosse",
+    "name": "Commune de Saint Vincent de Tyrosse"
+  },
+  {
+    "id": "ma-saint-yaguen",
+    "name": "Commune de Saint Yaguen"
+  },
+  {
+    "id": "c1y",
+    "name": "Commune de Saint-Agnet"
+  },
+  {
+    "id": "c2p",
+    "name": "Commune de Saint-Barthélémy"
+  },
+  {
+    "id": "b1x",
+    "name": "Commune de Saint-Cricq-Villeneuve"
+  },
+  {
+    "id": "b1o",
+    "name": "Commune de Saint-Gein"
+  },
+  {
+    "id": "c1w",
+    "name": "Commune de Saint-Geours-d'Auribat"
+  },
+  {
+    "id": "b7a",
+    "name": "Commune de Saint-Gor"
+  },
+  {
+    "id": "b1d",
+    "name": "Commune de Saint-Laurent-de-Gosse"
+  },
+  {
+    "id": "c5c",
+    "name": "Commune de Saint-Martin-de-Seignanx"
+  },
+  {
+    "id": "c4a",
+    "name": "Commune de Saint-Maurice-Sur-l'Adour"
+  },
+  {
+    "id": "ma-saint-pandelon",
+    "name": "Commune de Saint-Pandelon"
+  },
+  {
+    "id": "ma-saint-perdon",
+    "name": "Commune de Saint-Perdon"
+  },
+  {
+    "id": "b6b",
+    "name": "Commune de Sainte Colombe"
+  },
+  {
+    "id": "c2h",
+    "name": "Commune de Sainte Eulalie en Born"
+  },
+  {
+    "id": "p9q",
+    "name": "Commune de Sainte-Foy"
+  },
+  {
+    "id": "b7k",
+    "name": "Commune de Sainte-Marie-de-Gosse"
+  },
+  {
+    "id": "b7c",
+    "name": "Commune de SAMADET"
+  },
+  {
+    "id": "ma-sanguinet",
+    "name": "Commune de Sanguinet"
+  },
+  {
+    "id": "b7m",
+    "name": "Commune de SARBAZAN"
+  },
+  {
+    "id": "b1m",
+    "name": "Commune de Sarraziet"
+  },
+  {
+    "id": "b1c",
+    "name": "Commune de Sarron"
+  },
+  {
+    "id": "ma-saubion",
+    "name": "Commune de Saubion"
+  },
+  {
+    "id": "b1b",
+    "name": "Commune de Saubrigues"
+  },
+  {
+    "id": "e4r",
+    "name": "Commune de Saubusse"
+  },
+  {
+    "id": "ma-saugnac-et-cambran",
+    "name": "Commune de Saugnac et Cambran"
+  },
+  {
+    "id": "b1t",
+    "name": "Commune de Saugnac-et-Muret"
+  },
+  {
+    "id": "ma-seignosse",
+    "name": "Commune de Seignosse"
+  },
+  {
+    "id": "i1o",
+    "name": "Commune de Serres-Gaston"
+  },
+  {
+    "id": "ma-serreslous-et-arribans",
+    "name": "Commune de Serreslous-et-Arribans"
+  },
+  {
+    "id": "ma-seyresse",
+    "name": "Commune de Seyresse"
+  },
+  {
+    "id": "c5r",
+    "name": "Commune de Sindères"
+  },
+  {
+    "id": "ma-solferino",
+    "name": "Commune de SOLFERINO"
+  },
+  {
+    "id": "ma-soorts-hossegor",
+    "name": "Commune de Soorts-Hossegor"
+  },
+  {
+    "id": "b5w",
+    "name": "Commune de Sorbets"
+  },
+  {
+    "id": "ma-sorde-labbaye",
+    "name": "Commune de Sorde l'Abbaye"
+  },
+  {
+    "id": "ma-sore",
+    "name": "Commune de Sore"
+  },
+  {
+    "id": "u2i",
+    "name": "Commune de Sort-en-Chalosse"
+  },
+  {
+    "id": "ma-souprosse",
+    "name": "Commune de Souprosse"
+  },
+  {
+    "id": "ma-soustons",
+    "name": "Commune de Soustons"
+  },
+  {
+    "id": "ma-taller",
+    "name": "Commune de Taller"
+  },
+  {
+    "id": "ma-tarnos",
+    "name": "Commune de Tarnos"
+  },
+  {
+    "id": "ma-tartas",
+    "name": "Commune de Tartas"
+  },
+  {
+    "id": "ma-tercis-les-bains",
+    "name": "Commune de Tercis les Bains"
+  },
+  {
+    "id": "ma-tethieu",
+    "name": "Commune de Tethieu"
+  },
+  {
+    "id": "ma-tilh",
+    "name": "Commune de Tilh"
+  },
+  {
+    "id": "ma-tosse",
+    "name": "Commune de Tosse"
+  },
+  {
+    "id": "c6x",
+    "name": "Commune de Toulouzette"
+  },
+  {
+    "id": "c5w",
+    "name": "Commune de Trensacq"
+  },
+  {
+    "id": "ma-vert",
+    "name": "Commune de Vert"
+  },
+  {
+    "id": "c5h",
+    "name": "Commune de Vicq d'Auribat"
+  },
+  {
+    "id": "ma-vielle-saint-girons",
+    "name": "Commune de Vielle Saint Girons"
+  },
+  {
+    "id": "c5s",
+    "name": "Commune de Vielle Soubiran"
+  },
+  {
+    "id": "b1j",
+    "name": "Commune de Vielle-Tursan"
+  },
+  {
+    "id": "a7a",
+    "name": "Commune de Vieux-Boucau-les-Bains"
+  },
+  {
+    "id": "ma-villenave",
+    "name": "Commune de Villenave"
+  },
+  {
+    "id": "ma-villeneuve-de-marsan",
+    "name": "Commune de Villeneuve de Marsan"
+  },
+  {
+    "id": "c3n",
+    "name": "Commune de xxxxxxxxxx"
+  },
+  {
+    "id": "ma-yzosse",
+    "name": "Commune de Yzosse"
+  },
+  {
+    "id": "c5x",
+    "name": "Commune TTTTTT"
+  },
+  {
+    "id": "c5l",
+    "name": "Commune TTTTTTTT"
+  },
+  {
+    "id": "c3t",
+    "name": "Commune YYYY"
+  },
+  {
+    "id": "c6v",
+    "name": "Conservatoire des Landes"
+  },
+  {
+    "id": "c2f",
+    "name": "COTE LANDES NATURE TOURISME"
+  },
+  {
+    "id": "cg40",
+    "name": "Département des Landes"
+  },
+  {
+    "id": "b7t",
+    "name": "DFCI des Landes"
+  },
+  {
+    "id": "mr-roquefort",
+    "name": "E.H.P.A.D. de Roquefort"
+  },
+  {
+    "id": "c6c",
+    "name": "EHPAD Bernard Lesgourgues"
+  },
+  {
+    "id": "c5q",
+    "name": "EHPAD L'OREE DES PINS"
+  },
+  {
+    "id": "lf-mimizan",
+    "name": "EHPAD MIMIZAN"
+  },
+  {
+    "id": "c6q",
+    "name": "ENERLANDES"
+  },
+  {
+    "id": "formation",
+    "name": "ENTITE DE TEST-FORMATION"
+  },
+  {
+    "id": "epfl",
+    "name": "EPFL Landes Foncier"
+  },
+  {
+    "id": "legta-hector-serres",
+    "name": "EPLEFPA des LANDES"
+  },
+  {
+    "id": "c5z",
+    "name": "GIP Agrolandes Développement"
+  },
+  {
+    "id": "c5j",
+    "name": "GIP Grand Dax Développement"
+  },
+  {
+    "id": "c6a",
+    "name": "GIP Pays Adour Landes Océanes"
+  },
+  {
+    "id": "v9b",
+    "name": "Groupement de commandes pour la réalisation d'aires de dépôt sur le littoral landais"
+  },
+  {
+    "id": "institution-adour",
+    "name": "Institution Adour"
+  },
+  {
+    "id": "c4e",
+    "name": "Ligue Côte Basque Béarn Landes de Tennis"
+  },
+  {
+    "id": "b7s",
+    "name": "Logement foyer de Parentis"
+  },
+  {
+    "id": "b7g",
+    "name": "Maison d'accueil Spécialisée"
+  },
+  {
+    "id": "c4q",
+    "name": "Maison d'Enfants Castillon"
+  },
+  {
+    "id": "mr-capbreton",
+    "name": "Maison de retraite Bernard LESGOURGUES"
+  },
+  {
+    "id": "b1e",
+    "name": "Maison de retraite de Gabarret"
+  },
+  {
+    "id": "mr-gamarde",
+    "name": "Maison de retraite de Gamarde"
+  },
+  {
+    "id": "mr-montfort-en-chalosse",
+    "name": "Maison de retraite de Montfort en Chalosse"
+  },
+  {
+    "id": "mr-mugron",
+    "name": "Maison de retraite de Mugron"
+  },
+  {
+    "id": "mr-pontonx",
+    "name": "Maison de retraite de Pontonx-sur-l'Adour"
+  },
+  {
+    "id": "c6t",
+    "name": "Maison de retraite Ehpad de Tartas"
+  },
+  {
+    "id": "mr-st-martin-de-seignanx",
+    "name": "Maison de retraite Léon Lafourcade"
+  },
+  {
+    "id": "c1v",
+    "name": "Office du Tourisme du Marsan"
+  },
+  {
+    "id": "c6i",
+    "name": "Office Intercommunal de Tourisme et du Thermalisme du Grand Dax"
+  },
+  {
+    "id": "opdhlm40",
+    "name": "Office Public de l'habitat du département des Landes"
+  },
+  {
+    "id": "testcreaorga",
+    "name": "orgatest"
+  },
+  {
+    "id": "pact",
+    "name": "PETR ADOUR CHALOSSE TURSAN"
+  },
+  {
+    "id": "c4y",
+    "name": "Pôle Equilibre Territorial et Rural Adour Chalosse Tursan"
+  },
+  {
+    "id": "b5v",
+    "name": "Pôle Gériatrique du Pays des Sources"
+  },
+  {
+    "id": "c5n",
+    "name": "Pôle Haute Lande"
+  },
+  {
+    "id": "c4t",
+    "name": "Régie Camping Municipal de Capbreton"
+  },
+  {
+    "id": "sahlm",
+    "name": "S.A. D'H.L.M. DES LANDES"
+  },
+  {
+    "id": "b7n",
+    "name": "S.I.E.A.M. de Soustons"
+  },
+  {
+    "id": "satel",
+    "name": "SATEL"
+  },
+  {
+    "id": "sdis40",
+    "name": "Service Départemental d'Incendie et de Secours des Landes (SDIS)"
+  },
+  {
+    "id": "siaep-tarnos",
+    "name": "SIAEP Boucau Tarnos Ondres Saint Martin de Seignanx"
+  },
+  {
+    "id": "siaep-parentis",
+    "name": "SIAEP de Parentis en Born"
+  },
+  {
+    "id": "c6u",
+    "name": "SIAEP Onesse Laharie"
+  },
+  {
+    "id": "sictom-du-marsan",
+    "name": "SICTOM du Marsan"
+  },
+  {
+    "id": "sietom-chalosse",
+    "name": "SIETOM de Chalosse"
+  },
+  {
+    "id": "sinel-labastide",
+    "name": "SINEL"
+  },
+  {
+    "id": "sitcom-cote-sud",
+    "name": "SITCOM Côte Sud des Landes"
+  },
+  {
+    "id": "sivom-cote-sud",
+    "name": "SIVOM Côte Sud"
+  },
+  {
+    "id": "sivom-parentis-en-born",
+    "name": "SIVOM des cantons du Pays de Born"
+  },
+  {
+    "id": "c6k",
+    "name": "SIVOM du Born"
+  },
+  {
+    "id": "c5u",
+    "name": "SIVU ACG Adour Midouze"
+  },
+  {
+    "id": "c4s",
+    "name": "SIVU des Chenaies de l'Adour"
+  },
+  {
+    "id": "sivu-ecole-tursan",
+    "name": "SIVU des écoles du Tursan"
+  },
+  {
+    "id": "sivu-pedago-marensin",
+    "name": "SIVU PEDAGOGIQUE DU MARENSIN"
+  },
+  {
+    "id": "c6r",
+    "name": "SIVU RPI Bas Adour Landais"
+  },
+  {
+    "id": "b7j",
+    "name": "SIVU RPI Garrosse Sinderes Arjuzanx"
+  },
+  {
+    "id": "b1g",
+    "name": "SIVU RPI Hastingues-Sames"
+  },
+  {
+    "id": "c1d",
+    "name": "SIVU RPI Heugas St pandelon"
+  },
+  {
+    "id": "c5e",
+    "name": "SIVU RPI Miramont Sensacq"
+  },
+  {
+    "id": "sivu-narrosse-candresse-yzosse",
+    "name": "SIVU RPI NARROSSE CANDRESSE YZOSSE"
+  },
+  {
+    "id": "b5q",
+    "name": "SIVU RPI ST PAUL EN BORN AUREILHAN"
+  },
+  {
+    "id": "b5j",
+    "name": "SIVU Scolaire St Cricq Chalosse"
+  },
+  {
+    "id": "c2w",
+    "name": "SIVU Vallée des Longs"
+  },
+  {
+    "id": "c4j",
+    "name": "Société Public Local SOGITCS"
+  },
+  {
+    "id": "sydec40",
+    "name": "SYDEC"
+  },
+  {
+    "id": "sy-dechet-morcenx",
+    "name": "Syndicat d'élimination des déchets de la Haute Lande"
+  },
+  {
+    "id": "c3z",
+    "name": "Syndicat de la Haute Chalosse"
+  },
+  {
+    "id": "sy-siaep-arbouts",
+    "name": "Syndicat des Arbouts"
+  },
+  {
+    "id": "c6b",
+    "name": "Syndicat des bassins versants du Gabas, du Louts et du Bahus"
+  },
+  {
+    "id": "c5i",
+    "name": "Syndicat des eaux du MARSEILLON et du TURSAN"
+  },
+  {
+    "id": "c3l",
+    "name": "Syndicat des Eaux du Tursan"
+  },
+  {
+    "id": "sy-eschourdes",
+    "name": "Syndicat des Eschourdes"
+  },
+  {
+    "id": "c6l",
+    "name": "Syndicat du Bassin Versant des Luys"
+  },
+  {
+    "id": "c3y",
+    "name": "Syndicat du Midou et de la Douze"
+  },
+  {
+    "id": "sy-siaep-mugron",
+    "name": "Syndicat Intercommunal d'adduction en eau potable de Mugron"
+  },
+  {
+    "id": "courant-huchet",
+    "name": "Syndicat Intercommunal d'Aménagement et de Gestion de la Réserve Naturelle du Courant d'Huchet"
+  },
+  {
+    "id": "sy-basse-vallee-adour",
+    "name": "Syndicat Intercommunal de la Basse Vallée de l'Adour"
+  },
+  {
+    "id": "sipep-angresse",
+    "name": "Syndicat Intercommunal de Production d'Eau Potable (SIPEP Côte Sud)"
+  },
+  {
+    "id": "sy-marseillon",
+    "name": "Syndicat Intercommunal des Eaux du Marseillon"
+  },
+  {
+    "id": "c2b",
+    "name": "Syndicat Intercommunal du Luy Aval"
+  },
+  {
+    "id": "q3s",
+    "name": "Syndicat Intercommunal du Port d'ALBRET"
+  },
+  {
+    "id": "c2t",
+    "name": "Syndicat Intercommunal Irrigation Meilhan"
+  },
+  {
+    "id": "sy-assain-vallee-moyenne",
+    "name": "Syndicat Intercommunal Moyen Adour Landais"
+  },
+  {
+    "id": "c2r",
+    "name": "Syndicat Intercommunal Regroupement Pédagogique des Sources"
+  },
+  {
+    "id": "c5t",
+    "name": "Syndicat Mixte  Parc Régional Landes de Gascogne"
+  },
+  {
+    "id": "c3k",
+    "name": "Syndicat Mixte Adour Chalosse Tursan"
+  },
+  {
+    "id": "c0z",
+    "name": "Syndicat Mixte Adour Chalosse Tursan"
+  },
+  {
+    "id": "c3c",
+    "name": "Syndicat mixte AGROLANDES"
+  },
+  {
+    "id": "g5h",
+    "name": "Syndicat mixte Aménagement Développement Pôle Eco et Habitat du Grand Dax-Sud"
+  },
+  {
+    "id": "c3g",
+    "name": "Syndicat Mixte Aménagement du Parc Ferroviaire Départemental de Laluque"
+  },
+  {
+    "id": "c1z",
+    "name": "Syndicat mixte d'aménagement des Landes d'Armagnac"
+  },
+  {
+    "id": "sy-aerodrome-hydrobase-bisca",
+    "name": "Syndicat Mixte d'Etudes d'Aménagement de l'Aérodrome et hydrobase de Biscarrosse Parentis"
+  },
+  {
+    "id": "b5f",
+    "name": "Syndicat mixte de gestion des baignades landaises"
+  },
+  {
+    "id": "sy-milieu-naturel",
+    "name": "Syndicat Mixte de Gestion des Milieux Naturels"
+  },
+  {
+    "id": "c2e",
+    "name": "Syndicat mixte de la Haute Lande"
+  },
+  {
+    "id": "sy-riviere-bourret-baudigau",
+    "name": "Syndicat Mixte de rivières Côte Sud"
+  },
+  {
+    "id": "c3d",
+    "name": "Syndicat Mixte de rivières de marensin et du Born"
+  },
+  {
+    "id": "sm-sauvegarde-etangs",
+    "name": "Syndicat Mixte de sauvegarde et de gestion des étangs landais"
+  },
+  {
+    "id": "c1l",
+    "name": "Syndicat Mixte des Berges du Bas Adour"
+  },
+  {
+    "id": "sy-amenag-eco-seignanx",
+    "name": "Syndicat Mixte des Parcs d'Activités Economiques du Seignanx"
+  },
+  {
+    "id": "c2n",
+    "name": "Syndicat mixte des rivières du bassin de l'adour landais"
+  },
+  {
+    "id": "sy-sm-moliets-messanges",
+    "name": "Syndicat Mixte des zones d'aménagement touristiques concertées de Moliets et Maâ"
+  },
+  {
+    "id": "b1h",
+    "name": "Syndicat Mixte du Bassin Versant de la Midouze"
+  },
+  {
+    "id": "c4h",
+    "name": "Syndicat Mixte du Bassin Versants des Lacs du Born"
+  },
+  {
+    "id": "c4f",
+    "name": "Syndicat Mixte du Chenil De Birepoulet"
+  },
+  {
+    "id": "c4u",
+    "name": "Syndicat Mixte du littoral landais"
+  },
+  {
+    "id": "sy-industrialisation-sore",
+    "name": "Syndicat Mixte du Pays d'Albret"
+  },
+  {
+    "id": "c1q",
+    "name": "Syndicat Mixte du Pays d'Orthe"
+  },
+  {
+    "id": "c2o",
+    "name": "Syndicat mixte du Pays Landes Nature Côte d'Argent"
+  },
+  {
+    "id": "sy-sm-pays-tyrossais",
+    "name": "Syndicat Mixte du Pays Tyrossais"
+  },
+  {
+    "id": "c6d",
+    "name": "Syndicat Mixte EMMA"
+  },
+  {
+    "id": "c4w",
+    "name": "Syndicat mixte Haute-Lande Industrialisation"
+  },
+  {
+    "id": "c3m",
+    "name": "Syndicat Mixte Irrigadour"
+  },
+  {
+    "id": "sy-port-albret",
+    "name": "Syndicat Mixte Landes Océanes"
+  },
+  {
+    "id": "sy-abesse",
+    "name": "Syndicat Mixte pour l'Aménagement du Parc d'Abesse"
+  },
+  {
+    "id": "sy-tourist-loisir-arjuzanx",
+    "name": "Syndicat Mixte pour l'aménagement et la gestion d'une zone touristique et de loisirs sur Arjuzanx"
+  },
+  {
+    "id": "sy-zae-st-geours-maremne",
+    "name": "Syndicat Mixte pour l'Aménagement et la Gestion de la ZAE de Saint Geours de Maremne"
+  },
+  {
+    "id": "b7r",
+    "name": "Syndicat mixte restructuration zone d'activité de Pedebert Soorts-Hossegor"
+  },
+  {
+    "id": "c1x",
+    "name": "Syndicat mixte SCOT du Born"
+  },
+  {
+    "id": "c3e",
+    "name": "Syndicat Scolaire du Bas Armagnac"
+  },
+  {
+    "id": "c6g",
+    "name": "Village Landais Alzheimer"
+  }
+]
