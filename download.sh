@@ -69,7 +69,7 @@ do
         fi
 
 	# Petite pause pour laisser respirer le serveur
-	sleep 0.5
+	sleep 0.3
     done
 
 done
