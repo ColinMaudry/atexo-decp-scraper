@@ -27,11 +27,3 @@ jobs:
       - name: Download and publish DECP
         run: |
           ./download-many.sh
-
-      - name: Push updated disponibilites-donnees.csv
-        run: |
-          git config user.email "colin@maudry.com"
-          git config user.name "Colin Maudry"
-          git add disponibilite-donnees.csv
-          git commit -m "Updated"
-          git push origin master
