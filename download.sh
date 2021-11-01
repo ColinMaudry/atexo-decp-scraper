@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# fail on error
+set -e
+
 plateforme="$1"
 baseurl=""
 
@@ -33,6 +36,7 @@ mv temp.csv disponibilite-donnees.csv
 
 mkdir -p $xmldir/vides
 mkdir $xmldir/html
+tempxml=xml/temp_${plateforme}.xml
 
 for id in `jq -r '.[] | .id' acheteurs/${plateforme}.json`
 do
@@ -45,27 +49,31 @@ do
 
         url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
 
-        tempxml=xml/temp.xml
-
         date=`date +%Y-%m-%dT%H:%M:%S`
 
         curl "$url" > $tempxml 2> /dev/null
 
         # Vérification que
         # - le XML n'est pas vide
-        if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
+
+        if [[ -f $tempxml ]]
         then
-            mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
-        # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
-        elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
-        then
-            mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+          if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
+          then
+              mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
+              echo "$plateforme,\"$nom\",$annee,0,$date" >> disponibilite-donnees.csv
+          # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
+          elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
+          then
+              mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
+              echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+          else
+              num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
+              mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
+              echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+          fi
         else
-            num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
-            mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
-            echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+          echo "No temp.xml"
         fi
 
 	# Petite pause pour laisser respirer le serveur
