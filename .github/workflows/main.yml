@@ -27,3 +27,9 @@ jobs:
       - name: Download and publish DECP
         run: |
           ./download-many.sh
+      - name: Commit and push disponibilite-donnees.csv
+          git config user.name "GitHub actions bot"
+          git config user.email "<>"
+          git add disponibilite-donnees.csv
+          git commit -m "Update"
+          git push origin master
