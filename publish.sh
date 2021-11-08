@@ -28,9 +28,9 @@ echo "resource_id: $resource_id"
 
 # Téléversement
 
-if [[ -f "$adsRoot/xml/${plateforme}_${date}.xml" ]]
+if [[ -f "xml/${plateforme}_${date}.xml" ]]
     then
-    success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@${adsRoot}/xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
+    success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
     echo ".success : $success"
     if [[ ! $success == "true" ]]
     then
