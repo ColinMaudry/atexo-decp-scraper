@@ -51,7 +51,7 @@ do
 
         date=`date +%Y-%m-%dT%H:%M:%S`
 
-        curl "$url" > $tempxml 2> /dev/null
+        curl "$url" --connect-timeout 10 --max-time 60 > $tempxml 2> /dev/null
 
         # Vérification que
         # - le XML n'est pas vide

@@ -18,6 +18,6 @@ do
       echo ""
 
 
-      ./processPlatform.sh "$name" "$date" &
+      ./processPlatform.sh "$name" "$date"
   fi
 done < plateformes.csv
