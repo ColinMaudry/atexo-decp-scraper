@@ -17,7 +17,11 @@
   },
   {
     "id": "ad_293",
-    "name": "Centre Communal d'Action Social de Meximieux"
+    "name": "Centre Communal d'Action Sociale de Meximieux"
+  },
+  {
+    "id": "ad_323",
+    "name": "Centre Communal d'Action Sociale de Montluel"
   },
   {
     "id": "ad_003",
@@ -116,6 +120,10 @@
     "name": "Commune d'Ozan"
   },
   {
+    "id": "ad_313",
+    "name": "Commune d'Argis"
+  },
+  {
     "id": "ad_159",
     "name": "Commune d'Evosges"
   },
@@ -157,7 +165,7 @@
   },
   {
     "id": "ad_273",
-    "name": "Commune de Béligneux "
+    "name": "Commune de Béligneux"
   },
   {
     "id": "ad_021",
@@ -232,6 +240,10 @@
     "name": "Commune de Briord"
   },
   {
+    "id": "ad_317",
+    "name": "Commune de Ceignes"
+  },
+  {
     "id": "ad_032",
     "name": "Commune de Cerdon"
   },
@@ -254,6 +266,10 @@
   {
     "id": "ad_035",
     "name": "Commune de Chaleins"
+  },
+  {
+    "id": "ma-chaley",
+    "name": "Commune de Chaley"
   },
   {
     "id": "ad_036",
@@ -284,6 +300,10 @@
     "name": "Commune de Chaneins"
   },
   {
+    "id": "ma-chanoz-chatenay",
+    "name": "Commune de Chanoz-Chatenay"
+  },
+  {
     "id": "ad_041",
     "name": "Commune de Château-Gaillard"
   },
@@ -310,6 +330,10 @@
   {
     "id": "ad_207",
     "name": "Commune de Chavornay"
+  },
+  {
+    "id": "ad_308",
+    "name": "Commune de Chazey-Bons"
   },
   {
     "id": "ad_047",
@@ -346,6 +370,10 @@
   {
     "id": "ad_050",
     "name": "Commune de Confort"
+  },
+  {
+    "id": "ad_316",
+    "name": "Commune de Confrançon"
   },
   {
     "id": "ad_305",
@@ -414,6 +442,10 @@
   {
     "id": "ad_255",
     "name": "Commune de Fareins"
+  },
+  {
+    "id": "ma-ferney-voltaire",
+    "name": "Commune de Ferney Voltaire"
   },
   {
     "id": "ad_235",
@@ -549,7 +581,11 @@
   },
   {
     "id": "ad_284",
-    "name": "Commune de Marlieux "
+    "name": "Commune de Marlieux"
+  },
+  {
+    "id": "ad_309",
+    "name": "Commune de Marsonnas"
   },
   {
     "id": "ad_084",
@@ -613,7 +649,7 @@
   },
   {
     "id": "ad_278",
-    "name": "Commune de Murs et Gélignieux "
+    "name": "Commune de Murs et Gélignieux"
   },
   {
     "id": "ad_093",
@@ -622,6 +658,10 @@
   {
     "id": "ad_201",
     "name": "Commune de Neuville Les Dames"
+  },
+  {
+    "id": "ad_307",
+    "name": "Commune de Neuville sur Ain"
   },
   {
     "id": "ad_094",
@@ -768,6 +808,10 @@
     "name": "Commune de Saint Didier sur Chalaronne"
   },
   {
+    "id": "ad_319",
+    "name": "Commune de Saint Etienne du Bois"
+  },
+  {
     "id": "ad_114",
     "name": "Commune de Saint Etienne sur Chalaronne"
   },
@@ -806,6 +850,10 @@
   {
     "id": "ad_128",
     "name": "Commune de Saint Julien sur Reyssouze"
+  },
+  {
+    "id": "ad_310",
+    "name": "Commune de Saint Just"
   },
   {
     "id": "ad_242",
@@ -908,6 +956,10 @@
     "name": "Commune de Serrières de Briord"
   },
   {
+    "id": "ad_320",
+    "name": "Commune de Serrières sur Ain"
+  },
+  {
     "id": "ad_231",
     "name": "Commune de Servas"
   },
@@ -974,6 +1026,10 @@
   {
     "id": "ad_257",
     "name": "Commune de Val Revermont"
+  },
+  {
+    "id": "ad_315",
+    "name": "Commune de Valromey sur Séran"
   },
   {
     "id": "ad_274",
@@ -1048,6 +1104,10 @@
     "name": "Commune de Vonnas"
   },
   {
+    "id": "ad_311",
+    "name": "Commune Le Plantay"
+  },
+  {
     "id": "ad_001",
     "name": "Département de l'Ain"
   },
@@ -1082,6 +1142,14 @@
   {
     "id": "ad_227",
     "name": "Régie Départementale Naturain"
+  },
+  {
+    "id": "ad_314",
+    "name": "SAEM Plaine de l'Ain Développement"
+  },
+  {
+    "id": "ad_312",
+    "name": "SAEM Promobourg"
   },
   {
     "id": "ad_228",
@@ -1128,6 +1196,10 @@
     "name": "SIVOS de Bourg Saint Christophe - Pérouges"
   },
   {
+    "id": "ad_318",
+    "name": "SIVOS du RPI Lescheroux / Mantenay-Montlin / St Jean sur Reyssouze / St Julien sur Reyssouze"
+  },
+  {
     "id": "ad_179",
     "name": "SIVU de Bâgé le Chatel"
   },
@@ -1161,7 +1233,7 @@
   },
   {
     "id": "ad_233",
-    "name": "Syndicat des Rivières Dombes Chalaronne Bords de Saône "
+    "name": "Syndicat des Rivières Dombes Chalaronne Bords de Saône"
   },
   {
     "id": "ad_185",
@@ -1201,7 +1273,7 @@
   },
   {
     "id": "ad_193",
-    "name": "Syndicat Mixte du SCoT Bresse Val de Saône "
+    "name": "Syndicat Mixte du SCoT Bresse Val de Saône"
   },
   {
     "id": "ad_194",

@@ -20,6 +20,10 @@
     "name": "Centre Communal d'Action Sociale de Meximieux"
   },
   {
+    "id": "ad_323",
+    "name": "Centre Communal d'Action Sociale de Montluel"
+  },
+  {
     "id": "ad_003",
     "name": "Centre de gestion de la fonction publique territoriale de l'Ain"
   },
@@ -264,6 +268,10 @@
     "name": "Commune de Chaleins"
   },
   {
+    "id": "ma-chaley",
+    "name": "Commune de Chaley"
+  },
+  {
     "id": "ad_036",
     "name": "Commune de Challes la Montagne"
   },
@@ -434,6 +442,10 @@
   {
     "id": "ad_255",
     "name": "Commune de Fareins"
+  },
+  {
+    "id": "ma-ferney-voltaire",
+    "name": "Commune de Ferney Voltaire"
   },
   {
     "id": "ad_235",

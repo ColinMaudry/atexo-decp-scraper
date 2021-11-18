@@ -4,6 +4,10 @@
     "name": "Agence Régionale de la Biodiversité Centre Val de Loire"
   },
   {
+    "id": "b4x",
+    "name": "Associaiton CARIF OREF"
+  },
+  {
     "id": "c2d",
     "name": "CCAS de Fondettes"
   },
@@ -84,6 +88,10 @@
     "name": "Commune d'"
   },
   {
+    "id": "b4v",
+    "name": "Commune d'Aillant-sur-Milleron"
+  },
+  {
     "id": "b2c",
     "name": "commune d'Ambillou"
   },
@@ -112,6 +120,14 @@
     "name": "Commune de Bazoches en Dunois"
   },
   {
+    "id": "b4u",
+    "name": "commune de Beaune-la-Rolande"
+  },
+  {
+    "id": "b4y",
+    "name": "Commune de Blancafort"
+  },
+  {
     "id": "b1p",
     "name": "Commune de Bourgueil"
   },
@@ -126,6 +142,10 @@
   {
     "id": "b1r",
     "name": "Commune de Chapelon"
+  },
+  {
+    "id": "b2x",
+    "name": "Commune de Chassignolles"
   },
   {
     "id": "b0f",
@@ -204,6 +224,10 @@
     "name": "Commune de Larçay"
   },
   {
+    "id": "b4a",
+    "name": "Commune de Loigny-la-Bataille"
+  },
+  {
     "id": "b2p",
     "name": "Commune de Lumeau"
   },
@@ -256,6 +280,10 @@
     "name": "Commune de Pithiviers le Viel"
   },
   {
+    "id": "b4s",
+    "name": "Commune de Pré-saint-Evroult"
+  },
+  {
     "id": "b0e",
     "name": "Commune de Rozoy Le Vieil"
   },
@@ -284,12 +312,24 @@
     "name": "Commune de Saint Ouen Les Vignes"
   },
   {
+    "id": "b4r",
+    "name": "Commune de Saint-Martin-d'Auxigny"
+  },
+  {
+    "id": "b4t",
+    "name": "Commune de Saint-Martin-le-Beau"
+  },
+  {
     "id": "b1w",
     "name": "Commune de Sainte Geneviève des Bois"
   },
   {
     "id": "c2s",
     "name": "Commune de Sainte-Maure-de-Touraine"
+  },
+  {
+    "id": "b3s",
+    "name": "Commune de Souvigné"
   },
   {
     "id": "b2z",
@@ -366,6 +406,10 @@
   {
     "id": "p2q",
     "name": "Mairie"
+  },
+  {
+    "id": "b4w",
+    "name": "Mairie de la Marolle-en-Sologne"
   },
   {
     "id": "b0d",

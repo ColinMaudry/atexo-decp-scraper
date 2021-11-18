@@ -208,6 +208,10 @@
     "name": "Communauté de Communes du Ried de Marckolsheim"
   },
   {
+    "id": "c1a",
+    "name": "Communauté de Communes Sud Alsace LARGUE"
+  },
+  {
     "id": "b2y",
     "name": "Communauté Emmaüs Scherwiller"
   },
@@ -522,6 +526,10 @@
   {
     "id": "r8t",
     "name": "Commune de CHÂTENOIS"
+  },
+  {
+    "id": "b9r",
+    "name": "Commune de CHAVANNES SUR L'ETANG"
   },
   {
     "id": "b4i",
@@ -912,6 +920,10 @@
     "name": "Commune de La Broque"
   },
   {
+    "id": "b9z",
+    "name": "Commune de La Vancelle"
+  },
+  {
     "id": "t6e",
     "name": "Commune de LA WANTZENAU"
   },
@@ -1006,6 +1018,10 @@
   {
     "id": "a8t",
     "name": "Commune de Menchhoffen"
+  },
+  {
+    "id": "b9y",
+    "name": "Commune de MERKWILLER-PECHELBRONN"
   },
   {
     "id": "b2s",
@@ -1120,6 +1136,10 @@
     "name": "Commune de NIEDERROEDERN"
   },
   {
+    "id": "c1f",
+    "name": "Commune de Niedersteinbach"
+  },
+  {
     "id": "n2e",
     "name": "Commune de NORDHOUSE"
   },
@@ -1166,6 +1186,10 @@
   {
     "id": "b7x",
     "name": "Commune de RAUWILLER"
+  },
+  {
+    "id": "c1b",
+    "name": "Commune de REICHSFELD"
   },
   {
     "id": "b5v",
@@ -1242,6 +1266,10 @@
   {
     "id": "b5r",
     "name": "Commune de ROTTELSHEIM"
+  },
+  {
+    "id": "b9s",
+    "name": "Commune de RUSS"
   },
   {
     "id": "b3t",
@@ -1332,6 +1360,10 @@
     "name": "Commune de Schirrhoffen"
   },
   {
+    "id": "b9x",
+    "name": "Commune de SCHLEITHAL"
+  },
+  {
     "id": "a4o",
     "name": "Commune de Schoenau"
   },
@@ -1374,6 +1406,14 @@
   {
     "id": "a8u",
     "name": "Commune de Soufflenheim"
+  },
+  {
+    "id": "c1e",
+    "name": "Commune de Soultz-sous-Forêts"
+  },
+  {
+    "id": "b9q",
+    "name": "Commune de STATTMATTEN"
   },
   {
     "id": "b0t",
@@ -1430,6 +1470,10 @@
   {
     "id": "b6p",
     "name": "Commune de VAL DE MODER"
+  },
+  {
+    "id": "c1d",
+    "name": "Commune de Valdieu-Lutran"
   },
   {
     "id": "a5o",
@@ -1556,6 +1600,10 @@
     "name": "Commune de WITTERSHEIM"
   },
   {
+    "id": "b9o",
+    "name": "Commune de WITTISHEIM"
+  },
+  {
     "id": "b3k",
     "name": "Commune de WIWERSHEIM"
   },
@@ -1598,6 +1646,10 @@
   {
     "id": "n2a",
     "name": "Commune du HOHWALD"
+  },
+  {
+    "id": "b9u",
+    "name": "COMMUNE D’ETTENDORF"
   },
   {
     "id": "b5t",
@@ -1650,6 +1702,10 @@
   {
     "id": "b1s",
     "name": "EHPAD le Manoir"
+  },
+  {
+    "id": "b9n",
+    "name": "EHPAD LES FRAXINELLES"
   },
   {
     "id": "b1a",
@@ -1792,6 +1848,10 @@
     "name": "Mairie de Durningen"
   },
   {
+    "id": "b9w",
+    "name": "MAIRIE DE KINDWILLER"
+  },
+  {
     "id": "b7m",
     "name": "MAISON DE SANTÉ AMRESO BÉTHEL"
   },
@@ -1854,6 +1914,10 @@
   {
     "id": "b7t",
     "name": "Résidence de la Weiss"
+  },
+  {
+    "id": "b9t",
+    "name": "Résidences  médicalisées du Canton Vert"
   },
   {
     "id": "b4k",
@@ -1960,6 +2024,10 @@
     "name": "SIVU du Honcourt"
   },
   {
+    "id": "b9v",
+    "name": "SIVU PISCINE DE DRACHENBRONN-BIRLENBACH"
+  },
+  {
     "id": "d8s",
     "name": "SMICTOMME"
   },
@@ -2046,6 +2114,10 @@
   {
     "id": "a7h",
     "name": "Syndicat Intercommunal d'Adduction d'Eau Potable du Canton de Woerth"
+  },
+  {
+    "id": "c1g",
+    "name": "Syndicat Intercommunal de l'Eau et de l'Assainissement de la Région de Riedseltz"
   },
   {
     "id": "b3u",

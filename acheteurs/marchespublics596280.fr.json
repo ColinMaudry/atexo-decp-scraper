@@ -8,6 +8,10 @@
     "name": "Abbeville"
   },
   {
+    "id": "b9u",
+    "name": "ABLAINZEVELLE"
+  },
+  {
     "id": "62-0002",
     "name": "ABLAINZEVELLE"
   },
@@ -41,7 +45,7 @@
   },
   {
     "id": "62-0010",
-    "name": "ACQ SIVU RPI "
+    "name": "ACQ SIVU RPI"
   },
   {
     "id": "62-0012",
@@ -56,8 +60,20 @@
     "name": "ADUS"
   },
   {
+    "id": "c2e",
+    "name": "AFAFAF DE WAILLY LES ARRAS"
+  },
+  {
+    "id": "c1g",
+    "name": "AFFRINGUES"
+  },
+  {
     "id": "62-0014",
     "name": "AFFRINGUES"
+  },
+  {
+    "id": "b6d",
+    "name": "AFUP du Petit Prince"
   },
   {
     "id": "62-0015",
@@ -168,6 +184,10 @@
     "name": "ALLOUAGNE"
   },
   {
+    "id": "c2p",
+    "name": "ALLOUAGNE"
+  },
+  {
     "id": "62-0036",
     "name": "ALQUINES"
   },
@@ -202,10 +222,6 @@
   {
     "id": "b3d",
     "name": "Amiens Aménagement"
-  },
-  {
-    "id": "b3e",
-    "name": "Amiens Développement"
   },
   {
     "id": "62-0045",
@@ -312,12 +328,36 @@
     "name": "ARRAS SESDRA"
   },
   {
+    "id": "b3y",
+    "name": "ASA de la Noye - 1ere section"
+  },
+  {
+    "id": "b4b",
+    "name": "ASA Riviere Hallue"
+  },
+  {
     "id": "b1i",
     "name": "Assainvillers"
   },
   {
+    "id": "b6f",
+    "name": "Association Foncière de Remembrement de Villers en Cauchies"
+  },
+  {
     "id": "g3h",
     "name": "Association riviere ancre 2eme section"
+  },
+  {
+    "id": "b3s",
+    "name": "Association Syndicale Autorisée de la Riviere Noye 2eme section"
+  },
+  {
+    "id": "b5l",
+    "name": "Association Syndicale de la Rivière Cologne"
+  },
+  {
+    "id": "b9t",
+    "name": "ATHIES"
   },
   {
     "id": "62-0069",
@@ -326,6 +366,10 @@
   {
     "id": "62-0070",
     "name": "ATTIN"
+  },
+  {
+    "id": "c3c",
+    "name": "AUBIN SAINT VAAST"
   },
   {
     "id": "62-0072",
@@ -338,6 +382,10 @@
   {
     "id": "62-0074",
     "name": "AUBROMETZ"
+  },
+  {
+    "id": "c1y",
+    "name": "AUCHEL"
   },
   {
     "id": "62-0075",
@@ -393,7 +441,7 @@
   },
   {
     "id": "62-0090",
-    "name": "AUDINGHEN CAMPINGS MUNICIPAUX "
+    "name": "AUDINGHEN CAMPINGS MUNICIPAUX"
   },
   {
     "id": "62-0091",
@@ -402,6 +450,14 @@
   {
     "id": "62-0092",
     "name": "AUDRESSELLES"
+  },
+  {
+    "id": "b9i",
+    "name": "AUDRESSELLES"
+  },
+  {
+    "id": "c1j",
+    "name": "AUDRUICQ"
   },
   {
     "id": "62-0093",
@@ -541,7 +597,7 @@
   },
   {
     "id": "62-0126",
-    "name": "BAILLEULVAL SIADEP "
+    "name": "BAILLEULVAL SIADEP"
   },
   {
     "id": "62-0127",
@@ -561,6 +617,10 @@
   },
   {
     "id": "62-0132",
+    "name": "BAPAUME"
+  },
+  {
+    "id": "c1x",
     "name": "BAPAUME"
   },
   {
@@ -620,6 +680,10 @@
     "name": "BEALENCOURT"
   },
   {
+    "id": "b5a",
+    "name": "Beaucamps-le-Vieux"
+  },
+  {
     "id": "62-0148",
     "name": "BEAUDRICOURT"
   },
@@ -666,6 +730,10 @@
   {
     "id": "62-0158",
     "name": "BEAURAINS CCAS"
+  },
+  {
+    "id": "b9s",
+    "name": "BEAURAINVILLE"
   },
   {
     "id": "62-0159",
@@ -728,6 +796,10 @@
     "name": "BENIFONTAINE"
   },
   {
+    "id": "c2b",
+    "name": "BENIFONTAINE"
+  },
+  {
     "id": "62-0173",
     "name": "BERCK SUR MER"
   },
@@ -762,6 +834,10 @@
   {
     "id": "62-0181",
     "name": "BERLES MONCHEL"
+  },
+  {
+    "id": "b9d",
+    "name": "BERLES-MONCHEL"
   },
   {
     "id": "62-0182",
@@ -832,6 +908,14 @@
     "name": "BEUVRY"
   },
   {
+    "id": "b9m",
+    "name": "BEUVRY"
+  },
+  {
+    "id": "b9l",
+    "name": "BEUVRY"
+  },
+  {
     "id": "62-0200",
     "name": "BEUVRY CCAS"
   },
@@ -841,6 +925,10 @@
   },
   {
     "id": "62-0205",
+    "name": "BIHUCOURT"
+  },
+  {
+    "id": "b8s",
     "name": "BIHUCOURT"
   },
   {
@@ -854,6 +942,10 @@
   {
     "id": "62-0207",
     "name": "BILLY MONTIGNY"
+  },
+  {
+    "id": "c1e",
+    "name": "BILLY-MONTIGNY"
   },
   {
     "id": "62-0208",
@@ -884,6 +976,10 @@
     "name": "BLENDECQUES"
   },
   {
+    "id": "c1h",
+    "name": "BLEQUIN"
+  },
+  {
     "id": "62-0215",
     "name": "BLEQUIN"
   },
@@ -905,7 +1001,7 @@
   },
   {
     "id": "62-0220",
-    "name": "BOIRY BECQUERELLE SIVU RPI "
+    "name": "BOIRY BECQUERELLE SIVU RPI"
   },
   {
     "id": "62-0221",
@@ -913,7 +1009,7 @@
   },
   {
     "id": "62-0222",
-    "name": "BOIRY NOTRE DAME SIVU DU RPI SENSEE COJEUL "
+    "name": "BOIRY NOTRE DAME SIVU DU RPI SENSEE COJEUL"
   },
   {
     "id": "62-0223",
@@ -938,6 +1034,10 @@
   {
     "id": "62-0229",
     "name": "BOISJEAN"
+  },
+  {
+    "id": "c1p",
+    "name": "BOISLEUX AU MONT"
   },
   {
     "id": "62-0230",
@@ -966,6 +1066,10 @@
   {
     "id": "62-0237",
     "name": "BONNINGUES LES ARDRES"
+  },
+  {
+    "id": "b9x",
+    "name": "BONNINGUES LES CALAIS"
   },
   {
     "id": "62-0238",
@@ -1104,6 +1208,10 @@
     "name": "Breilly"
   },
   {
+    "id": "c1r",
+    "name": "BREMES LES ARDRES"
+  },
+  {
     "id": "62-0265",
     "name": "BREMES LES ARDRES"
   },
@@ -1150,6 +1258,10 @@
   {
     "id": "62-0278",
     "name": "BRUAY LA BUISSIERE SIVOM COMMUNAUTE DU BRUAYSIS"
+  },
+  {
+    "id": "c3a",
+    "name": "BRUAY-LA-BUISSIERE"
   },
   {
     "id": "62-0279",
@@ -1202,6 +1314,14 @@
   {
     "id": "62-0292",
     "name": "BUS SIADEP"
+  },
+  {
+    "id": "b8t",
+    "name": "BUSNES"
+  },
+  {
+    "id": "b5x",
+    "name": "Bussus-Bussuel"
   },
   {
     "id": "2C122",
@@ -1269,7 +1389,7 @@
   },
   {
     "id": "4I067",
-    "name": "CC des Hauts de Flandre "
+    "name": "CC des Hauts de Flandre"
   },
   {
     "id": "2C312",
@@ -1832,12 +1952,20 @@
     "name": "CAFFIERS"
   },
   {
+    "id": "c2i",
+    "name": "CAFFIERS"
+  },
+  {
     "id": "62-0295",
     "name": "CAGNICOURT"
   },
   {
     "id": "C160",
     "name": "Cagny"
+  },
+  {
+    "id": "b4s",
+    "name": "Cahon-Gouy"
   },
   {
     "id": "5L017",
@@ -1881,7 +2009,7 @@
   },
   {
     "id": "5L650",
-    "name": "Caisse des écoles de Wattrelos "
+    "name": "Caisse des écoles de Wattrelos"
   },
   {
     "id": "3L654",
@@ -2024,6 +2152,10 @@
     "name": "CAPELLE LES HESDIN"
   },
   {
+    "id": "b5p",
+    "name": "Cardonnette"
+  },
+  {
     "id": "62-0327",
     "name": "CARENCY"
   },
@@ -2054,6 +2186,10 @@
   {
     "id": "62-0335",
     "name": "CAUCHY A LA TOUR"
+  },
+  {
+    "id": "b9k",
+    "name": "CAUCOURT"
   },
   {
     "id": "62-0336",
@@ -2132,12 +2268,20 @@
     "name": "CC du Vimeu Vert"
   },
   {
+    "id": "b8e",
+    "name": "CC PAYS D'OPALE"
+  },
+  {
     "id": "5B017",
     "name": "CCAS d armentières"
   },
   {
     "id": "62-1335",
-    "name": "CCAS DE BOULOGNE SUR MER "
+    "name": "CCAS DE BOULOGNE SUR MER"
+  },
+  {
+    "id": "b6i",
+    "name": "CCAS de Cambrai"
   },
   {
     "id": "5B378",
@@ -2148,8 +2292,12 @@
     "name": "CCAS de SEQUEDIN"
   },
   {
+    "id": "b6b",
+    "name": "CCAS de WALLERS"
+  },
+  {
     "id": "5B650",
-    "name": "CCAS de Wattrelos "
+    "name": "CCAS de Wattrelos"
   },
   {
     "id": "62-0810",
@@ -2157,11 +2305,15 @@
   },
   {
     "id": "62-1145",
-    "name": "CCAS ST ETIENNE AU MONT "
+    "name": "CCAS ST ETIENNE AU MONT"
+  },
+  {
+    "id": "b9h",
+    "name": "CCAS VENDIN LE VIEIL"
   },
   {
     "id": "1C601",
-    "name": "CCAS&nbsp;de la Ville de Valenciennes"
+    "name": "CCAS de la Ville de Valenciennes"
   },
   {
     "id": "4C043",
@@ -2224,6 +2376,10 @@
     "name": "CHELERS SIVU RPI de Magnicourt-Chelers"
   },
   {
+    "id": "b5v",
+    "name": "Chepy"
+  },
+  {
     "id": "62-0341",
     "name": "CHERIENNES"
   },
@@ -2242,10 +2398,6 @@
   {
     "id": "C198",
     "name": "Clairy-Saulchoix"
-  },
-  {
-    "id": "62-0346",
-    "name": "CLARQUES"
   },
   {
     "id": "62-0347",
@@ -2308,12 +2460,20 @@
     "name": "Communauté de communes de la Bresle Maritime"
   },
   {
+    "id": "c2v",
+    "name": "Communauté de communes de la région d'Audruicq"
+  },
+  {
     "id": "CCOISEMONT",
     "name": "Communauté de communes de la région dOisemont"
   },
   {
     "id": "62-0859",
     "name": "Communauté de communes de La terre des 2 caps"
+  },
+  {
+    "id": "b8n",
+    "name": "COMMUNAUTÉ DE COMMUNES DES 7 VALLÉES"
   },
   {
     "id": "62-0586",
@@ -2341,7 +2501,7 @@
   },
   {
     "id": "1C053",
-    "name": "Communauté de communes du Pays de Mormal "
+    "name": "Communauté de communes du Pays de Mormal"
   },
   {
     "id": "r9m",
@@ -2412,8 +2572,28 @@
     "name": "Commune d'Auchonvillers"
   },
   {
+    "id": "b8m",
+    "name": "Commune de ACHIET LE GRAND"
+  },
+  {
+    "id": "c2w",
+    "name": "Commune de ALQUINES"
+  },
+  {
+    "id": "c2z",
+    "name": "COMMUNE DE AUCHY AU BOIS"
+  },
+  {
+    "id": "b8d",
+    "name": "COMMUNE DE BEAUDRICOURT"
+  },
+  {
     "id": "f8m",
     "name": "Commune de Beaumetz"
+  },
+  {
+    "id": "b8c",
+    "name": "Commune de BEAUVOIS"
   },
   {
     "id": "b0l",
@@ -2428,12 +2608,32 @@
     "name": "Commune de Chipilly"
   },
   {
+    "id": "b8h",
+    "name": "COMMUNE DE FOUQUEREUIL"
+  },
+  {
+    "id": "b8j",
+    "name": "COMMUNE DE LIGNY SUR CANCHE"
+  },
+  {
+    "id": "b8l",
+    "name": "Commune de MARQUION"
+  },
+  {
     "id": "b0g",
     "name": "Commune de Plachy-Buyon"
   },
   {
     "id": "f7m",
     "name": "Commune de Pont-Rémy"
+  },
+  {
+    "id": "c2y",
+    "name": "COMMUNE DE PRONVILLE"
+  },
+  {
+    "id": "b8k",
+    "name": "commune de SAINT LEGER"
   },
   {
     "id": "62-1171",
@@ -2444,6 +2644,14 @@
     "name": "Commune de Saint Vast en Chaussée"
   },
   {
+    "id": "b8o",
+    "name": "Commune de SERQUES"
+  },
+  {
+    "id": "b8b",
+    "name": "Commune de TILQUES"
+  },
+  {
     "id": "C837",
     "name": "Commune de Vauvillers"
   },
@@ -2452,8 +2660,20 @@
     "name": "Commune de Vignacourt"
   },
   {
+    "id": "b8i",
+    "name": "COMMUNE DE WANQUETIN"
+  },
+  {
+    "id": "c2x",
+    "name": "COMMUNE DE WILLEMAN"
+  },
+  {
     "id": "b2q",
     "name": "Commune des Trois-Rivières"
+  },
+  {
+    "id": "b5q",
+    "name": "CommuneTest"
   },
   {
     "id": "62-0352",
@@ -2462,6 +2682,10 @@
   {
     "id": "62-0353",
     "name": "CONCHIL LE TEMPLE SIADEP DE CONCHIL"
+  },
+  {
+    "id": "c1b",
+    "name": "CONDETTE"
   },
   {
     "id": "62-0355",
@@ -2518,6 +2742,10 @@
   {
     "id": "62-0367",
     "name": "COULLEMONT SIADEP DE COULLEMONT HUMBERCOURT"
+  },
+  {
+    "id": "c1n",
+    "name": "COULOGNE"
   },
   {
     "id": "62-0368",
@@ -2596,6 +2824,10 @@
     "name": "CROISILLES"
   },
   {
+    "id": "b9v",
+    "name": "CROISILLES"
+  },
+  {
     "id": "62-0387",
     "name": "CROIX EN TERNOIS SIADEP"
   },
@@ -2644,12 +2876,20 @@
     "name": "Dargnies"
   },
   {
+    "id": "b9c",
+    "name": "DE LA MOIRINE"
+  },
+  {
     "id": "w5a",
     "name": "Demuin"
   },
   {
     "id": "62-0396",
     "name": "DENIER"
+  },
+  {
+    "id": "b9n",
+    "name": "DESVRES"
   },
   {
     "id": "62-0398",
@@ -2729,6 +2969,10 @@
   },
   {
     "id": "62-0414",
+    "name": "DOUVRIN"
+  },
+  {
+    "id": "b8x",
     "name": "DOUVRIN"
   },
   {
@@ -2841,7 +3085,7 @@
   },
   {
     "id": "62-0440",
-    "name": "EMBRY SIADEP "
+    "name": "EMBRY SIADEP"
   },
   {
     "id": "C266",
@@ -2862,6 +3106,14 @@
   {
     "id": "62-0445",
     "name": "ENQUIN SUR BAILLONS"
+  },
+  {
+    "id": "TEST",
+    "name": "Entité de TEST"
+  },
+  {
+    "id": "TEST2",
+    "name": "Entité de TEST2"
   },
   {
     "id": "n1a",
@@ -3029,7 +3281,7 @@
   },
   {
     "id": "62-0482",
-    "name": "EVIN MALMAISON SYMEVAD "
+    "name": "EVIN MALMAISON SYMEVAD"
   },
   {
     "id": "6F491",
@@ -3152,6 +3404,10 @@
     "name": "Fienvillers"
   },
   {
+    "id": "b9r",
+    "name": "FILLIEVRES"
+  },
+  {
     "id": "62-0502",
     "name": "FILLIEVRES"
   },
@@ -3177,6 +3433,10 @@
   },
   {
     "id": "62-0508",
+    "name": "FLERS"
+  },
+  {
+    "id": "c2t",
     "name": "FLERS"
   },
   {
@@ -3244,6 +3504,10 @@
     "name": "FORTEL EN ARTOIS"
   },
   {
+    "id": "c2n",
+    "name": "FORTEL EN ARTOIS"
+  },
+  {
     "id": "62-0520",
     "name": "FOSSEUX"
   },
@@ -3272,6 +3536,10 @@
     "name": "FRAMECOURT SIADEP DE HAUTECLOQUE"
   },
   {
+    "id": "b4d",
+    "name": "Frémontiers"
+  },
+  {
     "id": "62-0529",
     "name": "FRENCQ"
   },
@@ -3288,12 +3556,20 @@
     "name": "FRESNOY EN GOHELLE"
   },
   {
+    "id": "c1m",
+    "name": "FRESSIN"
+  },
+  {
     "id": "62-0534",
     "name": "FRESSIN"
   },
   {
     "id": "62-0535",
     "name": "FRETHUN"
+  },
+  {
+    "id": "b5s",
+    "name": "Frettecuisse"
   },
   {
     "id": "w6a",
@@ -3330,6 +3606,10 @@
   {
     "id": "62-0545",
     "name": "FRUGES SIADEP"
+  },
+  {
+    "id": "c1k",
+    "name": "GALAMETZ"
   },
   {
     "id": "62-0546",
@@ -3381,6 +3661,10 @@
   },
   {
     "id": "62-0557",
+    "name": "GONNEHEM"
+  },
+  {
+    "id": "b9f",
     "name": "GONNEHEM"
   },
   {
@@ -3466,6 +3750,10 @@
   {
     "id": "C392",
     "name": "Grouches-Luchuel"
+  },
+  {
+    "id": "c1o",
+    "name": "GUARBECQUE"
   },
   {
     "id": "62-0575",
@@ -3592,6 +3880,10 @@
     "name": "Harbonnieres"
   },
   {
+    "id": "b9z",
+    "name": "HARDINGHEN"
+  },
+  {
     "id": "62-0604",
     "name": "HARDINGHEN"
   },
@@ -3614,6 +3906,10 @@
   {
     "id": "62-0609",
     "name": "HAUT LOQUIN"
+  },
+  {
+    "id": "c2r",
+    "name": "HAUTE AVESNES"
   },
   {
     "id": "62-0610",
@@ -3732,6 +4028,10 @@
     "name": "HERLY"
   },
   {
+    "id": "c1f",
+    "name": "HERLY"
+  },
+  {
     "id": "62-0638",
     "name": "HERMAVILLE"
   },
@@ -3769,6 +4069,10 @@
   },
   {
     "id": "62-0649",
+    "name": "HESDIGNEUL LES BETHUNE"
+  },
+  {
+    "id": "c2h",
     "name": "HESDIGNEUL LES BETHUNE"
   },
   {
@@ -3848,6 +4152,10 @@
     "name": "HOUDAIN"
   },
   {
+    "id": "b8u",
+    "name": "HOUDAIN"
+  },
+  {
     "id": "62-0668",
     "name": "HOULLE"
   },
@@ -3864,6 +4172,10 @@
     "name": "HUBY ST LEU"
   },
   {
+    "id": "c1d",
+    "name": "HUBY-SAINT-LEU"
+  },
+  {
     "id": "62-0672",
     "name": "HUCLIER"
   },
@@ -3873,7 +4185,7 @@
   },
   {
     "id": "62-0674",
-    "name": "HUCQUELIERS CC du Canton d Hucqueliers "
+    "name": "HUCQUELIERS CC du Canton d Hucqueliers"
   },
   {
     "id": "62-0675",
@@ -3902,6 +4214,10 @@
   {
     "id": "b2z",
     "name": "Hypercourt"
+  },
+  {
+    "id": "c3b",
+    "name": "INCHY EN ARTOIS"
   },
   {
     "id": "62-0682",
@@ -4040,8 +4356,16 @@
     "name": "LAGNICOURT MARCEL"
   },
   {
+    "id": "c2c",
+    "name": "LAGNICOURT-MARCEL"
+  },
+  {
     "id": "62-0717",
     "name": "LAIRES"
+  },
+  {
+    "id": "c1l",
+    "name": "LAMBRES LES AIRE"
   },
   {
     "id": "62-0718",
@@ -4101,6 +4425,10 @@
   },
   {
     "id": "62-0732",
+    "name": "LE QUESNOY EN ARTOIS"
+  },
+  {
+    "id": "c2q",
     "name": "LE QUESNOY EN ARTOIS"
   },
   {
@@ -4173,7 +4501,7 @@
   },
   {
     "id": "62-0751",
-    "name": "LEFOREST FPA LEON BLUM "
+    "name": "LEFOREST FPA LEON BLUM"
   },
   {
     "id": "62-1338",
@@ -4198,6 +4526,10 @@
   {
     "id": "62-0755",
     "name": "LEPINE"
+  },
+  {
+    "id": "c1t",
+    "name": "LES ATTAQUES"
   },
   {
     "id": "62-0756",
@@ -4249,6 +4581,10 @@
   },
   {
     "id": "62-0769",
+    "name": "LICQUES"
+  },
+  {
+    "id": "c2o",
     "name": "LICQUES"
   },
   {
@@ -4364,6 +4700,10 @@
     "name": "LISBOURG"
   },
   {
+    "id": "c2a",
+    "name": "LOCON"
+  },
+  {
     "id": "62-0798",
     "name": "LOCON"
   },
@@ -4420,6 +4760,10 @@
     "name": "LOOS EN GOHELLE FPA"
   },
   {
+    "id": "c1q",
+    "name": "LORGIES"
+  },
+  {
     "id": "62-0812",
     "name": "LORGIES"
   },
@@ -4428,8 +4772,16 @@
     "name": "LOTTINGHEN"
   },
   {
+    "id": "c2u",
+    "name": "LOUCHES"
+  },
+  {
     "id": "62-0814",
     "name": "LOUCHES"
+  },
+  {
+    "id": "b5k",
+    "name": "Louvencourt"
   },
   {
     "id": "62-0815",
@@ -4481,7 +4833,7 @@
   },
   {
     "id": "b0f",
-    "name": "Mairie "
+    "name": "Mairie"
   },
   {
     "id": "62-0080",
@@ -4520,8 +4872,44 @@
     "name": "Mairie d'Heilly"
   },
   {
+    "id": "b5b",
+    "name": "Mairie d'Arrest"
+  },
+  {
+    "id": "b4m",
+    "name": "Mairie d'Arvillers"
+  },
+  {
+    "id": "b5u",
+    "name": "Mairie d'Aubvillers"
+  },
+  {
+    "id": "b3w",
+    "name": "Mairie d'Equancourt"
+  },
+  {
     "id": "b2v",
     "name": "Mairie d'Estrées-les-Crecy"
+  },
+  {
+    "id": "b3x",
+    "name": "Mairie d'Etalon"
+  },
+  {
+    "id": "b4n",
+    "name": "Mairie d'Hallencourt"
+  },
+  {
+    "id": "b4r",
+    "name": "Mairie d'Hornoy le Bourg"
+  },
+  {
+    "id": "b4e",
+    "name": "Mairie d'Occoches"
+  },
+  {
+    "id": "b5n",
+    "name": "Mairie d'Oust Marest"
   },
   {
     "id": "20001",
@@ -4776,6 +5164,10 @@
     "name": "MAIRIE DE BEAUCAMPS-LIGNY"
   },
   {
+    "id": "b4w",
+    "name": "Mairie de Beauchamps"
+  },
+  {
     "id": "b2r",
     "name": "Mairie de Beaucourt-en-Santerre"
   },
@@ -4790,6 +5182,10 @@
   {
     "id": "20059",
     "name": "MAIRIE DE BEAUMONT-EN-CAMBRESIS"
+  },
+  {
+    "id": "b5j",
+    "name": "Mairie de Beaumont-Hamel"
   },
   {
     "id": "b1t",
@@ -4818,6 +5214,10 @@
   {
     "id": "10065",
     "name": "MAIRIE DE BELLIGNIES"
+  },
+  {
+    "id": "b4g",
+    "name": "Mairie de Belloy en Santerre"
   },
   {
     "id": "10066",
@@ -4870,6 +5270,10 @@
   {
     "id": "b2u",
     "name": "Mairie de Béthencourt sur Somme"
+  },
+  {
+    "id": "b5t",
+    "name": "Mairie de Bettencourt Saint Ouen"
   },
   {
     "id": "10076",
@@ -4968,6 +5372,10 @@
     "name": "MAIRIE DE BOUCHAIN"
   },
   {
+    "id": "b3u",
+    "name": "Mairie de Bouchasvesnes"
+  },
+  {
     "id": "10093",
     "name": "MAIRIE DE BOULOGNE-SUR-HELPE"
   },
@@ -5048,6 +5456,10 @@
     "name": "MAIRIE DE BRILLON"
   },
   {
+    "id": "b4k",
+    "name": "Mairie de Brouchy"
+  },
+  {
     "id": "40110",
     "name": "MAIRIE DE BROUCKERQUE"
   },
@@ -5102,6 +5514,10 @@
   {
     "id": "20121",
     "name": "MAIRIE DE CAGNONCLES"
+  },
+  {
+    "id": "b3z",
+    "name": "Mairie de Cagny"
   },
   {
     "id": "3C449",
@@ -5212,6 +5628,10 @@
     "name": "MAIRIE DE CHERISY"
   },
   {
+    "id": "b4x",
+    "name": "Mairie de Chilly"
+  },
+  {
     "id": "10147",
     "name": "MAIRIE DE CHOISIES"
   },
@@ -5242,6 +5662,10 @@
   {
     "id": "60153",
     "name": "MAIRIE DE CONDE-SUR-L ESCAUT"
+  },
+  {
+    "id": "b4l",
+    "name": "Mairie de Conteville"
   },
   {
     "id": "62-0362",
@@ -5584,6 +6008,10 @@
     "name": "MAIRIE DE FAUMONT"
   },
   {
+    "id": "b3v",
+    "name": "Mairie de Favieres"
+  },
+  {
     "id": "62-0492",
     "name": "MAIRIE DE FEBVIN PALFART"
   },
@@ -5630,6 +6058,10 @@
   {
     "id": "62-0496",
     "name": "MAIRIE DE FESTUBERT"
+  },
+  {
+    "id": "b5o",
+    "name": "Mairie de Fins"
   },
   {
     "id": "10233",
@@ -5704,6 +6136,10 @@
     "name": "Mairie de Franqueville"
   },
   {
+    "id": "b5y",
+    "name": "Mairie de Franvillers"
+  },
+  {
     "id": "10251",
     "name": "MAIRIE DE FRASNOY"
   },
@@ -5756,12 +6192,20 @@
     "name": "MAIRIE DE GENECH"
   },
   {
+    "id": "b5z",
+    "name": "Mairie de Gézaincourt"
+  },
+  {
     "id": "10259",
     "name": "MAIRIE DE GHISSIGNIES"
   },
   {
     "id": "40260",
     "name": "MAIRIE DE GHYVELDE"
+  },
+  {
+    "id": "b4v",
+    "name": "Mairie de Ginchy"
   },
   {
     "id": "62-0552",
@@ -5826,6 +6270,10 @@
   {
     "id": "10277",
     "name": "MAIRIE DE GUSSIGNIES"
+  },
+  {
+    "id": "b4a",
+    "name": "Mairie de Guyencourt Saulcourt"
   },
   {
     "id": "62-0585",
@@ -6248,6 +6696,10 @@
     "name": "MAIRIE DE LEZENNES"
   },
   {
+    "id": "b5i",
+    "name": "Mairie de Liercourt"
+  },
+  {
     "id": "10347",
     "name": "MAIRIE DE LIESSIES"
   },
@@ -6298,6 +6750,10 @@
   {
     "id": "b3c",
     "name": "Mairie de Longavesnes"
+  },
+  {
+    "id": "b4f",
+    "name": "Mairie de Longpré les Corps Saints"
   },
   {
     "id": "40358",
@@ -6456,6 +6912,10 @@
     "name": "MAIRIE DE MERCKEGHEM"
   },
   {
+    "id": "b4c",
+    "name": "Mairie de Merelessart"
+  },
+  {
     "id": "50398",
     "name": "MAIRIE DE MERIGNIES"
   },
@@ -6468,8 +6928,16 @@
     "name": "MAIRIE DE MERVILLE"
   },
   {
+    "id": "b5h",
+    "name": "Mairie de Mesnil Saint Nicaise"
+  },
+  {
     "id": "b2a",
     "name": "Mairie de Mesnil-Bruntel"
+  },
+  {
+    "id": "b5m",
+    "name": "Mairie de Mesnil-Martinsart"
   },
   {
     "id": "40401",
@@ -6498,6 +6966,10 @@
   {
     "id": "20405",
     "name": "MAIRIE DE MOEUVRES"
+  },
+  {
+    "id": "b3t",
+    "name": "Mairie de Molliens Dreuil"
   },
   {
     "id": "10406",
@@ -6824,6 +7296,10 @@
     "name": "MAIRIE DE PROVIN"
   },
   {
+    "id": "b4p",
+    "name": "Mairie de Puzeaux"
+  },
+  {
     "id": "40478",
     "name": "MAIRIE DE QUAEDYPRE"
   },
@@ -6988,6 +7464,10 @@
     "name": "MAIRIE DE Rouvignies"
   },
   {
+    "id": "b4j",
+    "name": "Mairie de Rouvrel"
+  },
+  {
     "id": "b1c",
     "name": "Mairie de Rubempré"
   },
@@ -7030,6 +7510,10 @@
   {
     "id": "10525",
     "name": "MAIRIE DE SAINS-DU-NORD"
+  },
+  {
+    "id": "b5e",
+    "name": "Mairie de Saint Ouen"
   },
   {
     "id": "60526",
@@ -7098,6 +7582,10 @@
   {
     "id": "60544",
     "name": "MAIRIE DE SAINT-SAULVE"
+  },
+  {
+    "id": "b4h",
+    "name": "Mairie de Saint-Sauveur"
   },
   {
     "id": "20545",
@@ -7349,7 +7837,7 @@
   },
   {
     "id": "50599",
-    "name": "Mairie de Tourcoing "
+    "name": "Mairie de Tourcoing"
   },
   {
     "id": "50600",
@@ -7386,6 +7874,10 @@
   {
     "id": "62-1234",
     "name": "MAIRIE DE VALHUON"
+  },
+  {
+    "id": "b5w",
+    "name": "Mairie de Velennes"
   },
   {
     "id": "10607",
@@ -7454,6 +7946,10 @@
   {
     "id": "30620",
     "name": "MAIRIE DE VILLERS-AU-TERTRE"
+  },
+  {
+    "id": "b4y",
+    "name": "Mairie de Villers-Bocage"
   },
   {
     "id": "20622",
@@ -7824,8 +8320,16 @@
     "name": "MARTINPUICH"
   },
   {
+    "id": "c2d",
+    "name": "MATRINGHEM"
+  },
+  {
     "id": "62-0863",
     "name": "MATRINGHEM"
+  },
+  {
+    "id": "c1s",
+    "name": "MAZINGARBE"
   },
   {
     "id": "62-0864",
@@ -7837,7 +8341,7 @@
   },
   {
     "id": "62-0066",
-    "name": "MDPH ARRAS "
+    "name": "MDPH ARRAS"
   },
   {
     "id": "C523",
@@ -7956,6 +8460,10 @@
     "name": "MONCHY BRETON"
   },
   {
+    "id": "b9e",
+    "name": "MONCHY BRETON"
+  },
+  {
     "id": "62-0889",
     "name": "MONCHY BRETON SIADEP"
   },
@@ -8012,6 +8520,10 @@
     "name": "MONTREUIL SUR MER"
   },
   {
+    "id": "b9b",
+    "name": "MONTREUIL SUR MER"
+  },
+  {
     "id": "62-0903",
     "name": "MONTREUIL SUR MER CC MONTREUILLOIS"
   },
@@ -8021,7 +8533,7 @@
   },
   {
     "id": "62-0905",
-    "name": "MONTREUIL SUR MER SI ASS ENTRET MARAIS VALLEE "
+    "name": "MONTREUIL SUR MER SI ASS ENTRET MARAIS VALLEE"
   },
   {
     "id": "62-0906",
@@ -8061,7 +8573,7 @@
   },
   {
     "id": "62-0914",
-    "name": "MORY SIVU DU RPI "
+    "name": "MORY SIVU DU RPI"
   },
   {
     "id": "62-0915",
@@ -8157,7 +8669,7 @@
   },
   {
     "id": "62-0936",
-    "name": "NEUVIREUIL SIVU RPI "
+    "name": "NEUVIREUIL SIVU RPI"
   },
   {
     "id": "n2m",
@@ -8181,6 +8693,10 @@
   },
   {
     "id": "62-0941",
+    "name": "NOEUX LES AUXI"
+  },
+  {
+    "id": "b8w",
     "name": "NOEUX LES AUXI"
   },
   {
@@ -8209,6 +8725,10 @@
   },
   {
     "id": "62-0948",
+    "name": "NORRENT FONTES"
+  },
+  {
+    "id": "c1i",
     "name": "NORRENT FONTES"
   },
   {
@@ -8292,12 +8812,28 @@
     "name": "OFFRETHUN"
   },
   {
+    "id": "b9o",
+    "name": "OIGNIES"
+  },
+  {
+    "id": "b9p",
+    "name": "OIGNIES"
+  },
+  {
     "id": "62-0969",
     "name": "OIGNIES"
   },
   {
     "id": "62-0970",
     "name": "OIGNIES CCAS"
+  },
+  {
+    "id": "b4u",
+    "name": "Oisemont"
+  },
+  {
+    "id": "c2m",
+    "name": "OISY LE VERGER"
   },
   {
     "id": "62-0972",
@@ -8308,11 +8844,23 @@
     "name": "OPPY"
   },
   {
+    "id": "ot1",
+    "name": "Organisme de Test"
+  },
+  {
+    "id": "TEST_ENTREPRISE",
+    "name": "Organisme de test à destination des entreprises"
+  },
+  {
     "id": "t5y",
     "name": "Organisme t5y"
   },
   {
     "id": "62-0974",
+    "name": "ORVILLE"
+  },
+  {
+    "id": "c2s",
     "name": "ORVILLE"
   },
   {
@@ -8342,6 +8890,10 @@
   {
     "id": "62-0981",
     "name": "OUVE WIRQUIN"
+  },
+  {
+    "id": "c3d",
+    "name": "OYE PLAGE"
   },
   {
     "id": "62-0982",
@@ -8382,10 +8934,6 @@
   {
     "id": "62-0989",
     "name": "PAS EN ARTOIS SIVOS"
-  },
-  {
-    "id": "4S295",
-    "name": "Pays coeur de Flandre"
   },
   {
     "id": "62-0990",
@@ -8484,6 +9032,10 @@
     "name": "PRESSY LES PERNES"
   },
   {
+    "id": "b8v",
+    "name": "PRESSY LES PERNES"
+  },
+  {
     "id": "62-1013",
     "name": "PREURES"
   },
@@ -8498,6 +9050,10 @@
   {
     "id": "62-1015",
     "name": "PUISIEUX"
+  },
+  {
+    "id": "b9y",
+    "name": "QUEANT"
   },
   {
     "id": "62-1016",
@@ -8517,6 +9073,10 @@
   },
   {
     "id": "62-1020",
+    "name": "QUERNES"
+  },
+  {
+    "id": "c2l",
     "name": "QUERNES"
   },
   {
@@ -8557,6 +9117,10 @@
   },
   {
     "id": "62-1028",
+    "name": "RACQUINGHEM"
+  },
+  {
+    "id": "b8z",
     "name": "RACQUINGHEM"
   },
   {
@@ -8668,6 +9232,10 @@
     "name": "REMILLY WIRQUIN"
   },
   {
+    "id": "c1u",
+    "name": "REMILLY-WIRQUIN"
+  },
+  {
     "id": "62-1052",
     "name": "REMY"
   },
@@ -8696,12 +9264,16 @@
     "name": "RIENCOURT LES BAPAUME SM"
   },
   {
+    "id": "c1z",
+    "name": "RIENCOURT LES CAGNICOURT"
+  },
+  {
     "id": "62-1059",
     "name": "RIENCOURT LES CAGNICOURT"
   },
   {
     "id": "62-1060",
-    "name": "RIENCOURT LES CAGNICOURT SIVU "
+    "name": "RIENCOURT LES CAGNICOURT SIVU"
   },
   {
     "id": "62-1061",
@@ -8828,6 +9400,10 @@
     "name": "RUMINGHEM"
   },
   {
+    "id": "b8q",
+    "name": "RUYAULCOURT"
+  },
+  {
     "id": "62-1089",
     "name": "RUYAULCOURT"
   },
@@ -8929,7 +9505,7 @@
   },
   {
     "id": "3I569",
-    "name": "S.I. DE LA REGION DE FLINES-LES-RACHES A GUESNAIN "
+    "name": "S.I. DE LA REGION DE FLINES-LES-RACHES A GUESNAIN"
   },
   {
     "id": "5P352",
@@ -9025,11 +9601,7 @@
   },
   {
     "id": "6I172",
-    "name": "S.I.A.V.E.D - SYND. INTER. VALO. ELIMINA. DECHETS "
-  },
-  {
-    "id": "2I428",
-    "name": "S.I.D.E.C."
+    "name": "S.I.A.V.E.D - SYND. INTER. VALO. ELIMINA. DECHETS"
   },
   {
     "id": "5E646",
@@ -9058,6 +9630,10 @@
   {
     "id": "6I418",
     "name": "S.I.V.O.M. A LA CARTE  DE MORTAGNE DU NORD"
+  },
+  {
+    "id": "b6j",
+    "name": "S.I.V.O.M. ACTION SOCIALE OUEST CAMBRESIS"
   },
   {
     "id": "5I386",
@@ -9208,6 +9784,10 @@
     "name": "SABALFA"
   },
   {
+    "id": "c2k",
+    "name": "SACHIN"
+  },
+  {
     "id": "62-1091",
     "name": "SACHIN"
   },
@@ -9240,6 +9820,10 @@
     "name": "Sains en Amienois"
   },
   {
+    "id": "b8y",
+    "name": "SAINS EN GOHELLE"
+  },
+  {
     "id": "62-1097",
     "name": "SAINS EN GOHELLE CCAS"
   },
@@ -9268,8 +9852,16 @@
     "name": "SAINS LES PERNES SIADEP REGION DE SACHIN"
   },
   {
+    "id": "62-0346",
+    "name": "Saint Augustin"
+  },
+  {
     "id": "b3j",
     "name": "Saint Léger les Authie"
+  },
+  {
+    "id": "b8r",
+    "name": "SAINT LEONARD"
   },
   {
     "id": "C839",
@@ -9286,6 +9878,10 @@
   {
     "id": "C702",
     "name": "Saint-Fuscien"
+  },
+  {
+    "id": "b4o",
+    "name": "SAINT-GRATIEN"
   },
   {
     "id": "C706",
@@ -9344,6 +9940,10 @@
     "name": "Sancourt"
   },
   {
+    "id": "b9j",
+    "name": "SANGATTE"
+  },
+  {
     "id": "62-1109",
     "name": "SANGATTE"
   },
@@ -9361,7 +9961,7 @@
   },
   {
     "id": "62-1114",
-    "name": "SAPIGNIES SIVU RPI "
+    "name": "SAPIGNIES SIVU RPI"
   },
   {
     "id": "62-1115",
@@ -9416,6 +10016,14 @@
     "name": "SENLIS"
   },
   {
+    "id": "b4t",
+    "name": "Senlis le Sec"
+  },
+  {
+    "id": "c2f",
+    "name": "SERICOURT"
+  },
+  {
     "id": "62-1129",
     "name": "SERICOURT"
   },
@@ -9433,7 +10041,7 @@
   },
   {
     "id": "62-1148",
-    "name": "SI DU CES  ST ETIENNE AU NOMT "
+    "name": "SI DU CES  ST ETIENNE AU NOMT"
   },
   {
     "id": "SIAVDS",
@@ -9445,7 +10053,15 @@
   },
   {
     "id": "62-0095",
-    "name": "SIADEP AUDRUICQ "
+    "name": "SIADEP AUDRUICQ"
+  },
+  {
+    "id": "c2g",
+    "name": "SIADEP de Foufflin Ricametz et Ternas"
+  },
+  {
+    "id": "b8f",
+    "name": "SIADEP DE LA REGION DE COLEMBERT"
   },
   {
     "id": "62-1088",
@@ -9480,12 +10096,24 @@
     "name": "SIAEP de Guerbigny"
   },
   {
+    "id": "b5c",
+    "name": "SIAEP de Haute-Cologne"
+  },
+  {
     "id": "ORESMAUX",
     "name": "SIAEP de la région d'Oresmaux"
   },
   {
     "id": "w9a",
     "name": "SIAEP de la Vallée de l'Omignon"
+  },
+  {
+    "id": "b4i",
+    "name": "Siaep de la Vallée de la Nièvre"
+  },
+  {
+    "id": "b4q",
+    "name": "SIAEP de Loeuilly"
   },
   {
     "id": "SIAEPNAOURS",
@@ -9516,8 +10144,16 @@
     "name": "SIAEP Eppeville Esmery-Hallon"
   },
   {
+    "id": "b9q",
+    "name": "SIBIVILLE"
+  },
+  {
     "id": "62-1133",
     "name": "SIBIVILLE"
+  },
+  {
+    "id": "2I428",
+    "name": "SIDEC"
   },
   {
     "id": "b0h",
@@ -9544,6 +10180,10 @@
     "name": "SIRACOURT"
   },
   {
+    "id": "b5d",
+    "name": "SISCO de Beauvoir"
+  },
+  {
     "id": "b3a",
     "name": "SISCO de Bray-Sur-Somme"
   },
@@ -9554,6 +10194,10 @@
   {
     "id": "SITESO",
     "name": "SITE de Berteaucourt les Dames, Saint Léger les Domart, Saint Ouen"
+  },
+  {
+    "id": "b5f",
+    "name": "SITE de Berteaucourt-les-Dames, Saint-Léger les Domart et Saint-Ouen"
   },
   {
     "id": "5C452",
@@ -9568,11 +10212,19 @@
     "name": "SIVOM de la Région d'Ault"
   },
   {
-    "id": "b2g",
-    "name": "SMACA"
+    "id": "b5r",
+    "name": "SIVOS de Péronne"
+  },
+  {
+    "id": "b6h",
+    "name": "SMABE"
   },
   {
     "id": "b2h",
+    "name": "SMACA"
+  },
+  {
+    "id": "b2g",
     "name": "SMAVA"
   },
   {
@@ -9800,6 +10452,10 @@
     "name": "ST TRICAT"
   },
   {
+    "id": "c3f",
+    "name": "ST TRICAT"
+  },
+  {
     "id": "62-1188",
     "name": "ST VENANT"
   },
@@ -9848,6 +10504,10 @@
     "name": "SYNDICAT DE L AA"
   },
   {
+    "id": "b5g",
+    "name": "Syndicat de voirie du Sud Amienois"
+  },
+  {
     "id": "SIVGAM",
     "name": "Syndicat Intercommunal à Vocation Multiple de Gamaches"
   },
@@ -9861,7 +10521,7 @@
   },
   {
     "id": "SIAEPNA",
-    "name": "Syndicat Intercommunal d'Alimentation en Eau Potable du Plateau Nord d'Albert "
+    "name": "Syndicat Intercommunal d'Alimentation en Eau Potable du Plateau Nord d'Albert"
   },
   {
     "id": "ASSVA",
@@ -9869,7 +10529,7 @@
   },
   {
     "id": "6C284",
-    "name": "Syndicat intercommunal de la vallée de la Scarpe "
+    "name": "Syndicat intercommunal de la vallée de la Scarpe"
   },
   {
     "id": "r3m",
@@ -9912,8 +10572,16 @@
     "name": "Syndicat Mixte du SCoT Sambre Avesnois"
   },
   {
+    "id": "4S295",
+    "name": "Syndicat Mixte Flandre et Lys"
+  },
+  {
     "id": "5Z350",
     "name": "SYNDICAT MIXTE NORD-PAS-DE-CALAIS NUMERIQUE"
+  },
+  {
+    "id": "c1a",
+    "name": "Syndicat Mixte pour la Réalisation de la plateforme Multimodale de niveau Européen de Dourge"
   },
   {
     "id": "62-1197",
@@ -9926,6 +10594,10 @@
   {
     "id": "62-1200",
     "name": "TERNAS"
+  },
+  {
+    "id": "Walid",
+    "name": "TEST SAINT-DIE-DES-CDG59"
   },
   {
     "id": "62-1201",
@@ -10044,6 +10716,10 @@
     "name": "TRINOVAL"
   },
   {
+    "id": "b9w",
+    "name": "TROISVAUX"
+  },
+  {
     "id": "62-1229",
     "name": "TROISVAUX"
   },
@@ -10084,6 +10760,10 @@
     "name": "Valines"
   },
   {
+    "id": "b3e",
+    "name": "Vallée Idéale Développement"
+  },
+  {
     "id": "62-1235",
     "name": "VAUDRICOURT"
   },
@@ -10104,6 +10784,10 @@
     "name": "VAULX VRAUCOURT"
   },
   {
+    "id": "c2j",
+    "name": "VAULX VRAUCOURT"
+  },
+  {
     "id": "h5j",
     "name": "Vecquemont"
   },
@@ -10113,6 +10797,10 @@
   },
   {
     "id": "62-1241",
+    "name": "VENDIN LE VIEIL"
+  },
+  {
+    "id": "b9g",
     "name": "VENDIN LE VIEIL"
   },
   {
@@ -10164,6 +10852,10 @@
     "name": "VIEIL HESDIN"
   },
   {
+    "id": "b9a",
+    "name": "VIEIL HESDIN"
+  },
+  {
     "id": "62-1254",
     "name": "VIEIL MOUTIER"
   },
@@ -10188,12 +10880,20 @@
     "name": "Ville de Eu"
   },
   {
+    "id": "b8g",
+    "name": "Ville de LENS"
+  },
+  {
     "id": "5I343",
     "name": "Ville de Lille"
   },
   {
     "id": "w5b",
     "name": "ville de Péronne"
+  },
+  {
+    "id": "b8p",
+    "name": "VILLE DE WIMILLE"
   },
   {
     "id": "62-1257",
@@ -10256,6 +10956,10 @@
     "name": "VIS EN ARTOIS"
   },
   {
+    "id": "c1v",
+    "name": "VITRY EN ARTOIS"
+  },
+  {
     "id": "62-1271",
     "name": "VITRY EN ARTOIS"
   },
@@ -10313,7 +11017,7 @@
   },
   {
     "id": "62-1283",
-    "name": "WANQUETIN SIVU RPI "
+    "name": "WANQUETIN SIVU RPI"
   },
   {
     "id": "62-1284",
@@ -10377,7 +11081,7 @@
   },
   {
     "id": "62-1300",
-    "name": "WILLERVAL SIVU RPI "
+    "name": "WILLERVAL SIVU RPI"
   },
   {
     "id": "62-1302",
@@ -10428,6 +11132,10 @@
     "name": "WISQUES"
   },
   {
+    "id": "c1w",
+    "name": "WISSANT"
+  },
+  {
     "id": "62-1314",
     "name": "WISSANT"
   },
@@ -10445,7 +11153,7 @@
   },
   {
     "id": "62-1318",
-    "name": "WITTERNESSE SIVU RPI "
+    "name": "WITTERNESSE SIVU RPI"
   },
   {
     "id": "62-1319",

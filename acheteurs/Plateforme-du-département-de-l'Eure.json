@@ -460,6 +460,10 @@
     "name": "Commune de Menneval"
   },
   {
+    "id": "b3d",
+    "name": "Commune de Merey"
+  },
+  {
     "id": "c1q",
     "name": "commune de Mesnil Rousset"
   },
@@ -512,6 +516,10 @@
     "name": "commune de Saint Georges Motel"
   },
   {
+    "id": "b3e",
+    "name": "commune de Saint Vincent des Bois"
+  },
+  {
     "id": "stgermainlacampagne",
     "name": "Commune de Saint-Germain la Campagne"
   },
@@ -526,6 +534,10 @@
   {
     "id": "b0q",
     "name": "Commune de Saussay la Campagne"
+  },
+  {
+    "id": "b3f",
+    "name": "Commune de Surtauville"
   },
   {
     "id": "b0c",
@@ -1693,7 +1705,7 @@
   },
   {
     "id": "a4f",
-    "name": "SIVOS D'Iville"
+    "name": "SIVOS d'Iville"
   },
   {
     "id": "x6c",

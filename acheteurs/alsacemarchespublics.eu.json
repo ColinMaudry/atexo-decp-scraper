@@ -4,6 +4,14 @@
     "name": "Adamswiller"
   },
   {
+    "id": "b7n",
+    "name": "ADIRA, l’Agence de développement d’Alsace"
+  },
+  {
+    "id": "a3j",
+    "name": "Alsace Habitat"
+  },
+  {
     "id": "a2d",
     "name": "Archéologie Alsace"
   },
@@ -32,6 +40,10 @@
     "name": "Caisse des écoles de Strasbourg"
   },
   {
+    "id": "b7o",
+    "name": "CALEO SAEML"
+  },
+  {
     "id": "b3h",
     "name": "CCAS de MUTZIG"
   },
@@ -48,6 +60,10 @@
     "name": "Centre Communal d'Action Sociale de Saverne"
   },
   {
+    "id": "b7g",
+    "name": "Centre de HARTHOUSE Etablissement public médico-social"
+  },
+  {
     "id": "d8y",
     "name": "Chambre d'Agriculture d'Alsace"
   },
@@ -58,6 +74,10 @@
   {
     "id": "b0f",
     "name": "CITIVIA SPL"
+  },
+  {
+    "id": "b7s",
+    "name": "Collectivité Européenne d'Alsace"
   },
   {
     "id": "b4p",
@@ -140,16 +160,8 @@
     "name": "Communauté de Communes de THANN CERNAY"
   },
   {
-    "id": "d6e",
-    "name": "Commune de WINGEN-SUR-MODER"
-  },
-  {
-    "id": "Ville de ROSHEIM",
-    "name": "Ville de ROSHEIM"
-  },
-  {
     "id": "d6f",
-    "name": "Communauté de Communes du Canton de Rosheim"
+    "name": "Communauté de Communes des Portes de Rosheim"
   },
   {
     "id": "a5b",
@@ -194,6 +206,10 @@
   {
     "id": "d7u",
     "name": "Communauté de Communes du Ried de Marckolsheim"
+  },
+  {
+    "id": "c1a",
+    "name": "Communauté de Communes Sud Alsace LARGUE"
   },
   {
     "id": "b2y",
@@ -253,7 +269,7 @@
   },
   {
     "id": "d6o",
-    "name": "Commune d'Orschwiller "
+    "name": "Commune d'Orschwiller"
   },
   {
     "id": "d8h",
@@ -280,6 +296,10 @@
     "name": "Commune d'ECKBOLSHEIM"
   },
   {
+    "id": "b7v",
+    "name": "Commune d'ECKWERSHEIM"
+  },
+  {
     "id": "d7b",
     "name": "Commune d'Entzheim"
   },
@@ -290,6 +310,10 @@
   {
     "id": "a5p",
     "name": "Commune d'Eschau"
+  },
+  {
+    "id": "b9p",
+    "name": "Commune d'ESCHBOURG"
   },
   {
     "id": "d7g",
@@ -322,6 +346,10 @@
   {
     "id": "a1l",
     "name": "Commune d'Odratzheim"
+  },
+  {
+    "id": "b7a",
+    "name": "COMMUNE D'OFFWILLER"
   },
   {
     "id": "a7p",
@@ -364,6 +392,10 @@
     "name": "Commune de BANTZENHEIM"
   },
   {
+    "id": "b7l",
+    "name": "Commune de Barembach"
+  },
+  {
     "id": "b1o",
     "name": "Commune de Bassemberg"
   },
@@ -378,6 +410,10 @@
   {
     "id": "b1b",
     "name": "Commune de BELLEFOSSE"
+  },
+  {
+    "id": "b9d",
+    "name": "Commune de BELMONT"
   },
   {
     "id": "a7r",
@@ -400,6 +436,10 @@
     "name": "Commune de Biblisheim"
   },
   {
+    "id": "b7w",
+    "name": "Commune de BIETLENHEIM"
+  },
+  {
     "id": "b4g",
     "name": "Commune de BILWISHEIM"
   },
@@ -410,6 +450,10 @@
   {
     "id": "d6h",
     "name": "Commune de Bischoffsheim"
+  },
+  {
+    "id": "b9m",
+    "name": "Commune de BITSCHHOFFEN"
   },
   {
     "id": "l6l",
@@ -438,6 +482,10 @@
   {
     "id": "b3l",
     "name": "Commune de BOSSENDORF"
+  },
+  {
+    "id": "b7p",
+    "name": "Commune de BOURG BRUCHE"
   },
   {
     "id": "f4s",
@@ -472,8 +520,16 @@
     "name": "Commune de Buswiller"
   },
   {
+    "id": "b7b",
+    "name": "COMMUNE DE BUTTEN"
+  },
+  {
     "id": "r8t",
     "name": "Commune de CHÂTENOIS"
+  },
+  {
+    "id": "b9r",
+    "name": "Commune de CHAVANNES SUR L'ETANG"
   },
   {
     "id": "b4i",
@@ -518,6 +574,10 @@
   {
     "id": "a9b",
     "name": "Commune de DIEBOLSHEIM"
+  },
+  {
+    "id": "b9f",
+    "name": "Commune de DIEDENDORF"
   },
   {
     "id": "b0p",
@@ -684,6 +744,10 @@
     "name": "Commune de Grendelbruch"
   },
   {
+    "id": "b6w",
+    "name": "Commune de GRESSWILLER"
+  },
+  {
     "id": "a2m",
     "name": "Commune de Griesheim Sur Souffel"
   },
@@ -708,6 +772,10 @@
     "name": "Commune de Gunstett"
   },
   {
+    "id": "b7u",
+    "name": "Commune de HAEGEN"
+  },
+  {
     "id": "b5h",
     "name": "Commune de HARSKIRCHEN"
   },
@@ -724,12 +792,20 @@
     "name": "Commune de Hattmatt"
   },
   {
+    "id": "b6r",
+    "name": "Commune de Hégeney"
+  },
+  {
     "id": "b2e",
     "name": "Commune de HEIDOLSHEIM"
   },
   {
     "id": "a6d",
     "name": "Commune de HENGWILLER"
+  },
+  {
+    "id": "b9k",
+    "name": "Commune de HERBITZHEIM"
   },
   {
     "id": "b3s",
@@ -768,12 +844,20 @@
     "name": "Commune de HOMBOURG"
   },
   {
+    "id": "b7r",
+    "name": "Commune de HUNSPACH"
+  },
+  {
     "id": "d6v",
     "name": "Commune de Hurtigheim"
   },
   {
     "id": "d8a",
     "name": "Commune de Huttendorf"
+  },
+  {
+    "id": "b6v",
+    "name": "Commune de ISSENHAUSEN"
   },
   {
     "id": "a4w",
@@ -808,6 +892,22 @@
     "name": "Commune de KNOERSHEIM"
   },
   {
+    "id": "b9i",
+    "name": "Commune de KOGENHEIM"
+  },
+  {
+    "id": "b6y",
+    "name": "Commune de KOLBSHEIM"
+  },
+  {
+    "id": "b6z",
+    "name": "Commune de KOLBSHEIM"
+  },
+  {
+    "id": "b6t",
+    "name": "Commune de KRIEGSHEIM"
+  },
+  {
     "id": "d7s",
     "name": "Commune de Kuttolsheim"
   },
@@ -818,6 +918,10 @@
   {
     "id": "a2o",
     "name": "Commune de La Broque"
+  },
+  {
+    "id": "b9z",
+    "name": "Commune de La Vancelle"
   },
   {
     "id": "t6e",
@@ -884,6 +988,10 @@
     "name": "Commune de Lobsann"
   },
   {
+    "id": "b7h",
+    "name": "Commune de LOHR"
+  },
+  {
     "id": "d7f",
     "name": "Commune de Lorentzen"
   },
@@ -912,6 +1020,10 @@
     "name": "Commune de Menchhoffen"
   },
   {
+    "id": "b9y",
+    "name": "Commune de MERKWILLER-PECHELBRONN"
+  },
+  {
     "id": "b2s",
     "name": "Commune de MERTZWILLER"
   },
@@ -922,6 +1034,10 @@
   {
     "id": "d7z",
     "name": "Commune de Minversheim"
+  },
+  {
+    "id": "b9h",
+    "name": "Commune de MITTELBERGHEIM"
   },
   {
     "id": "a9h",
@@ -946,6 +1062,10 @@
   {
     "id": "o3t",
     "name": "Commune de Mothern"
+  },
+  {
+    "id": "b7k",
+    "name": "COMMUNE DE MUHLBACH SUR BRUCHE"
   },
   {
     "id": "b4m",
@@ -1016,6 +1136,10 @@
     "name": "Commune de NIEDERROEDERN"
   },
   {
+    "id": "c1f",
+    "name": "Commune de Niedersteinbach"
+  },
+  {
     "id": "n2e",
     "name": "Commune de NORDHOUSE"
   },
@@ -1060,6 +1184,14 @@
     "name": "Commune de Ratzwiller"
   },
   {
+    "id": "b7x",
+    "name": "Commune de RAUWILLER"
+  },
+  {
+    "id": "c1b",
+    "name": "Commune de REICHSFELD"
+  },
+  {
     "id": "b5v",
     "name": "Commune de REICHSHOFFEN"
   },
@@ -1072,12 +1204,24 @@
     "name": "Commune de Reinhardsmunster"
   },
   {
+    "id": "b7j",
+    "name": "COMMUNE DE REININGUE"
+  },
+  {
+    "id": "b9b",
+    "name": "Commune de REUTENBOURG"
+  },
+  {
     "id": "b4f",
     "name": "Commune de REXINGEN"
   },
   {
     "id": "a4q",
     "name": "Commune de Richtolsheim"
+  },
+  {
+    "id": "b7q",
+    "name": "Commune de RIMSDORF"
   },
   {
     "id": "a3x",
@@ -1124,6 +1268,10 @@
     "name": "Commune de ROTTELSHEIM"
   },
   {
+    "id": "b9s",
+    "name": "Commune de RUSS"
+  },
+  {
     "id": "b3t",
     "name": "Commune de SAALES"
   },
@@ -1149,7 +1297,7 @@
   },
   {
     "id": "a8l",
-    "name": "Commune de Saint-Jean-Saverne "
+    "name": "Commune de Saint-Jean-Saverne"
   },
   {
     "id": "a8m",
@@ -1212,6 +1360,10 @@
     "name": "Commune de Schirrhoffen"
   },
   {
+    "id": "b9x",
+    "name": "Commune de SCHLEITHAL"
+  },
+  {
     "id": "a4o",
     "name": "Commune de Schoenau"
   },
@@ -1254,6 +1406,14 @@
   {
     "id": "a8u",
     "name": "Commune de Soufflenheim"
+  },
+  {
+    "id": "c1e",
+    "name": "Commune de Soultz-sous-Forêts"
+  },
+  {
+    "id": "b9q",
+    "name": "Commune de STATTMATTEN"
   },
   {
     "id": "b0t",
@@ -1304,8 +1464,16 @@
     "name": "Commune de TRUCHTERSHEIM"
   },
   {
+    "id": "b9l",
+    "name": "Commune de UHLWILLER"
+  },
+  {
     "id": "b6p",
     "name": "Commune de VAL DE MODER"
+  },
+  {
+    "id": "c1d",
+    "name": "Commune de Valdieu-Lutran"
   },
   {
     "id": "a5o",
@@ -1392,6 +1560,14 @@
     "name": "Commune de WIMMENAU"
   },
   {
+    "id": "b9c",
+    "name": "Commune de Wingen"
+  },
+  {
+    "id": "d6e",
+    "name": "Commune de WINGEN-SUR-MODER"
+  },
+  {
     "id": "b0q",
     "name": "Commune de WINGERSHEIM LES QUATRE BANS"
   },
@@ -1418,6 +1594,14 @@
   {
     "id": "d7l",
     "name": "commune de Wittenheim"
+  },
+  {
+    "id": "b9e",
+    "name": "Commune de WITTERSHEIM"
+  },
+  {
+    "id": "b9o",
+    "name": "Commune de WITTISHEIM"
   },
   {
     "id": "b3k",
@@ -1464,6 +1648,10 @@
     "name": "Commune du HOHWALD"
   },
   {
+    "id": "b9u",
+    "name": "COMMUNE D’ETTENDORF"
+  },
+  {
     "id": "b5t",
     "name": "Commune MORSBRONN LES BAINS"
   },
@@ -1492,6 +1680,14 @@
     "name": "Ecole Européenne de Strasbourg"
   },
   {
+    "id": "b9g",
+    "name": "EHPAD - Résidence Marcel KRIEG"
+  },
+  {
+    "id": "b7i",
+    "name": "EHPAD DE DAMBACH LA VILLE"
+  },
+  {
     "id": "a3k",
     "name": "EHPAD DE WASSELONNE"
   },
@@ -1506,6 +1702,10 @@
   {
     "id": "b1s",
     "name": "EHPAD le Manoir"
+  },
+  {
+    "id": "b9n",
+    "name": "EHPAD LES FRAXINELLES"
   },
   {
     "id": "b1a",
@@ -1532,6 +1732,10 @@
     "name": "ENERGIES ET SERVICES SARRE-UNION"
   },
   {
+    "id": "b6x",
+    "name": "EPIC Espaces Culturels THANN CERNAY"
+  },
+  {
     "id": "d7c",
     "name": "EPLEFPA du Bas-Rhin Obernai-Erstein"
   },
@@ -1544,6 +1748,10 @@
     "name": "Eurométropole de Strasbourg"
   },
   {
+    "id": "b7e",
+    "name": "Fédération du Bas-Rhin pour la Pêche et la Protection du Milieu Aquatique"
+  },
+  {
     "id": "a7i",
     "name": "Fondation de l'Oeuvre Notre-Dame"
   },
@@ -1554,6 +1762,10 @@
   {
     "id": "b5w",
     "name": "FOYER DE LA BASSE BRUCHE"
+  },
+  {
+    "id": "b7y",
+    "name": "Foyer de la jeunesse Charles Frey"
   },
   {
     "id": "b0k",
@@ -1636,12 +1848,24 @@
     "name": "Mairie de Durningen"
   },
   {
+    "id": "b9w",
+    "name": "MAIRIE DE KINDWILLER"
+  },
+  {
+    "id": "b7m",
+    "name": "MAISON DE SANTÉ AMRESO BÉTHEL"
+  },
+  {
     "id": "j4k",
     "name": "Mulhouse Alsace Agglomération"
   },
   {
     "id": "a1o",
     "name": "Obersteinbach"
+  },
+  {
+    "id": "b9a",
+    "name": "Office de Tourisme de Strasbourg et sa région"
   },
   {
     "id": "d7a",
@@ -1653,11 +1877,11 @@
   },
   {
     "id": "b6i",
-    "name": "Orchestre Philharmonique de STRASBOURG"
+    "name": "Orchestre philharmonique de Strasbourg"
   },
   {
     "id": "d7o",
-    "name": "Paroisse protestante Saint-Pierre Le Jeune "
+    "name": "Paroisse protestante Saint-Pierre Le Jeune"
   },
   {
     "id": "a2v",
@@ -1676,6 +1900,10 @@
     "name": "Pôle d'Equilibre Territorial et Rural Sélestat - Alsace Centrale"
   },
   {
+    "id": "b7f",
+    "name": "Pôle d'Equilibre Territorial et Rural du Piémont des Vosges"
+  },
+  {
     "id": "b3y",
     "name": "Port Autonome de Strasbourg"
   },
@@ -1684,12 +1912,20 @@
     "name": "Région Alsace"
   },
   {
+    "id": "b7t",
+    "name": "Résidence de la Weiss"
+  },
+  {
+    "id": "b9t",
+    "name": "Résidences  médicalisées du Canton Vert"
+  },
+  {
     "id": "b4k",
     "name": "RHINE EUROPE TERMINALS SAS"
   },
   {
     "id": "a9m",
-    "name": "RIVIERES de Haute-Alsace "
+    "name": "RIVIERES de Haute-Alsace"
   },
   {
     "id": "a9q",
@@ -1769,7 +2005,15 @@
   },
   {
     "id": "a9j",
-    "name": "SIVOS Les Jardins de l'Abbaye"
+    "name": "SIVOS \"Les Jardins de l'Abbaye\""
+  },
+  {
+    "id": "b6s",
+    "name": "SIVOSC des deux STEINBRUNN"
+  },
+  {
+    "id": "b6u",
+    "name": "SIVU de KRIEGSHEIM-ROTTELSHEIM"
   },
   {
     "id": "d6m",
@@ -1780,16 +2024,16 @@
     "name": "SIVU du Honcourt"
   },
   {
+    "id": "b9v",
+    "name": "SIVU PISCINE DE DRACHENBRONN-BIRLENBACH"
+  },
+  {
     "id": "d8s",
     "name": "SMICTOMME"
   },
   {
     "id": "b5y",
     "name": "Société des Transports Urbains de Colmar et Environs STUCE"
-  },
-  {
-    "id": "a3j",
-    "name": "Société Immobilière du Bas-Rhin"
   },
   {
     "id": "a4k",
@@ -1836,6 +2080,10 @@
     "name": "Syndicat de Coopération pour le Parc SYCOPARC"
   },
   {
+    "id": "b7c",
+    "name": "Syndicat de l'Ecole Intercommunale du Scharrach (S.E.I. du Scharrach)"
+  },
+  {
     "id": "d8g",
     "name": "Syndicat de la Source des Minières"
   },
@@ -1868,6 +2116,10 @@
     "name": "Syndicat Intercommunal d'Adduction d'Eau Potable du Canton de Woerth"
   },
   {
+    "id": "c1g",
+    "name": "Syndicat Intercommunal de l'Eau et de l'Assainissement de la Région de Riedseltz"
+  },
+  {
     "id": "b3u",
     "name": "Syndicat Intercommunal des Eaux de Drulingen et Environs"
   },
@@ -1880,8 +2132,16 @@
     "name": "Syndicat Intercommunal du Collège Albert Camus de Soufflenheim et Environs (SICES)"
   },
   {
+    "id": "b7d",
+    "name": "Syndicat Intercommunal du Collège de Geispolsheim et Environs (SICES)"
+  },
+  {
     "id": "b0v",
     "name": "Syndicat Intercommunal pour la maison de retraite SOUFFELWEYERSHEIM-HOENHEIM"
+  },
+  {
+    "id": "b9j",
+    "name": "Syndicat mixte Benfeld Erstein Strasbourg SYNDENAPHE"
   },
   {
     "id": "b2h",
@@ -1916,6 +2176,10 @@
     "name": "Syndicat Mixte du Barrage de Michelbach"
   },
   {
+    "id": "b7z",
+    "name": "Syndicat Mixte du Bassin Bruche Mossig"
+  },
+  {
     "id": "a8f",
     "name": "Syndicat Mixte du Bassin de l'Ehn"
   },
@@ -1925,7 +2189,7 @@
   },
   {
     "id": "d8p",
-    "name": "Syndicat mixte ouvert à la carte Agence territoriale d'Ingénierie Publique"
+    "name": "Syndicat mixte ouvert à la carte \"Agence territoriale d'Ingénierie Publique\""
   },
   {
     "id": "d8l",
