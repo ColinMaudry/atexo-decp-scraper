@@ -28,9 +28,11 @@ echo "resource_id: $resource_id"
 
 # Téléversement
 
-if [[ -f "xml/${plateforme}_${date}.xml" ]]
+file="xml/${plateforme}_${date}.xml"
+
+if [[ -f "$file" and `grep -E "<marche>|<contrat-concession>" | wc -l` -gt 0  ]]
     then
-    success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@xml/${plateforme}_${date}.xml" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
+    success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" | jq -r '.success | tostring'`
     echo ".success : $success"
     if [[ ! $success == "true" ]]
     then
@@ -40,6 +42,6 @@ if [[ -f "xml/${plateforme}_${date}.xml" ]]
         echo "Upload OK"
     fi
 else
-    echo "No file to upload"
+    echo "No file to upload, or file has no data"
     exit 1
 fi
