@@ -5,8 +5,6 @@ set -e
 
 date=`date +%Y-%m-%dT%H:%M:%S`
 
-export adsRoot=`pwd`
-
 while IFS=, read -r name url status resource_id
 do
   if [[ $status == "accessible" ]]

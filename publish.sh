@@ -30,11 +30,13 @@ echo "resource_id: $resource_id"
 
 file="xml/${plateforme}_${date}.xml"
 
-if [[ -f "$file" and `grep -E "<marche>|<contrat-concession>" | wc -l` -gt 0  ]]
+if [ -f "$file" -a `grep -E "<marche>|<contrat-concession>" $file | wc -l` -gt 0  ]
     then
+      if [[ $DEBUG ]]; then echo "There is data to publish";  fi
       # If the resource doesn't exist yet, create it
       if [[ -z $resource_id ]]
         then
+          if [[ $DEBUG ]]; then echo "No resource_id";  fi
            json=`curl "$api/datasets/$dataset_id/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" -H "Accept:application/json" | jq -c `
            success=`echo $json | jq -r '.success'`
            new_resource_id=`echo $json | jq -r '.id'`

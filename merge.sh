@@ -2,7 +2,7 @@
 
 plateforme="$1"
 date="$2"
-xmldir="$adsRoot/xml/$plateforme"
+xmldir="xml/$plateforme"
 
 # Compte du nombre de marchés :
 
@@ -12,7 +12,7 @@ echo "$date : $plateforme publie $numMarches marchés"
 
 # Fusion des XML en un fichier
 
-output="$adsRoot/xml/${plateforme}_${date}.xml"
+output="xml/${plateforme}_${date}.xml"
 
 echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<marches>" > $output
 

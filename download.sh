@@ -55,11 +55,9 @@ then
             date=`date +%Y-%m-%dT%H:%M:%S`
 
             if [[ $DEBUG ]]; then echo "Attempt to download XML...";  fi
-            set +e
             if [[ $DEBUG ]]; then curl -vL "$url" --connect-timeout 10 --max-time 60 -o $tempxml 2>  >(grep "< HTTP/")
             else curl -vL "$url" --connect-timeout 10 --max-time 60 -o $tempxml 2> /dev/null
             fi
-            set -e
 
             # Vérification que
             # - le XML n'est pas vide
@@ -88,7 +86,7 @@ then
                   echo "- $annee:   $num"
               fi
             else
-              echo "No temp.xml"
+              echo "- $annee: no temp.xml"
             fi
 
       # Petite pause pour laisser respirer le serveur
