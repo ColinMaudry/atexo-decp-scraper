@@ -7,5 +7,11 @@ name="$1"
 date="$2"
 
 ./download.sh "$name"
-./merge.sh "$name" "$date"
-./publish.sh "$name" "$date"
+
+if [[ `ls -l xml/${name}/ | wc -l` -gt 3 ]]
+then
+  ./merge.sh "$name" "$date"
+  ./publish.sh "$name" "$date"
+else
+  echo "No XML file downloaded for $name."
+fi
