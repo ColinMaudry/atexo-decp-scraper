@@ -40,8 +40,8 @@ tempxml=xml/temp_${plateforme}.xml
 
 if [[ -f acheteurs/${plateforme}.json ]]
 then
-  ids = `jq -r '.[] | .id' acheteurs/${plateforme}.json`
-  for id in ids
+  ids=`jq -r '.[] | .id' acheteurs/${plateforme}.json`
+  for id in $ids
     do
         nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
         nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
@@ -49,13 +49,15 @@ then
 
         for annee in 2018 2019 2020 2021
         do
-
+            if [[ $DEBUG ]]; then echo "annee: $annee";  fi
             url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
 
             date=`date +%Y-%m-%dT%H:%M:%S`
 
-            curl "$url" --connect-timeout 10 --max-time 60 > $tempxml 2> /dev/null
-
+            if [[ $DEBUG ]]; then echo "Attempt to download XML...";  fi
+            set +e
+            curl -vL "$url" --connect-timeout 10 --max-time 60 -o $tempxml 2>  >(grep "< HTTP/")
+            set -e
             # Vérification que
             # - le XML n'est pas vide
 
@@ -63,17 +65,20 @@ then
             then
               if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
               then
+                  if [[ $DEBUG ]]; then echo "XML downloaded, but empty";  fi
                   mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
-                  message = "$plateforme,\"$nom\",$annee,0,$date"
+                  message="$plateforme,\"$nom\",$annee,0,$date"
                   echo $message >> disponibilite-donnees.csv
                   echo "- $annee:  0"
               # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
               elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
               then
+                  if [[ $DEBUG ]]; then echo "HTML, probably an error";  fi
                   mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
                   echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
                   echo "- $annee:  erreur HTML"
               else
+                  if [[ $DEBUG ]]; then echo "XML with data retrieved!";  fi
                   num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
                   mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
                   echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
