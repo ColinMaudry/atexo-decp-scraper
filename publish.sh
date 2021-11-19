@@ -37,7 +37,7 @@ if [ -f "$file" -a `grep -E "<marche>|<contrat-concession>" $file | wc -l` -gt 0
       if [[ -z $resource_id ]]
         then
           if [[ $DEBUG ]]; then echo "No resource_id";  fi
-           json=`curl "$api/datasets/$dataset_id/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" -H "Accept:application/json" | jq -c `
+           json=`curl "$api/datasets/$dataset_id/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" -H "Accept:application/json" 2> /dev/null | jq -c `
            success=`echo $json | jq -r '.success'`
            new_resource_id=`echo $json | jq -r '.id'`
           echo ".success : $success"
@@ -55,7 +55,7 @@ if [ -f "$file" -a `grep -E "<marche>|<contrat-concession>" $file | wc -l` -gt 0
             mv new_plateformes.csv plateformes.csv
         # Or update the existing one
         else
-          success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" "Accept:application/json" | jq -r '.success | tostring'`
+          success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" "Accept:application/json" 2> /dev/null | jq -r '.success | tostring'`
           echo ".success : $success"
       fi
     if [[ ! $success == "true" ]]
