@@ -38,53 +38,59 @@ mkdir -p $xmldir/vides
 mkdir $xmldir/html
 tempxml=xml/temp_${plateforme}.xml
 
-for id in `jq -r '.[] | .id' acheteurs/${plateforme}.json`
-do
-    nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
-    nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
-    echo "$nom ($id)"
-
-    for annee in 2018 2019 2020 2021
+if [[ -f acheteurs/${plateforme}.json ]]
+then
+  ids = `jq -r '.[] | .id' acheteurs/${plateforme}.json`
+  for id in ids
     do
+        nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
+        nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
+        echo "$nom ($id)"
 
-        url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
+        for annee in 2018 2019 2020 2021
+        do
 
-        date=`date +%Y-%m-%dT%H:%M:%S`
+            url="${baseurl}/app.php/api/v1/donnees-essentielles/contrat/xml-extraire-criteres/$id/0/1/$annee/false/false/false/false/false/false/false/false/false"
 
-        curl "$url" --connect-timeout 10 --max-time 60 > $tempxml 2> /dev/null
+            date=`date +%Y-%m-%dT%H:%M:%S`
 
-        # Vérification que
-        # - le XML n'est pas vide
+            curl "$url" --connect-timeout 10 --max-time 60 > $tempxml 2> /dev/null
 
-        if [[ -f $tempxml ]]
-        then
-          if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
-          then
-              mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
-              message = "$plateforme,\"$nom\",$annee,0,$date"
-              echo $message >> disponibilite-donnees.csv
-              echo "$annee:  0"
-          # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
-          elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
-          then
-              mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
-              echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
-              echo "$annee:  erreur HTML"
-          else
-              num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
-              mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
-              echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
-              echo "$annee:   $num"
-          fi
-        else
-          echo "No temp.xml"
-        fi
+            # Vérification que
+            # - le XML n'est pas vide
 
-	# Petite pause pour laisser respirer le serveur
-	sleep 0.3
+            if [[ -f $tempxml ]]
+            then
+              if [[ `cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l` -eq 0 ]]
+              then
+                  mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
+                  message = "$plateforme,\"$nom\",$annee,0,$date"
+                  echo $message >> disponibilite-donnees.csv
+                  echo "- $annee:  0"
+              # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
+              elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
+              then
+                  mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
+                  echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+                  echo "- $annee:  erreur HTML"
+              else
+                  num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
+                  mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
+                  echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+                  echo "- $annee:   $num"
+              fi
+            else
+              echo "No temp.xml"
+            fi
+
+      # Petite pause pour laisser respirer le serveur
+      sleep 0.3
+        done
+
     done
-
-done
+else
+  echo "No acheteurs list for this plateforme"
+fi
 
 if [[ $2 == "publish" ]]
 then
