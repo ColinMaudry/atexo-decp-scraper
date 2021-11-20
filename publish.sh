@@ -37,9 +37,9 @@ if [ -f "$file" -a `grep -E "<marche>|<contrat-concession>" $file | wc -l` -gt 0
       if [[ -z $resource_id ]]
         then
           if [[ $DEBUG ]]; then echo "No resource_id";  fi
-           json=`curl "$api/datasets/$dataset_id/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" -H "Accept:application/json" 2> /dev/null | jq -c `
-           success=`echo $json | jq -r '.success'`
-           new_resource_id=`echo $json | jq -r '.id'`
+           curl "$api/datasets/$dataset_id/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" -H "Accept:application/json" -o ${plateforme}_upload.json 2> /dev/null
+           success=`jq -r '.success' ${plateforme}_upload.json`
+           new_resource_id=`jq -r '.id' ${plateforme}_upload.json`
           echo ".success : $success"
           echo "new resourceId for $plateforme is $new_resource_id"
 
