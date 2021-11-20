@@ -25,6 +25,8 @@ jobs:
       #git commit -am "Replaced apt module with simple command"  run: sudo apt install git curl jq
 
       - name: Download and publish DECP
+        env:
+          API_KEY: ${{ secrets.API_KEY   }}
         run: |
           ./download-many.sh
       - name: Commit and push disponibilite-donnees.csv
