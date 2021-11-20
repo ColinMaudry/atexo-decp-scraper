@@ -11,6 +11,8 @@ export dataset_id="5f4d1921f7e627ef3ae26944"
 
 #API_KEY configurée dans les options de build de CircleCI
 api_key=$API_KEY
+echo ${api_key:0:10}
+exit 0
 
 echo "Mise à jour de $plateforme.xml..."
 
@@ -55,7 +57,7 @@ if [ -f "$file" -a `grep -E "<marche>|<contrat-concession>" $file | wc -l` -gt 0
             mv new_plateformes.csv plateformes.csv
         # Or update the existing one
         else
-          success=`curl "$api/datasets/$dataset_id/resources/${resource_id}/upload/" -F "file=@$file" -H "X-API-KEY: $api_key" "Accept:application/json" 2> /dev/null | jq -r '.success | tostring'`
+          success=`curl "${api}/datasets/${dataset_id}/resources/${resource_id}/upload/" -F "file=@${file}" -H "X-API-KEY: ${api_key}" "Accept:application/json" 2> /dev/null | jq -r '.success | tostring'`
           echo ".success : $success"
       fi
     if [[ ! $success == "true" ]]
