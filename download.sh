@@ -45,7 +45,7 @@ then
     do
         nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
         nom_safe=`echo $nom | sed -r 's/[ ,\x27/]/-/g'`
-        echo "$nom ($id)"
+        echo "$plateforme - $nom ($id)"
 
         for annee in 2018 2019 2020 2021
         do
@@ -55,8 +55,8 @@ then
             date=`date +%Y-%m-%dT%H:%M:%S`
 
             if [[ $DEBUG ]]; then echo "Attempt to download XML...";  fi
-            if [[ $DEBUG ]]; then curl -vL "$url" --connect-timeout 10 --max-time 60 -o $tempxml 2>  >(grep "< HTTP/")
-            else curl -vL "$url" --connect-timeout 10 --max-time 60 -o $tempxml 2> /dev/null
+            if [[ $DEBUG ]]; then curl -vL "$url" --connect-timeout 10 --max-time 60 -H "user-agent: atexo-decp-scraper" -o $tempxml 2>  >(grep "< HTTP/")
+            else curl -vL "$url" --connect-timeout 10 --max-time 60 -H "user-agent: atexo-decp-scraper" -o $tempxml 2> /dev/null
             fi
 
             # Vérification que
