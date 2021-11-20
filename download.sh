@@ -70,28 +70,30 @@ then
                   mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
                   message="$plateforme,\"$nom\",$annee,0,$date"
                   echo $message >> disponibilite-donnees.csv
-                  echo "- $annee:  0"
+                  log="${log}|    $annee:  0    "
               # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
               elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
               then
                   if [[ $DEBUG ]]; then echo "HTML, probably an error";  fi
                   mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
                   echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
-                  echo "- $annee:  erreur HTML"
+                  log="${log}|    $annee: erreur HTML    "
               else
                   if [[ $DEBUG ]]; then echo "XML with data retrieved!";  fi
                   num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
                   mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
                   echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
-                  echo "- $annee:   $num"
+                  log="${log}|    $annee: $num    "
               fi
             else
-              echo "- $annee: no temp.xml"
+              log="$log|    $annee: no temp.xml    "
             fi
 
       # Petite pause pour laisser respirer le serveur
       sleep 0.3
         done
+        echo $log
+        log=""
 
     done
 else
