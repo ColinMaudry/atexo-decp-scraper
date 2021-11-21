@@ -41,6 +41,7 @@ tempxml=xml/temp_${plateforme}.xml
 if [[ -f acheteurs/${plateforme}.json ]]
 then
   ids=`jq -r '.[] | .id' acheteurs/${plateforme}.json`
+  total=0
   for id in $ids
     do
         nom=`jq --arg id "$id" -r '.[] | select(.id == $id) | .name' acheteurs/${plateforme}.json`
@@ -87,6 +88,7 @@ then
                   mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
                   echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
                   log="${log}|    $annee: $num    "
+                  total=$((num + total))
               fi
             else
               log="$log|    $annee: no temp.xml    "
@@ -95,7 +97,7 @@ then
       # Petite pause pour laisser respirer le serveur
       sleep 0.3
         done
-        echo $log
+        echo " | grand total: $total"
         log=""
 
     done
