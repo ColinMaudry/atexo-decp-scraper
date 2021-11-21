@@ -31,11 +31,11 @@ jobs:
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
 
-      - name: Download and publish DECP ({{ matrix.platform }})
+      - name: Download and publish DECP (${{ matrix.platform }})
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          ./processPlatform.sh {{ matrix.platform }}
+          ./processPlatform.sh ${{ matrix.platform }}
       - name: Commit and push disponibilite-donnees.csv
         run: |
           git config user.name "GitHub actions bot"
