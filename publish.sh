@@ -11,7 +11,6 @@ export dataset_id="5f4d1921f7e627ef3ae26944"
 
 #API_KEY configurée dans les options de build de CircleCI
 api_key=$API_KEY
-echo ${api_key:0:5}
 
 echo "Mise à jour de $plateforme.xml..."
 
