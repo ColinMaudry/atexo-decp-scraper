@@ -19,7 +19,7 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        platform: [achats-consultations.banque-france.fr, demat-ampa.fr]
+        platform: [demat-ampa.fr, achats-consultations.banque-france.fr,marches.montpellier3m.fr,marchespublics.landespublic.org,aof-formpro.normandie.fr,marchespublics.ain.fr,www.eguadeloupe.com,marches.mrs.aero,marchespublics.gard.fr,Bouches-du-Rhône,ADM-76,Adullact,ANFH,CAS-Marseille,CDL,CINOR,CPRDLL,France-Televisions,Grand-Nancy,Plateforme-de-formation-de-la-région-Occitanie,Plateforme-de-la-métropole-Aix-Marseille-Provence,Plateforme-de-la-métropole-de-Nantes,Plateforme-de-la-métropole-Grand-Reims,Plateforme-de-la-Région-Réunion,Plateforme-de-la-ville-de-St-Pierre,lateforme-du-département-de-l'Eure,Plateforme-du-département-de-la-Meuse,Plateforme-du-département-de-la-Vienne,Plateforme-du-département-de-Loire-Atlantique,Plateforme-Ordiges,Porte-du-Hainaut,Recia,Sydne,TCO,Vendée-Habitat ]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
