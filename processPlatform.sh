@@ -4,7 +4,7 @@
 set -e
 
 name="$1"
-date="$2"
+date=`date +%Y-%m-%dT%H:%M:%S`
 
 ./download.sh "$name"
 

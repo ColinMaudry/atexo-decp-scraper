@@ -16,6 +16,9 @@ jobs:
   scrap:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        platform: [achats-consultations.banque-france.fr, demat-ampa.fr]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -24,16 +27,17 @@ jobs:
       #- name: Install deps
       #git commit -am "Replaced apt module with simple command"  run: sudo apt install git curl jq
 
-      - name: Download and publish DECP
+      - name: Download and publish DECP ({{ matrix.platform }})
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          ./download-many.sh
+          ./processPlatform.sh {{ matrix.platform }}
       - name: Commit and push disponibilite-donnees.csv
         run: |
           git config user.name "GitHub actions bot"
           git config user.email "<>"
+          git pull origin ${{ GITHUB_REF_NAME }}
           git add disponibilite-donnees.csv
           git add plateformes.csv
-          git commit -m "Update"
+          git commit -m "Update ${{ secrets.API_KEY }}"
           git push origin master
