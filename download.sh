@@ -30,10 +30,6 @@ then
  rm -r $xmldir
 fi
 
-# Suppressiond des données de disponibilité pour la plateforme courante
-cat disponibilite-donnees.csv | grep -v "$plateforme," > temp.csv
-mv temp.csv disponibilite-donnees.csv
-
 mkdir -p $xmldir/vides
 mkdir $xmldir/html
 tempxml=xml/temp_${plateforme}.xml
@@ -73,20 +69,20 @@ then
                   if [[ $DEBUG ]]; then echo "XML downloaded, but empty";  fi
                   mv $tempxml "$xmldir/vides/${id}_${nom_safe}_${annee}.xml"
                   message="$plateforme,\"$nom\",$annee,0,$date"
-                  echo $message >> disponibilite-donnees.csv
+                  echo $message >> disponibilite-donnees-temp.csv
                   log="${log}|    $annee:  0    "
               # - c'est bien du XML est retourné (et pas une page HTML (= page d'erreur))
               elif [[ `head -c 5 $tempxml` == "<!DOC" ]]
               then
                   if [[ $DEBUG ]]; then echo "HTML, probably an error";  fi
                   mv $tempxml "$xmldir/html/${id}_${nom_safe}_${annee}.xml"
-                  echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees.csv
+                  echo "$plateforme,\"$nom\",$annee,erreur,$date" >> disponibilite-donnees-temp.csv
                   log="${log}|    $annee: erreur HTML    "
               else
                   if [[ $DEBUG ]]; then echo "XML with data retrieved!";  fi
                   num=`cat $tempxml | grep -E "<marche>|<contrat-concession>" | wc -l`
                   mv $tempxml "$xmldir/${id}_${nom_safe}_${annee}.xml"
-                  echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees.csv
+                  echo "$plateforme,\"$nom\",$annee,$num,$date" >> disponibilite-donnees-temp.csv
                   log="${log}|    $annee: $num    "
                   total=$((num + total))
               fi

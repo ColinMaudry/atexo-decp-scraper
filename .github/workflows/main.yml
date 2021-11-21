@@ -41,8 +41,7 @@ jobs:
         run: |
           git config user.name "GitHub actions bot"
           git config user.email "<>"
-          git add disponibilite-donnees.csv
-          git add plateformes.csv
-          git commit -m "Update ${{ matrix.platform }}"
           git pull origin ${{ steps.extract_branch.outputs.branch }}
+          cat disponibilite-donnees-temp.csv >> disponibilite-donnees.csv
+          git commit -am "Update ${{ matrix.platform }}"
           git push origin ${{ steps.extract_branch.outputs.branch }}
