@@ -26,6 +26,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       #- name: Install deps
       #git commit -am "Replaced apt module with simple command"  run: sudo apt install git curl jq
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
 
       - name: Download and publish DECP ({{ matrix.platform }})
         env:
@@ -36,7 +40,7 @@ jobs:
         run: |
           git config user.name "GitHub actions bot"
           git config user.email "<>"
-          git pull origin ${{ GITHUB_REF_NAME }}
+          git pull origin ${{ steps.extract_branch.outputs.branch }}
           git add disponibilite-donnees.csv
           git add plateformes.csv
           git commit -m "Update ${{ secrets.API_KEY }}"
