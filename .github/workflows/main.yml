@@ -12,10 +12,11 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains a single job called "scrap"
   scrap:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    continue-on-error: true
     strategy:
       matrix:
         platform: [achats-consultations.banque-france.fr, demat-ampa.fr]
@@ -43,5 +44,5 @@ jobs:
           git pull origin ${{ steps.extract_branch.outputs.branch }}
           git add disponibilite-donnees.csv
           git add plateformes.csv
-          git commit -m "Update ${{ secrets.API_KEY }}"
-          git push origin master
+          git commit -m "Update ${{ matrix.platform }}"
+          git push origin ${{ steps.extract_branch.outputs.branch }}
