@@ -37,8 +37,3 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           ./processPlatform.sh ${{ matrix.platform }}
-      - name: Commit and push disponibilite-donnees.csv
-        run: |
-          git config user.name "GitHub actions bot"
-          git config user.email "<>"
-          ./push-disponibilite-donnees.sh ${{ matrix.platform }} ${{ steps.extract_branch.outputs.branch }}
