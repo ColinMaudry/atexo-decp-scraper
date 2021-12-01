@@ -93,7 +93,7 @@ then
       # Petite pause pour laisser respirer le serveur
       sleep 0.3
         done
-        echo " | grand total: $total"
+        echo "$log | grand total: $total"
         log=""
 
     done
