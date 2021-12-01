@@ -41,9 +41,4 @@ jobs:
         run: |
           git config user.name "GitHub actions bot"
           git config user.email "<>"
-          # To prevent clashes
-          sleep $((1 + RANDOM % 30))
-          git pull origin ${{ steps.extract_branch.outputs.branch }}
-          cat disponibilite-donnees-temp.csv >> disponibilite-donnees.csv
-          git commit -am "Update stats ${{ matrix.platform }}"
-          git push origin ${{ steps.extract_branch.outputs.branch }}
+          ./push-disponibilite-donnees.sh ${{ matrix.platform }} ${{ steps.extract_branch.outputs.branch }}
